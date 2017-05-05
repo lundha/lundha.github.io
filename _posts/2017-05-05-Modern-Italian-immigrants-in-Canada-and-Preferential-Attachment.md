@@ -8,7 +8,7 @@
 I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had, buying the ticket, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
 
 
-!![Migrants](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg)
+![Migrants](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg)
 
     [1] "Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21"
     
@@ -60,7 +60,7 @@ newdata
 
 
 
-Table 1
+**Table 1**
     
 
 When plotted with circles, it is really evident where Italians traditionally live in Canada.
@@ -76,7 +76,7 @@ legend(x=-60,y=85,title="Italians (%)",pt.cex=newdata$Percentage/2,bty="n",pch=1
 ```
 
 ![Italians-in-Canada](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_11_1.png)
-Figure 1
+**Figure 1**
 
 The Ontario-Quebec macroregion is the most densely populated in Canada, combining for 21.82 million people as of 2014. This macroregion is home to the largest Italian groups, located primarily along the Windsor-Montreal corridor. Below is a snapshot centered on the Ontario-Quebec area:
 
@@ -107,10 +107,8 @@ ont
 	<tr><th scope=row>13</th><td>13              </td><td>London          </td><td>Ontario         </td><td>  3140          </td><td> 383822         </td><td> 0.8            </td><td>42.98           </td><td>-81.25          </td></tr>
 </tbody>
 </table>
-
-Table 2
+**Table 2**
     
-
 
 ```R
 options(repr.plot.width=7, repr.plot.height=5)
@@ -134,14 +132,10 @@ text(x=-73.34+1, y=45.30+5, labels="QUEBEC", cex= 0.8,font=3)
 par(xpd=TRUE) #Places legend outside the plot
 legend(x=-65,y=56,title="Italians (%)",pt.cex=c(1,2,2.5,3.5,6),bty="n",pch=19,legend=c("<1","2","5","8",">10"),
        text.col="black",col=rgb(255/255,0/255,0/255,alpha=0.4),pt.bg=rgb(255/255,0/255,0/255,alpha=0.4))
-print("Figure 2")
 ```
 
-    [1] "Figure 2"
-    
-
-
-![png](output_15_1.png)
+![Ontario-Quebec](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_15_1.png)
+**Figure 2**
 
 
 As visible, the Italian population in this area is mainly living in the Toronto-Hamilton-St. Catharines-Oshawa-Bolton conurbation, which in 2014 had 3,577,162 residents. Of these, the Italians were a slice as large as 5.25%. Away from this hotbed, notable Italian presence can be observed in Montreal (6.3%), Sault Ste. Marie (4.5%), and Windsor (3.9%). 
@@ -156,7 +150,6 @@ mybar<-barplot(ont$Percentage,names.arg=ont$City,main="Percentage of Italian Res
 lines(x = mybar, y = ont$Percentage,col="blue",lwd=3,lty="dashed")
 legend(12, 11, legend=c("Macroregion","Other","Power law"),fill=c("darkred", "grey","blue"),cex=0.88)
 mtext("Ontario and Quebec")
-print("Figure 3")
 ```
 
     [1] "Figure 3"
