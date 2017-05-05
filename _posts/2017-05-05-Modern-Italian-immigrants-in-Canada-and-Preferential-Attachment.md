@@ -4,7 +4,7 @@
 ##### *by Francesco Castellani*
 ---
 
-![Ita-Can](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture3.png=50x20)
+![Ita-Can](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture3.png =50x20)
 
 I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had, buying the ticket, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
 
