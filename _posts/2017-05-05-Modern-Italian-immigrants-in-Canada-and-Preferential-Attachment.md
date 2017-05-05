@@ -32,7 +32,6 @@ library(mapdata)
 data<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italians_in_Canada.csv")
 newdata<-data[order(-data$Percentage),]
 newdata
-print ("Table 1")
 ```
 
 
@@ -61,7 +60,7 @@ print ("Table 1")
 
 
 
-    [1] "Table 1"
+Table 1
     
 
 When plotted with circles, it is really evident where Italians traditionally live in Canada.
@@ -74,15 +73,10 @@ points(data$Lon, data$Lat, pch=19, col=rgb(255/255,0/255,0/255,alpha=0.5), cex=d
 par(xpd=TRUE) #Places legend outside the plot
 legend(x=-60,y=85,title="Italians (%)",pt.cex=newdata$Percentage/2,bty="n",pch=19,legend=newdata$Percentage,text.col="black",
        col=rgb(255/255,0/255,0/255,alpha=0.5),pt.bg=rgb(255/255,0/255,0/255,alpha=0.5))
-print("Figure 1")
 ```
 
-    [1] "Figure 1"
-    
-
-
 ![png](output_11_1.png)
-
+Figure 1
 
 The Ontario-Quebec macroregion is the most densely populated in Canada, combining for 21.82 million people as of 2014. This macroregion is home to the largest Italian groups, located primarily along the Windsor-Montreal corridor. Below is a snapshot centered on the Ontario-Quebec area:
 
