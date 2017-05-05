@@ -9,8 +9,7 @@ I am *Italian*, and I know how traditionalists we are. Wherever we go, we look f
 
 
 ![Migrants](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg)
-
-    [1] "Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21"
+Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21
     
 
 These days, not much seems to have changed. We are far more educated than our predecessors, possibly overeducated, but here we are again. Italy is currently fording its way through a muddy river of unemployment and economic crisis, partly due to catastrophic political choices and the evergreen *corruption*. This has caused upwards of 173,000 Italians to leave the Country from 2012-2013, 36.2% of which were aged 18-34. That is a conspicuous slice of its future that our Country is giving away, and the trend seems to be on the rise. Canada was, and still is, a favorite destination.
