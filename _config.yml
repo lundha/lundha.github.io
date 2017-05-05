@@ -21,7 +21,7 @@ footer-links:
   email: zizzipupp@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: https://github.com/zizzipupp
   instagram:
   linkedin: https://www.linkedin.com/in/francesco-castellani-5868aaba/
   pinterest:
@@ -59,7 +59,7 @@ permalink: /:title/
 version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
+maruku:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
