@@ -1,7 +1,6 @@
 
 #### **Where do modern Italian immigrants go to live in Canada? Is their choice affected by preferential attachment?**
-#### A Data Science project carried out with Jupyter and R
-##### *by Francesco Castellani*
+##### *A Data Science project carried out with Jupyter and R by Francesco Castellani*
 ---
 
 ![Ita-Can](/images/Picture3.png)
