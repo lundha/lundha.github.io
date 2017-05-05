@@ -3,17 +3,12 @@
 
 #### *A Data Science project carried out with Jupyter and R*
 
+!![Ita-Can](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture3.png)
+
 I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had, buying the ticket, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
 
 
-```R
-library("IRdisplay")
-display_png(file="C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\canadian-museum-of-immigration.jpg")  
-print("Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21")
-```
-
-
-!![My helpful screenshot](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg)
+!![Migrants](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg)
 
     [1] "Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21"
     
@@ -24,14 +19,7 @@ Italians used to settle in places where other Italians had settled, in an attemp
 
 A process like this, as [Albert-László Barabási](https://en.wikipedia.org/wiki/Albert-L%C3%A1szl%C3%B3_Barab%C3%A1si) described it in his works, results in large components growing larger, eventually evolving into a scale-free system. When the size of the components are plotted against their frequency, a [power law behavior](https://en.wikipedia.org/wiki/Power_law) emerges, where a few communities are very frequently preferred, the large majority being the road less traveled.
 
-
-```R
-display_png(file="C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Picture3.png")  
-```
-
-
-![png](output_6_0.png)
-
+!![Cities](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture4.png)
 
 My idea is to test whether the modern Italian immigrants - those admitted into Canada by means of a Permanent Residency during the period 2006-2015 - targeted the Canadian cities with the highest percentage of Italian residents, or whether they used other factors to select their intended destination.
 
