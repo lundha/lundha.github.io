@@ -19,7 +19,7 @@ Italians used to settle in places where other Italians had settled, in an attemp
 
 A process like this, as [Albert-László Barabási](https://en.wikipedia.org/wiki/Albert-L%C3%A1szl%C3%B3_Barab%C3%A1si) described it in his works, results in large components growing larger, eventually evolving into a scale-free system. When the size of the components are plotted against their frequency, a [power law behavior](https://en.wikipedia.org/wiki/Power_law) emerges, where a few communities are very frequently preferred, the large majority being the road less traveled.
 
-!![Cities](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture4.png)
+![Cities](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture4.png)
 
 My idea is to test whether the modern Italian immigrants - those admitted into Canada by means of a Permanent Residency during the period 2006-2015 - targeted the Canadian cities with the highest percentage of Italian residents, or whether they used other factors to select their intended destination.
 
@@ -107,6 +107,7 @@ ont
 	<tr><th scope=row>13</th><td>13              </td><td>London          </td><td>Ontario         </td><td>  3140          </td><td> 383822         </td><td> 0.8            </td><td>42.98           </td><td>-81.25          </td></tr>
 </tbody>
 </table>
+
 **Table 2**
     
 
@@ -152,11 +153,8 @@ legend(12, 11, legend=c("Macroregion","Other","Power law"),fill=c("darkred", "gr
 mtext("Ontario and Quebec")
 ```
 
-    [1] "Figure 3"
-    
-
-
-![png](output_17_1.png)
+![Powerlaw](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_17_1.png)
+**Figure 3**
 
 
 Now, it is clear that there always been a trend for Italians to go to Ontario (or Quebec, to a lesser extent). Only a few endeavoured to settle on the West Coast (Italians constitute 2.4% of Vancouver's population), and even less reached the Prairies (the Italians in Calgary, Edmonton, and Winnipeg do not exceed 0.5% of the total number of residents in each city, with Regina and Saskatoon not even making the cut).
@@ -184,7 +182,6 @@ Table 3 shows the number of PRs issued to Italian immigrants in the period 2006-
 itprs<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italian_PR_admissions.csv",header=TRUE,check.names=FALSE)
 itprs<-itprs[order(itprs$City),]
 itprs
-print("Table 3")
 ```
 
 
@@ -209,7 +206,7 @@ print("Table 3")
 
 
 
-    [1] "Table 3"
+**Table 3**
     
 
 The total number of new PRs in the cities in Table 2 over the 2006-2015 period is derived from the same dataset as above:
@@ -219,7 +216,6 @@ The total number of new PRs in the cities in Table 2 over the 2006-2015 period i
 prs<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Total_PR_admissions.csv",header=TRUE,check.names=FALSE)
 prs<-prs[order(prs$City),]
 prs
-print("Table 4")
 ```
 
 
@@ -244,7 +240,7 @@ print("Table 4")
 
 
 
-    [1] "Table 4"
+**Table 4**
     
 
 The percentage of Italian PRs with respect to the totals in Table 4 is easy to compute:
@@ -256,7 +252,6 @@ df<-data.frame("City"=ont$City,"Historical_Percentage"=ont$Percentage,
                "Current_Percentage"=itprs$PRs_Percentage,check.names=FALSE)
 df<-df[order(-df$Historical_Percentage),]
 df
-print ("Table 5")
 ```
 
 
@@ -280,8 +275,7 @@ print ("Table 5")
 </table>
 
 
-
-    [1] "Table 5"
+**Table 5**
     
 
 Now, back to question 2: do modern Italians settle in places in Canada where the Italian presence is historically notable?
@@ -293,14 +287,11 @@ names <- c("Bolton", "St. Catharines", "Montreal", "Toronto", "Sault Ste. Marie"
 barplot(cbind(df$Historical_Percentage,df$Current_Percentage), main="Historical vs Current Percentage of Italian Immigrants", 
         ylab="%", beside=TRUE, col=rep(c('darkblue', 'red'), each=13),ylim=c(0,12),names.arg=c(names,names),las=2,cex.names=0.7)
 legend(13, 11.5, c("Historical","Current"), cex=0.88, fill=c("darkblue","red"))
-print("Figure 4")
 ```
 
-    [1] "Figure 4"
-    
 
-
-![png](output_26_1.png)
+![Historical-Current](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_26_1.png)
+**Figure 4**
 
 
 By looking at Figure 4, we can conclude that:
@@ -317,7 +308,6 @@ To check whether the new Italians use *more affordable housing* as a relocation 
 stir<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Average_STIR_Canada.csv",header=TRUE,check.names=FALSE)
 stir<-stir[order(stir$City),]
 stir
-print("Table 6")
 ```
 
 
@@ -341,8 +331,7 @@ print("Table 6")
 </table>
 
 
-
-    [1] "Table 6"
+**Table 6**
     
 
 Comparing Table 6 with Figure 4 reveals that Toronto and Montreal probably are not good choices due to the high STIR percentage, which includes all types of households. Toronto also has the worse unemployment rate of the two. On the other hand, Thunder Bay is likely receiving less attention due to its distance from the Golden Horseshoe area. Moving to Sudbury and Greater Sudbury seem to be a risk - given the third highest unemployment rate - that new Italians seem to be willing to take. All in all, the Ottawa-Gatineau CMA seems to be offering the better conditions.  
@@ -360,15 +349,11 @@ grid()
 plot(x2, y, xlab="Unemployment Rate (%)",ylab="new Italian PRs",main="Unemployment Rate vs Italian PRs",
      col="blue",pch=17,cex.main=0.9)   
 grid()
-print ("Figure 5")
 ```
-
-    [1] "Figure 5"
     
 
-
-![png](output_32_1.png)
-
+![Scatter](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_32_1.png)
+**Figure 5**
 
 Figure 5 reveals that new Italians don't supposedly look at things like STIR and unemployment rate upon selecting their destination in Canada, and that's because the PRs issued to new Italians **are not negatively correlated with STIR or the unemployment rate**. Toronto and Montreal are, expectedly, the most common choices given the opportunities they offer in terms of job market. It is also the case that in these two cities the STIR is higher than the unemployment rate. This could be good news, apparently, but one has to consider how many of the available jobs effectively allow people to save money and live a life of fulfillment. Italians in Canada have certainly stopped following the nationality-based preferential attachment, and have embraced the move to the largest cities. In a way, however, they are still following the preferential attachment pattern, only that nowadays they are attracted by better employment opportunities rather than the reassuring presence of compatriots. 
 
