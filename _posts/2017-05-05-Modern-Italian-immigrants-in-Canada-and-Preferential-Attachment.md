@@ -10,7 +10,7 @@ I am *Italian*, and I know how traditionalists we are. Wherever we go, we look f
 
 ![Migrants](/images/canadian-museum-of-immigration.jpg)
 
-##### Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21
+##### [Source](http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21)
     
 
 These days, not much seems to have changed. We are far more educated than our predecessors, possibly overeducated, but here we are again. Italy is currently fording its way through a muddy river of unemployment and economic crisis, partly due to catastrophic political choices and the evergreen *corruption*. This has caused upwards of 173,000 Italians to leave the Country from 2012-2013, 36.2% of which were aged 18-34. That is a conspicuous slice of its future that our Country is giving away, and the trend seems to be on the rise. Canada was, and still is, a favorite destination.
@@ -62,6 +62,7 @@ newdata
 
 
 **Table 1**
+
     
 
 When plotted with circles, it is really evident where Italians traditionally live in Canada.
@@ -78,6 +79,7 @@ legend(x=-60,y=85,title="Italians (%)",pt.cex=newdata$Percentage/2,bty="n",pch=1
 
 ![Italians-in-Canada](/images/output_11_1.png)
 **Figure 1**
+
 
 The Ontario-Quebec macroregion is the most densely populated in Canada, combining for 21.82 million people as of 2014. This macroregion is home to the largest Italian groups, located primarily along the Windsor-Montreal corridor. Below is a snapshot centered on the Ontario-Quebec area:
 
@@ -110,6 +112,7 @@ ont
 </table>
 
 **Table 2**
+
     
 
 ```R
@@ -140,6 +143,7 @@ legend(x=-65,y=56,title="Italians (%)",pt.cex=c(1,2,2.5,3.5,6),bty="n",pch=19,le
 **Figure 2**
 
 
+
 As visible, the Italian population in this area is mainly living in the Toronto-Hamilton-St. Catharines-Oshawa-Bolton conurbation, which in 2014 had 3,577,162 residents. Of these, the Italians were a slice as large as 5.25%. Away from this hotbed, notable Italian presence can be observed in Montreal (6.3%), Sault Ste. Marie (4.5%), and Windsor (3.9%). 
 
 
@@ -156,6 +160,7 @@ mtext("Ontario and Quebec")
 
 ![Powerlaw](/images/output_17_1.png)
 **Figure 3**
+
 
 
 Now, it is clear that there always been a trend for Italians to go to Ontario (or Quebec, to a lesser extent). Only a few endeavoured to settle on the West Coast (Italians constitute 2.4% of Vancouver's population), and even less reached the Prairies (the Italians in Calgary, Edmonton, and Winnipeg do not exceed 0.5% of the total number of residents in each city, with Regina and Saskatoon not even making the cut).
@@ -208,6 +213,7 @@ itprs
 
 
 **Table 3**
+
     
 
 The total number of new PRs in the cities in Table 2 over the 2006-2015 period is derived from the same dataset as above:
@@ -242,6 +248,7 @@ prs
 
 
 **Table 4**
+
     
 
 The percentage of Italian PRs with respect to the totals in Table 4 is easy to compute:
@@ -277,6 +284,7 @@ df
 
 
 **Table 5**
+
     
 
 Now, back to question 2: do modern Italians settle in places in Canada where the Italian presence is historically notable?
@@ -293,6 +301,7 @@ legend(13, 11.5, c("Historical","Current"), cex=0.88, fill=c("darkblue","red"))
 
 ![Historical-Current](/images/output_26_1.png)
 **Figure 4**
+
 
 
 By looking at Figure 4, we can conclude that:
@@ -333,6 +342,7 @@ stir
 
 
 **Table 6**
+
     
 
 Comparing Table 6 with Figure 4 reveals that Toronto and Montreal probably are not good choices due to the high STIR percentage, which includes all types of households. Toronto also has the worse unemployment rate of the two. On the other hand, Thunder Bay is likely receiving less attention due to its distance from the Golden Horseshoe area. Moving to Sudbury and Greater Sudbury seem to be a risk - given the third highest unemployment rate - that new Italians seem to be willing to take. All in all, the Ottawa-Gatineau CMA seems to be offering the better conditions.  
@@ -355,6 +365,7 @@ grid()
 
 ![Scatter](/images/output_32_1.png)
 **Figure 5**
+
 
 Figure 5 reveals that new Italians don't supposedly look at things like STIR and unemployment rate upon selecting their destination in Canada, and that's because the PRs issued to new Italians **are not negatively correlated with STIR or the unemployment rate**. Toronto and Montreal are, expectedly, the most common choices given the opportunities they offer in terms of job market. It is also the case that in these two cities the STIR is higher than the unemployment rate. This could be good news, apparently, but one has to consider how many of the available jobs effectively allow people to save money and live a life of fulfillment. Italians in Canada have certainly stopped following the nationality-based preferential attachment, and have embraced the move to the largest cities. In a way, however, they are still following the preferential attachment pattern, only that nowadays they are attracted by better employment opportunities rather than the reassuring presence of compatriots. 
 
