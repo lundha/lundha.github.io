@@ -13,8 +13,7 @@ print("Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pie
 ```
 
 
-![png](output_3_0.png)
-
+!![My helpful screenshot](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg)
 
     [1] "Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21"
     
