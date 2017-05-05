@@ -358,6 +358,8 @@ grid()
 
 Figure 5 reveals that new Italians don't supposedly look at things like STIR and unemployment rate upon selecting their destination in Canada, and that's because the PRs issued to new Italians **are not negatively correlated with STIR or the unemployment rate**. Toronto and Montreal are, expectedly, the most common choices given the opportunities they offer in terms of job market. It is also the case that in these two cities the STIR is higher than the unemployment rate. This could be good news, apparently, but one has to consider how many of the available jobs effectively allow people to save money and live a life of fulfillment. Italians in Canada have certainly stopped following the nationality-based preferential attachment, and have embraced the move to the largest cities. In a way, however, they are still following the preferential attachment pattern, only that nowadays they are attracted by better employment opportunities rather than the reassuring presence of compatriots. 
 
+---
+
 ### Sources
 1. Population data: https://en.wikipedia.org
 2. Italian residents (*in Italian*): http://www.italiansinfuga.com/2013/08/08/dove-abitano-gli-italiani-in-canada/
@@ -365,6 +367,3 @@ Figure 5 reveals that new Italians don't supposedly look at things like STIR and
 4. Barabási, A.-L.; R. Albert (1999). "Emergence of scaling in random networks". Science. 286 (5439): 509–512
 
 
-```R
-
-```
