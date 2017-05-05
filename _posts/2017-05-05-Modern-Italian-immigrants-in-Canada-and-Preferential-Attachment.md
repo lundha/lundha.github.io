@@ -4,12 +4,12 @@
 ##### *by Francesco Castellani*
 ---
 
-![Ita-Can](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture3.png)
+![Ita-Can](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture3.png){:class="img-responsive"}
 
 I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had, buying the ticket, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
 
 
-![Migrants](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg)
+![Migrants](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/canadian-museum-of-immigration.jpg){:class="img-responsive"}
 
 ##### Source: http://fantasticpixcool.com/canadian+museum+of+immigration+at+pier+21
     
@@ -20,7 +20,7 @@ Italians used to settle in places where other Italians had settled, in an attemp
 
 A process like this, as [Albert-László Barabási](https://en.wikipedia.org/wiki/Albert-L%C3%A1szl%C3%B3_Barab%C3%A1si) described it in his works, results in large components growing larger, eventually evolving into a scale-free system. When the size of the components are plotted against their frequency, a [power law behavior](https://en.wikipedia.org/wiki/Power_law) emerges, where a few communities are very frequently preferred, the large majority being the road less traveled.
 
-![Cities](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture4.png)
+![Cities](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture4.png){:class="img-responsive"}
 
 My idea is to test whether the modern Italian immigrants - those admitted into Canada by means of a Permanent Residency during the period 2006-2015 - targeted the Canadian cities with the highest percentage of Italian residents, or whether they used other factors to select their intended destination.
 
@@ -76,7 +76,7 @@ legend(x=-60,y=85,title="Italians (%)",pt.cex=newdata$Percentage/2,bty="n",pch=1
        col=rgb(255/255,0/255,0/255,alpha=0.5),pt.bg=rgb(255/255,0/255,0/255,alpha=0.5))
 ```
 
-![Italians-in-Canada](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_11_1.png)
+![Italians-in-Canada](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_11_1.png){:class="img-responsive"}
 **Figure 1**
 
 The Ontario-Quebec macroregion is the most densely populated in Canada, combining for 21.82 million people as of 2014. This macroregion is home to the largest Italian groups, located primarily along the Windsor-Montreal corridor. Below is a snapshot centered on the Ontario-Quebec area:
@@ -136,7 +136,7 @@ legend(x=-65,y=56,title="Italians (%)",pt.cex=c(1,2,2.5,3.5,6),bty="n",pch=19,le
        text.col="black",col=rgb(255/255,0/255,0/255,alpha=0.4),pt.bg=rgb(255/255,0/255,0/255,alpha=0.4))
 ```
 
-![Ontario-Quebec](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_15_1.png)
+![Ontario-Quebec](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_15_1.png){:class="img-responsive"}
 **Figure 2**
 
 
@@ -154,7 +154,7 @@ legend(12, 11, legend=c("Macroregion","Other","Power law"),fill=c("darkred", "gr
 mtext("Ontario and Quebec")
 ```
 
-![Powerlaw](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_17_1.png)
+![Powerlaw](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_17_1.png){:class="img-responsive"}
 **Figure 3**
 
 
@@ -291,7 +291,7 @@ legend(13, 11.5, c("Historical","Current"), cex=0.88, fill=c("darkblue","red"))
 ```
 
 
-![Historical-Current](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_26_1.png)
+![Historical-Current](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_26_1.png){:class="img-responsive"}
 **Figure 4**
 
 
@@ -353,7 +353,7 @@ grid()
 ```
     
 
-![Scatter](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_32_1.png)
+![Scatter](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_32_1.png){:class="img-responsive"}
 **Figure 5**
 
 Figure 5 reveals that new Italians don't supposedly look at things like STIR and unemployment rate upon selecting their destination in Canada, and that's because the PRs issued to new Italians **are not negatively correlated with STIR or the unemployment rate**. Toronto and Montreal are, expectedly, the most common choices given the opportunities they offer in terms of job market. It is also the case that in these two cities the STIR is higher than the unemployment rate. This could be good news, apparently, but one has to consider how many of the available jobs effectively allow people to save money and live a life of fulfillment. Italians in Canada have certainly stopped following the nationality-based preferential attachment, and have embraced the move to the largest cities. In a way, however, they are still following the preferential attachment pattern, only that nowadays they are attracted by better employment opportunities rather than the reassuring presence of compatriots. 
