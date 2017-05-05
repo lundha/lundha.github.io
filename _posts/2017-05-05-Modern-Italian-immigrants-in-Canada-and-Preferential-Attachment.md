@@ -3,7 +3,7 @@
 
 #### *A Data Science project carried out with Jupyter and R*
 
-!![Ita-Can](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture3.png)
+![Ita-Can](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/Picture3.png)
 
 I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had, buying the ticket, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
 
@@ -75,7 +75,7 @@ legend(x=-60,y=85,title="Italians (%)",pt.cex=newdata$Percentage/2,bty="n",pch=1
        col=rgb(255/255,0/255,0/255,alpha=0.5),pt.bg=rgb(255/255,0/255,0/255,alpha=0.5))
 ```
 
-![png](output_11_1.png)
+![Italians-in-Canada](https://github.com/zizzipupp/zizzipupp.github.io/blob/master/images/output_11_1.png)
 Figure 1
 
 The Ontario-Quebec macroregion is the most densely populated in Canada, combining for 21.82 million people as of 2014. This macroregion is home to the largest Italian groups, located primarily along the Windsor-Montreal corridor. Below is a snapshot centered on the Ontario-Quebec area:
@@ -86,7 +86,6 @@ The Ontario-Quebec macroregion is the most densely populated in Canada, combinin
 ```R
 ont <- newdata[newdata$Province == "Ontario" | newdata$Province == "Quebec", ] #|=or
 ont
-print ("Table 2")
 ```
 
 
@@ -109,9 +108,7 @@ print ("Table 2")
 </tbody>
 </table>
 
-
-
-    [1] "Table 2"
+Table 2
     
 
 
