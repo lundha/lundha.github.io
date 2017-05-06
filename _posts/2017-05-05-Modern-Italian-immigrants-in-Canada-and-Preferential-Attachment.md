@@ -33,6 +33,8 @@ data<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italians_
 newdata<-data[order(-data$Percentage),]
 newdata
 ```
+
+
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
@@ -42,6 +44,9 @@ newdata
 | cell4   | cell5   | cell6   |
 |=====
 | Foot1   | Foot2   | Foot3
+{: rules="groups"}
+
+
 
 <table cellpadding="5" cellspacing="5">
  <thead><tr>
