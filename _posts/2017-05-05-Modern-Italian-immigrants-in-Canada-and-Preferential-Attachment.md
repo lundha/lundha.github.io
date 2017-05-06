@@ -85,7 +85,7 @@ ont <- newdata[newdata$Province == "Ontario" | newdata$Province == "Quebec", ] #
 ont
 ```
 
-
+<div class="table-wrapper">
 <table>
 <thead><tr><th></th><th scope=col>ID</th><th scope=col>City</th><th scope=col>Province</th><th scope=col>Italians</th><th scope=col>Population</th><th scope=col>Percentage</th><th scope=col>Lat</th><th scope=col>Lon</th></tr></thead>
 <tbody>
@@ -104,6 +104,7 @@ ont
 	<tr><th scope=row>13</th><td>13              </td><td>London          </td><td>Ontario         </td><td>  3140          </td><td> 383822         </td><td> 0.8            </td><td>42.98           </td><td>-81.25          </td></tr>
 </tbody>
 </table>
+</div>
 
 **Table 2**
 
