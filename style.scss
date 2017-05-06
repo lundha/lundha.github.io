@@ -115,35 +115,35 @@ pre {
 font-family: "Courier 10 Pitch", Courier, monospace;
 font-size: 85%;
 line-height: 1.2em; 
-white-space: pre; 
-white-space: pre-wrap; 
-white-space: -moz-pre-wrap; 
-white-space: -o-pre-wrap; 
+white-space: normal; 
+white-space: normal; 
+white-space: normal; 
+white-space: normal; 
 
 height:1%;
 width: auto;
 display: block;
 clear: both;
-color: #555555;
+color: #000000;
 padding: 1em 1em;
 margin: auto 40px auto 40px;
 }       
     
 code {
 font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-font-size: 95%;
+font-size: 85%;
 line-height: 140%;
-white-space: pre;
-white-space: pre-wrap;
-white-space: -moz-pre-wrap;
-white-space: -o-pre-wrap;
+white-space: normal;
+white-space: normal;
+white-space: normal;
+white-space: normal;
 background: #faf8f0;
 }
     
 #content code {
 display: block;
 padding: 0.5em 1em;
-border: 1px solid #bebab0;
+border: 0.5px solid #bebab0;
 }
 
 // Fixes images in popup boxes from Google Translate
