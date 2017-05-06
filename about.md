@@ -10,7 +10,7 @@ permalink: /about/
 
 *Trivial info:*
 
-I am a graduate from the University of Calabria, in Italy, who has enjoyed working in many different fields since his M.Sc. in Environmental Engineering. I am now doing my PhD at Newcastle University, in the United Kingdom, in Civil Engineering and Geosciences. I find joy in using Jupyter for both Python and R, and have always been fascinated by data. This portfolio is meant to help me to pursue a Data Science career, showing some small projects. I was heavily influenced by [this Ted talk](https://www.youtube.com/watch?v=6xsvGYIxJok) by [Ben Wellington](https://www.ted.com/speakers/ben_wellington), who says that Data Science should really be about **storytelling**.
+I am a graduate from the University of Calabria, in Italy, who has enjoyed working in many different fields since his M.Sc. in Environmental Engineering. I am now doing [my PhD at Newcastle University](https://research.ncl.ac.uk/water/people/phdstudents/francescocastellani/), in the United Kingdom, in Civil Engineering. I find joy in using Jupyter for both Python and R, and have always been fascinated by data. This portfolio is meant to help me to pursue a Data Science career, showing some small projects. I was heavily influenced by [this Ted talk](https://www.youtube.com/watch?v=6xsvGYIxJok) by [Ben Wellington](https://www.ted.com/speakers/ben_wellington), who says that Data Science should really be about **storytelling**.
 
 
 *Non-trivial info:*
