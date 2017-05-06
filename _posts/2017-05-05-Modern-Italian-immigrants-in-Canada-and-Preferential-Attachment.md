@@ -35,18 +35,9 @@ newdata
 ```
 
 
-<table>
-  <tbody>
-    <tr>
-      <td>A simple</td>
-      <td>table</td>
-    </tr>
-    <tr>
-      <td>with multiple</td>
-      <td>lines</td>
-    </tr>
-  </tbody>
-</table>
+```
+ID   City   Province   Italians
+```
 
 
 
