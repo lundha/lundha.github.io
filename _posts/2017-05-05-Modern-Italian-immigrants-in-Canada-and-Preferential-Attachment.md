@@ -34,20 +34,30 @@ newdata<-data[order(-data$Percentage),]
 newdata
 ```
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
 
-<table>
-<thead><tr><th></th><th scope=col>ID</th><th scope=col>City</th><th scope=col>Province</th><th scope=col>Italians</th><th scope=col>Population</th><th scope=col>Percentage</th><th scope=col>Lat</th><th scope=col>Lon</th></tr></thead>
-<tbody>
-	<tr><th scope=row>14</th><td>14              </td><td>Bolton          </td><td>Ontario         </td><td>  3030          </td><td>  25954         </td><td>11.7            </td><td>43.52           </td><td> -79.44         </td></tr>
+<table border="2" cellpadding="5" cellspacing="5">
+ <thead><tr>
+  <th></th>
+    <th scope=col>ID</th>
+    <th scope=col>City</th>
+    <th scope=col>Province</th>
+    <th scope=col>Italians</th>
+    <th scope=col>Population</th>
+    <th scope=col>Percentage</th>
+    <th scope=col>Lat</th>
+    <th scope=col>Lon</th>
+   </tr>
+ </thead>
+ <tbody><tr>
+    <th scope=row>14</th>
+    <td>14              </td>
+    <td>Bolton          </td>
+    <td>Ontario         </td>
+    <td>  3030          </td>
+    <td>  25954         </td>
+    <td>11.7            </td>
+    <td>43.52           </td>
+    <td> -79.44         </td></tr>
 	<tr><th scope=row>5</th><td> 5              </td><td>St. Catharines  </td><td>Ontario         </td><td>  9915          </td><td> 133113         </td><td> 7.5            </td><td>43.11           </td><td> -79.14         </td></tr>
 	<tr><th scope=row>2</th><td> 2              </td><td>Montreal        </td><td>Quebec          </td><td>108435          </td><td>1704694         </td><td> 6.3            </td><td>45.30           </td><td> -73.34         </td></tr>
 	<tr><th scope=row>1</th><td> 1              </td><td>Toronto         </td><td>Ontario         </td><td>153285          </td><td>2731571         </td><td> 5.6            </td><td>43.42           </td><td> -79.24         </td></tr>
