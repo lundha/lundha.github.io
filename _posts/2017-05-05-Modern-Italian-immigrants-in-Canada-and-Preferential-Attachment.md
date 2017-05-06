@@ -33,10 +33,6 @@ data<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italians_
 newdata<-data[order(-data$Percentage),]
 newdata
 ```
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
 
 
 <table cellpadding="5" cellspacing="5">
