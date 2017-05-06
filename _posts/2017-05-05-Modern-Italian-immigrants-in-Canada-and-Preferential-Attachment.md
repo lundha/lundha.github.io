@@ -35,7 +35,6 @@ newdata
 ```
 
 
-```xml
 <br>City             Province         Italians   Population   % Italians   Lat     Lon</br>
 Bolton           Ontario	  3030	     25954	  11.7	       43.52   -79.44
 St. Catharines   Ontario	  9915	     133113	  7.5	       43.11   -79.14
@@ -55,7 +54,6 @@ Edmonton	 Alberta	  4920	     932546	  0.5	       53.32   -113.30
 Winnipeg	 Manitoba	  3800	     705244	  0.5	       49.53   -97.08
 Calgary	         Alberta	  5210	     1239220	  0.4	       51.03   -114.04
 
-```
 
 **Table 1**
 
