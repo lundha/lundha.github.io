@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![me](/images/collage.png)
+<img src="/images/collage.png" width="30" height="30"> 
 
 ### More Information
 
