@@ -36,7 +36,7 @@ newdata
 
 
 ```xml
-City             Province         Italians   Population   % Italians   Lat     Lon
+<br>City             Province         Italians   Population   % Italians   Lat     Lon</br>
 Bolton           Ontario	  3030	     25954	  11.7	       43.52   -79.44
 St. Catharines   Ontario	  9915	     133113	  7.5	       43.11   -79.14
 Montreal	 Quebec	          108435     1704694	  6.3	       45.30   -73.34
