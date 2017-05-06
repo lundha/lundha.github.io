@@ -19,7 +19,7 @@ Italians used to settle in places where other Italians had settled, in an attemp
 
 A process like this, as [Albert-László Barabási](https://en.wikipedia.org/wiki/Albert-L%C3%A1szl%C3%B3_Barab%C3%A1si) described it in his works, results in large components growing larger, eventually evolving into a scale-free system. When the size of the components are plotted against their frequency, a [power law behavior](https://en.wikipedia.org/wiki/Power_law) emerges, where a few communities are very frequently preferred, the large majority being the road less traveled.
 
-<img src="/images/Picture4.png" width="450" height="400">{: .center-image }
+<img src="/images/Picture4.png" width="480" height="400">
 
 My idea is to test whether the modern Italian immigrants - those admitted into Canada by means of a Permanent Residency during the period 2006-2015 - targeted the Canadian cities with the highest percentage of Italian residents, or whether they used other factors to select their intended destination.
 
