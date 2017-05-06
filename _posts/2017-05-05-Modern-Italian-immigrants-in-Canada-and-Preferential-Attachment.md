@@ -35,7 +35,8 @@ newdata
 ```
 
 
-<table border="2" cellpadding="5" cellspacing="5">
+
+<table border="3" cellpadding="5" cellspacing="5">
  <thead><tr>
   <th></th>
     <th scope=col>ID</th>
