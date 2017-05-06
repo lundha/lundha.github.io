@@ -15,7 +15,7 @@ I am a graduate from the University of Calabria, in Italy, who has enjoyed worki
 
 *Non-trivial info:*
 
-I am a former basketball player, a beer and coffee lover, and a wannabe geographer. I wear hockey jerseys on Saturdays, and watch NHL games when Time Zones are friendly. I am a Winnipeg Jets fan, I have fallen in love with Applewood Cheddar, and I acknowledge British Columbia as the birthplace of Wolverine. I love Grumpy Old Men, and think the World would be a better place if all cities were like Wabasha, Minnesota. I like craft beer, and especially double IPAs. I buy Bill Bryson's books, but never make it to the end.
+I am a former basketball player, a beer and coffee lover, and a wannabe geographer. I wear hockey jerseys on Saturdays, and watch NHL games when Time Zones are friendly. I am a Winnipeg Jets fan, have fallen in love with Applewood Cheddar, and acknowledge British Columbia as the birthplace of Wolverine. I love Grumpy Old Men, and think the World would be a better place if all cities were like Wabasha, Minnesota. I like craft beer, and especially double IPAs. I buy Bill Bryson's books, but never make it to the end.
 
 
 *For prospective employers:*
@@ -27,3 +27,12 @@ I will buy you a double IPA if you hire me.
 ### Contact me
 
 [zizzipupp@gmail.com](mailto:zizzipupp@gmail.com)
+
+---
+### Favourite pages
+1. [Hiroki Sayama, SUNY Binghamton](bingweb.binghamton.edu/~sayama/)
+2. [Joe Norman, freelance Complex Systems and Data Scientist](http://jwnorman.com/)
+3. [Think Complexity, by Allen B. Downey](http://greenteapress.com/complexity/)
+4. [Ben Wellington, Research Analist](https://about.me/benwellington)
+
+
