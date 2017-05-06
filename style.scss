@@ -14,12 +14,12 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: 90%;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $consolas;
+  font: 18px/1.4 $calibri;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $consolas;
+  font-family: $calibri;
   color: $darkerGray;
   font-weight: bold;
 
@@ -194,7 +194,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $consolas;
+  font-family: $calibri;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $consolas;
+  font-family: $calibri;
   font-size: 18px;
 
   @include mobile {
@@ -257,7 +257,7 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
   }
 
