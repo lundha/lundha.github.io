@@ -293,8 +293,8 @@ df
 
 
 <table>
-<thead><tr><th scope=col>City</th><th scope=col>Historical_Percentage</th><th scope=col>Current_Percentage</th></tr></thead>
-<tbody>
+  <thead><tr><th scope=col>City</th><th scope=col>Historical_Percentage</th><th scope=col>Current_Percentage</th></tr></thead>
+   <tbody>
 	<tr><td>Bolton          </td><td>11.7            </td><td> NA             </td></tr>
 	<tr><td>St. Catharines  </td><td> 7.5            </td><td>0.0             </td></tr>
 	<tr><td>Montreal        </td><td> 6.3            </td><td>0.2             </td></tr>
@@ -308,7 +308,7 @@ df
 	<tr><td>Sudbury         </td><td> 1.5            </td><td>0.4             </td></tr>
 	<tr><td>Ottawa          </td><td> 0.9            </td><td>0.2             </td></tr>
 	<tr><td>London          </td><td> 0.8            </td><td>0.1             </td></tr>
-</tbody>
+   </tbody>
 </table>
 
 
@@ -340,7 +340,7 @@ This means that they ignore the places where Italians have traditionally moved t
 
 The (tiny) numbers of new Italian immigrants no longer choose Bolton or St. Catharines as their top two favorite destinations. Bolton is included in the Toronto figure, so it is possible to conclude that its appeal has almost disappeared over the decades. New Italians, instead, head mostly to Sudbury, Hamilton, Guelph. Even Montreal and Toronto are the road less traveled these days, and this can be due to a number of factors, probably due to be house affordability and living costs.
 
-To check whether the new Italians use *more affordable housing* as a relocation criterion, it is probably worth checking the average Shelter-To-Income-Ratio ([STIR](http://www12.statcan.gc.ca/nhs-enm/2011/ref/dict/households-menage028-eng.cfm)), which is the percentage of total before-tax household income spent on shelter. So, a higher STIR means a more expensive houshold. The following data ara available through the http://cmhc.beyond2020.com website, via the "Lauch Table Viewer" option. The unemployment rate values come from http://www.statcan.gc.ca/tables-tableaux/sum-som/l01/cst01/lfss03h-eng.htm.
+To check whether the new Italians use *more affordable housing* as a relocation criterion, it is probably worth checking the average Shelter-To-Income-Ratio ([STIR](http://www12.statcan.gc.ca/nhs-enm/2011/ref/dict/households-menage028-eng.cfm)), which is the percentage of total before-tax household income spent on shelter. So, a higher STIR means a more expensive houshold. The following data ara available through the [beyond 2020](http://cmhc.beyond2020.com) website, via the "Lauch Table Viewer" option. The unemployment rate values come from [statcan](http://www.statcan.gc.ca/tables-tableaux/sum-som/l01/cst01/lfss03h-eng.htm).
 
 
 ```R
