@@ -110,14 +110,23 @@ img {
   max-width: 100%;
 }
 
-pre {
+// Rules for displaying code blocks
+pre {	
 font-family: "Courier 10 Pitch", Courier, monospace;
-font-size: 95%;
-line-height: 140%;
-white-space: pre;
-white-space: pre-wrap;
-white-space: -moz-pre-wrap;
-white-space: -o-pre-wrap;
+font-size: 90%;
+line-height: 1.2em; 
+white-space: pre; 
+white-space: pre-wrap; 
+white-space: -moz-pre-wrap; 
+white-space: -o-pre-wrap; 
+
+height:1%;
+width: auto;
+display: block;
+clear: both;
+color: #555555;
+padding: 1em 1em;
+margin: auto 40px auto 40px;
 }       
     
 code {
