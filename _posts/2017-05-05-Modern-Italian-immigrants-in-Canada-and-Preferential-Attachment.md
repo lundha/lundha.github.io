@@ -33,11 +33,10 @@ data<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italians_
 newdata<-data[order(-data$Percentage),]
 newdata
 ```
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
 
 <table cellpadding="5" cellspacing="5">
