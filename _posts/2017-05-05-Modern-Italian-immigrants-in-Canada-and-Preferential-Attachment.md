@@ -404,4 +404,4 @@ Figure 5 reveals that new Italians don't supposedly look at things like STIR and
 1. Population data: [https://en.wikipedia.org](https://en.wikipedia.org)
 2. [Italian residents in Canada](http://www.italiansinfuga.com/2013/08/08/dove-abitano-gli-italiani-in-canada/) (*in Italian*)
 3. Latitude and Longitude: [https://en.wikipedia.org](https://en.wikipedia.org)
-4. Barabási, A.-L.; R. Albert (1999). "Emergence of scaling in random networks". Science. 286 (5439): 509–512
+4. Barabási, A.-L., R. Albert (1999). *Emergence of scaling in random networks*. Science, 286 (5439): pages 509–512
