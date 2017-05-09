@@ -29,10 +29,12 @@ I will buy you a double IPA if you hire me.
 [zizzipupp@gmail.com](mailto:zizzipupp@gmail.com)
 
 ---
-### Favourite pages
-1. [Hiroki Sayama, SUNY Binghamton](bingweb.binghamton.edu/~sayama/)
-2. [Joe Norman, freelance Complex Systems and Data Scientist](http://jwnorman.com/)
+### Suggested readings
+1. [Hiroki Sayama repository, SUNY Binghamton](bingweb.binghamton.edu/~sayama/)
+2. [Joe Norman webpage, freelance Complex Systems and Data Scientist](http://jwnorman.com/)
 3. [Think Complexity, by Allen B. Downey](http://greenteapress.com/complexity/)
 4. [Ben Wellington, Research Analist](https://about.me/benwellington)
+5. [GIS & Python blog, Chris Havlin](https://chrishavlin.wordpress.com)
+6. [Six Degrees: the Science of a Connected Age, by Duncan J. Watts](https://www.amazon.co.uk/Six-Degrees-Science-Connected-Age/dp/0099444968)
 
 
