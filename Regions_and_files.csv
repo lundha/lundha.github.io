@@ -1,0 +1,393 @@
+Region,City/Area,File,Businesses
+East Counties,Babergh,http://ratings.food.gov.uk/OpenDataFiles/FHRS297en-GB.xml,876
+East Counties,Basildon,http://ratings.food.gov.uk/OpenDataFiles/FHRS109en-GB.xml,1134
+East Counties,Bedford,http://ratings.food.gov.uk/OpenDataFiles/FHRS701en-GB.xml,1316
+East Counties,Braintree,http://ratings.food.gov.uk/OpenDataFiles/FHRS110en-GB.xml,1061
+East Counties,Breckland,http://ratings.food.gov.uk/OpenDataFiles/FHRS227en-GB.xml,1258
+East Counties,Brentwood,http://ratings.food.gov.uk/OpenDataFiles/FHRS111en-GB.xml,641
+East Counties,Broadland,http://ratings.food.gov.uk/OpenDataFiles/FHRS228en-GB.xml,876
+East Counties,Broxbourne,http://ratings.food.gov.uk/OpenDataFiles/FHRS155en-GB.xml,633
+East Counties,Cambridge City,http://ratings.food.gov.uk/OpenDataFiles/FHRS027en-GB.xml,1318
+East Counties,Castle Point,http://ratings.food.gov.uk/OpenDataFiles/FHRS112en-GB.xml,482
+East Counties,Central Bedfordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS702en-GB.xml,1393
+East Counties,Chelmsford,http://ratings.food.gov.uk/OpenDataFiles/FHRS113en-GB.xml,1160
+East Counties,Colchester,http://ratings.food.gov.uk/OpenDataFiles/FHRS114en-GB.xml,1425
+East Counties,Dacorum,http://ratings.food.gov.uk/OpenDataFiles/FHRS156en-GB.xml,1093
+East Counties,East Cambridgeshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS028en-GB.xml,672
+East Counties,East Hertfordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS157en-GB.xml,1226
+East Counties,Epping Forest,http://ratings.food.gov.uk/OpenDataFiles/FHRS115en-GB.xml,960
+East Counties,Fenland,http://ratings.food.gov.uk/OpenDataFiles/FHRS029en-GB.xml,687
+East Counties,Forest Heath,http://ratings.food.gov.uk/OpenDataFiles/FHRS298en-GB.xml,574
+East Counties,Great Yarmouth,http://ratings.food.gov.uk/OpenDataFiles/FHRS229en-GB.xml,1001
+East Counties,Harlow,http://ratings.food.gov.uk/OpenDataFiles/FHRS116en-GB.xml,572
+East Counties,Hertsmere,http://ratings.food.gov.uk/OpenDataFiles/FHRS158en-GB.xml,560
+East Counties,Huntingdonshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS030en-GB.xml,1241
+East Counties,Ipswich,http://ratings.food.gov.uk/OpenDataFiles/FHRS299en-GB.xml,1016
+East Counties,King's Lynn and West Norfolk,http://ratings.food.gov.uk/OpenDataFiles/FHRS230en-GB.xml,1522
+East Counties,Luton,http://ratings.food.gov.uk/OpenDataFiles/FHRS869en-GB.xml,1020
+East Counties,Maldon,http://ratings.food.gov.uk/OpenDataFiles/FHRS117en-GB.xml,565
+East Counties,Mid Suffolk,http://ratings.food.gov.uk/OpenDataFiles/FHRS300en-GB.xml,807
+East Counties,North Hertfordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS159en-GB.xml,846
+East Counties,North Norfolk,http://ratings.food.gov.uk/OpenDataFiles/FHRS231en-GB.xml,1631
+East Counties,Norwich City,http://ratings.food.gov.uk/OpenDataFiles/FHRS232en-GB.xml,1524
+East Counties,Peterborough City,http://ratings.food.gov.uk/OpenDataFiles/FHRS888en-GB.xml,1581
+East Counties,Rochford,http://ratings.food.gov.uk/OpenDataFiles/FHRS118en-GB.xml,588
+East Counties,South Cambridgeshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS032en-GB.xml,1052
+East Counties,South Norfolk,http://ratings.food.gov.uk/OpenDataFiles/FHRS233en-GB.xml,1015
+East Counties,Southend-On-Sea,http://ratings.food.gov.uk/OpenDataFiles/FHRS893en-GB.xml,1549
+East Counties,St Albans City,http://ratings.food.gov.uk/OpenDataFiles/FHRS160en-GB.xml,875
+East Counties,St Edmundsbury,http://ratings.food.gov.uk/OpenDataFiles/FHRS301en-GB.xml,901
+East Counties,Stevenage,http://ratings.food.gov.uk/OpenDataFiles/FHRS161en-GB.xml,498
+East Counties,Suffolk Coastal,http://ratings.food.gov.uk/OpenDataFiles/FHRS302en-GB.xml,1193
+East Counties,Tendring,http://ratings.food.gov.uk/OpenDataFiles/FHRS120en-GB.xml,1054
+East Counties,Three Rivers,http://ratings.food.gov.uk/OpenDataFiles/FHRS162en-GB.xml,411
+East Counties,Thurrock,http://ratings.food.gov.uk/OpenDataFiles/FHRS894en-GB.xml,933
+East Counties,Uttlesford,http://ratings.food.gov.uk/OpenDataFiles/FHRS122en-GB.xml,740
+East Counties,Watford,http://ratings.food.gov.uk/OpenDataFiles/FHRS163en-GB.xml,707
+East Counties,Waveney,http://ratings.food.gov.uk/OpenDataFiles/FHRS303en-GB.xml,1131
+East Counties,Welwyn Hatfield,http://ratings.food.gov.uk/OpenDataFiles/FHRS164en-GB.xml,716
+East Midlands,Amber Valley,http://ratings.food.gov.uk/OpenDataFiles/FHRS062en-GB.xml,966
+East Midlands,Ashfield,http://ratings.food.gov.uk/OpenDataFiles/FHRS259en-GB.xml,845
+East Midlands,Bassetlaw,http://ratings.food.gov.uk/OpenDataFiles/FHRS260en-GB.xml,956
+East Midlands,Blaby,http://ratings.food.gov.uk/OpenDataFiles/FHRS209en-GB.xml,622
+East Midlands,Bolsover,http://ratings.food.gov.uk/OpenDataFiles/FHRS063en-GB.xml,653
+East Midlands,Boston,http://ratings.food.gov.uk/OpenDataFiles/FHRS219en-GB.xml,558
+East Midlands,Broxtowe,http://ratings.food.gov.uk/OpenDataFiles/FHRS261en-GB.xml,818
+East Midlands,Charnwood,http://ratings.food.gov.uk/OpenDataFiles/FHRS210en-GB.xml,1336
+East Midlands,Chesterfield,http://ratings.food.gov.uk/OpenDataFiles/FHRS064en-GB.xml,893
+East Midlands,Corby,http://ratings.food.gov.uk/OpenDataFiles/FHRS235en-GB.xml,354
+East Midlands,Daventry,http://ratings.food.gov.uk/OpenDataFiles/FHRS236en-GB.xml,669
+East Midlands,Derby City,http://ratings.food.gov.uk/OpenDataFiles/FHRS871en-GB.xml,1800
+East Midlands,Derbyshire Dales,http://ratings.food.gov.uk/OpenDataFiles/FHRS070en-GB.xml,875
+East Midlands,East Lindsey,http://ratings.food.gov.uk/OpenDataFiles/FHRS220en-GB.xml,1740
+East Midlands,East Northamptonshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS237en-GB.xml,766
+East Midlands,Erewash,http://ratings.food.gov.uk/OpenDataFiles/FHRS066en-GB.xml,871
+East Midlands,Gedling,http://ratings.food.gov.uk/OpenDataFiles/FHRS262en-GB.xml,669
+East Midlands,Harborough,http://ratings.food.gov.uk/OpenDataFiles/FHRS211en-GB.xml,748
+East Midlands,High Peak,http://ratings.food.gov.uk/OpenDataFiles/FHRS067en-GB.xml,767
+East Midlands,Hinckley and Bosworth,http://ratings.food.gov.uk/OpenDataFiles/FHRS212en-GB.xml,851
+East Midlands,Kettering,http://ratings.food.gov.uk/OpenDataFiles/FHRS238en-GB.xml,814
+East Midlands,Leicester City,http://ratings.food.gov.uk/OpenDataFiles/FHRS878en-GB.xml,2555
+East Midlands,Lincoln City,http://ratings.food.gov.uk/OpenDataFiles/FHRS221en-GB.xml,965
+East Midlands,Mansfield,http://ratings.food.gov.uk/OpenDataFiles/FHRS263en-GB.xml,784
+East Midlands,Melton,http://ratings.food.gov.uk/OpenDataFiles/FHRS214en-GB.xml,458
+East Midlands,Newark and Sherwood,http://ratings.food.gov.uk/OpenDataFiles/FHRS264en-GB.xml,1022
+East Midlands,North East Derbyshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS068en-GB.xml,735
+East Midlands,North Kesteven,http://ratings.food.gov.uk/OpenDataFiles/FHRS222en-GB.xml,876
+East Midlands,North West Leicestershire,http://ratings.food.gov.uk/OpenDataFiles/FHRS215en-GB.xml,790
+East Midlands,Northampton,http://ratings.food.gov.uk/OpenDataFiles/FHRS239en-GB.xml,1586
+East Midlands,Nottingham City,http://ratings.food.gov.uk/OpenDataFiles/FHRS899en-GB.xml,2828
+East Midlands,Oadby and Wigston,http://ratings.food.gov.uk/OpenDataFiles/FHRS216en-GB.xml,352
+East Midlands,Rushcliffe,http://ratings.food.gov.uk/OpenDataFiles/FHRS266en-GB.xml,730
+East Midlands,Rutland,http://ratings.food.gov.uk/OpenDataFiles/FHRS879en-GB.xml,404
+East Midlands,South Derbyshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS069en-GB.xml,676
+East Midlands,South Holland,http://ratings.food.gov.uk/OpenDataFiles/FHRS223en-GB.xml,739
+East Midlands,South Kesteven,http://ratings.food.gov.uk/OpenDataFiles/FHRS224en-GB.xml,1192
+East Midlands,South Northamptonshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS240en-GB.xml,805
+East Midlands,Wellingborough,http://ratings.food.gov.uk/OpenDataFiles/FHRS241en-GB.xml,658
+East Midlands,West Lindsey,http://ratings.food.gov.uk/OpenDataFiles/FHRS225en-GB.xml,810
+London,Barking and Dagenham,http://ratings.food.gov.uk/OpenDataFiles/FHRS501en-GB.xml,994
+London,Barnet,http://ratings.food.gov.uk/OpenDataFiles/FHRS502en-GB.xml,2089
+London,Bexley,http://ratings.food.gov.uk/OpenDataFiles/FHRS503en-GB.xml,1360
+London,Brent,http://ratings.food.gov.uk/OpenDataFiles/FHRS504en-GB.xml,1981
+London,Bromley,http://ratings.food.gov.uk/OpenDataFiles/FHRS505en-GB.xml,1772
+London,Camden,http://ratings.food.gov.uk/OpenDataFiles/FHRS506en-GB.xml,2837
+London,City of London Corporation,http://ratings.food.gov.uk/OpenDataFiles/FHRS508en-GB.xml,1839
+London,Croydon,http://ratings.food.gov.uk/OpenDataFiles/FHRS507en-GB.xml,2790
+London,Ealing,http://ratings.food.gov.uk/OpenDataFiles/FHRS509en-GB.xml,2695
+London,Enfield,http://ratings.food.gov.uk/OpenDataFiles/FHRS510en-GB.xml,2129
+London,Greenwich,http://ratings.food.gov.uk/OpenDataFiles/FHRS511en-GB.xml,1815
+London,Hackney,http://ratings.food.gov.uk/OpenDataFiles/FHRS512en-GB.xml,2465
+London,Hammersmith and Fulham,http://ratings.food.gov.uk/OpenDataFiles/FHRS513en-GB.xml,1752
+London,Haringey,http://ratings.food.gov.uk/OpenDataFiles/FHRS514en-GB.xml,1657
+London,Harrow,http://ratings.food.gov.uk/OpenDataFiles/FHRS515en-GB.xml,1252
+London,Havering,http://ratings.food.gov.uk/OpenDataFiles/FHRS516en-GB.xml,1664
+London,Hillingdon,http://ratings.food.gov.uk/OpenDataFiles/FHRS517en-GB.xml,1891
+London,Hounslow,http://ratings.food.gov.uk/OpenDataFiles/FHRS518en-GB.xml,1591
+London,Islington,http://ratings.food.gov.uk/OpenDataFiles/FHRS519en-GB.xml,1792
+London,Kensington and Chelsea,http://ratings.food.gov.uk/OpenDataFiles/FHRS520en-GB.xml,1722
+London,Kingston-Upon-Thames,http://ratings.food.gov.uk/OpenDataFiles/FHRS521en-GB.xml,1192
+London,Lambeth,http://ratings.food.gov.uk/OpenDataFiles/FHRS522en-GB.xml,2305
+London,Lewisham,http://ratings.food.gov.uk/OpenDataFiles/FHRS523en-GB.xml,2040
+London,Merton,http://ratings.food.gov.uk/OpenDataFiles/FHRS524en-GB.xml,1390
+London,Newham,http://ratings.food.gov.uk/OpenDataFiles/FHRS525en-GB.xml,1873
+London,Redbridge,http://ratings.food.gov.uk/OpenDataFiles/FHRS526en-GB.xml,1831
+London,Richmond-Upon-Thames,http://ratings.food.gov.uk/OpenDataFiles/FHRS527en-GB.xml,1480
+London,Southwark,http://ratings.food.gov.uk/OpenDataFiles/FHRS528en-GB.xml,2887
+London,Sutton,http://ratings.food.gov.uk/OpenDataFiles/FHRS529en-GB.xml,779
+London,Tower Hamlets,http://ratings.food.gov.uk/OpenDataFiles/FHRS530en-GB.xml,2614
+London,Waltham Forest,http://ratings.food.gov.uk/OpenDataFiles/FHRS531en-GB.xml,1756
+London,Wandsworth,http://ratings.food.gov.uk/OpenDataFiles/FHRS532en-GB.xml,2175
+London,Westminster,http://ratings.food.gov.uk/OpenDataFiles/FHRS533en-GB.xml,4494
+North East,Darlington,http://ratings.food.gov.uk/OpenDataFiles/FHRS874en-GB.xml,935
+North East,Durham,http://ratings.food.gov.uk/OpenDataFiles/FHRS706en-GB.xml,4213
+North East,Gateshead,http://ratings.food.gov.uk/OpenDataFiles/FHRS410en-GB.xml,1568
+North East,Hartlepool,http://ratings.food.gov.uk/OpenDataFiles/FHRS859en-GB.xml,759
+North East,Middlesbrough,http://ratings.food.gov.uk/OpenDataFiles/FHRS861en-GB.xml,1127
+North East,Newcastle Upon Tyne,http://ratings.food.gov.uk/OpenDataFiles/FHRS416en-GB.xml,2318
+North East,North Tyneside,http://ratings.food.gov.uk/OpenDataFiles/FHRS417en-GB.xml,1317
+North East,Northumberland,http://ratings.food.gov.uk/OpenDataFiles/FHRS707en-GB.xml,3383
+North East,Redcar and Cleveland,http://ratings.food.gov.uk/OpenDataFiles/FHRS860en-GB.xml,1057
+North East,River Tees,http://ratings.food.gov.uk/OpenDataFiles/FHRS648en-GB.xml,5
+North East,South Tyneside,http://ratings.food.gov.uk/OpenDataFiles/FHRS427en-GB.xml,1102
+North East,Stockton On Tees,http://ratings.food.gov.uk/OpenDataFiles/FHRS862en-GB.xml,1403
+North East,Sunderland,http://ratings.food.gov.uk/OpenDataFiles/FHRS429en-GB.xml,2112
+North West,Allerdale,http://ratings.food.gov.uk/OpenDataFiles/FHRS055en-GB.xml,1062
+North West,Barrow-in-Furness,http://ratings.food.gov.uk/OpenDataFiles/FHRS056en-GB.xml,556
+North West,Blackburn,http://ratings.food.gov.uk/OpenDataFiles/FHRS897en-GB.xml,1257
+North West,Blackpool,http://ratings.food.gov.uk/OpenDataFiles/FHRS898en-GB.xml,1795
+North West,Bolton,http://ratings.food.gov.uk/OpenDataFiles/FHRS403en-GB.xml,2284
+North West,Burnley,http://ratings.food.gov.uk/OpenDataFiles/FHRS196en-GB.xml,866
+North West,Bury,http://ratings.food.gov.uk/OpenDataFiles/FHRS405en-GB.xml,1141
+North West,Carlisle City,http://ratings.food.gov.uk/OpenDataFiles/FHRS057en-GB.xml,790
+North West,Cheshire East,http://ratings.food.gov.uk/OpenDataFiles/FHRS703en-GB.xml,2372
+North West,Cheshire West and Chester,http://ratings.food.gov.uk/OpenDataFiles/FHRS704en-GB.xml,3082
+North West,Chorley,http://ratings.food.gov.uk/OpenDataFiles/FHRS197en-GB.xml,826
+North West,Copeland,http://ratings.food.gov.uk/OpenDataFiles/FHRS058en-GB.xml,642
+North West,Eden,http://ratings.food.gov.uk/OpenDataFiles/FHRS059en-GB.xml,888
+North West,Fylde,http://ratings.food.gov.uk/OpenDataFiles/FHRS198en-GB.xml,745
+North West,Halton,http://ratings.food.gov.uk/OpenDataFiles/FHRS889en-GB.xml,911
+North West,Hyndburn,http://ratings.food.gov.uk/OpenDataFiles/FHRS199en-GB.xml,690
+North West,Knowsley,http://ratings.food.gov.uk/OpenDataFiles/FHRS412en-GB.xml,674
+North West,Lancaster City,http://ratings.food.gov.uk/OpenDataFiles/FHRS200en-GB.xml,1204
+North West,Liverpool,http://ratings.food.gov.uk/OpenDataFiles/FHRS414en-GB.xml,3463
+North West,Manchester,http://ratings.food.gov.uk/OpenDataFiles/FHRS415en-GB.xml,4406
+North West,Oldham,http://ratings.food.gov.uk/OpenDataFiles/FHRS418en-GB.xml,1683
+North West,Pendle,http://ratings.food.gov.uk/OpenDataFiles/FHRS201en-GB.xml,793
+North West,Preston,http://ratings.food.gov.uk/OpenDataFiles/FHRS202en-GB.xml,1240
+North West,Ribble Valley,http://ratings.food.gov.uk/OpenDataFiles/FHRS203en-GB.xml,614
+North West,Rochdale,http://ratings.food.gov.uk/OpenDataFiles/FHRS419en-GB.xml,1521
+North West,Rossendale,http://ratings.food.gov.uk/OpenDataFiles/FHRS204en-GB.xml,597
+North West,Salford,http://ratings.food.gov.uk/OpenDataFiles/FHRS422en-GB.xml,1856
+North West,Sefton,http://ratings.food.gov.uk/OpenDataFiles/FHRS424en-GB.xml,1932
+North West,South Lakeland,http://ratings.food.gov.uk/OpenDataFiles/FHRS060en-GB.xml,1650
+North West,South Ribble,http://ratings.food.gov.uk/OpenDataFiles/FHRS205en-GB.xml,499
+North West,St Helens,http://ratings.food.gov.uk/OpenDataFiles/FHRS421en-GB.xml,1080
+North West,Stockport,http://ratings.food.gov.uk/OpenDataFiles/FHRS428en-GB.xml,2019
+North West,Tameside,http://ratings.food.gov.uk/OpenDataFiles/FHRS430en-GB.xml,1375
+North West,Trafford,http://ratings.food.gov.uk/OpenDataFiles/FHRS431en-GB.xml,2043
+North West,Warrington,http://ratings.food.gov.uk/OpenDataFiles/FHRS890en-GB.xml,1785
+North West,West Lancashire,http://ratings.food.gov.uk/OpenDataFiles/FHRS206en-GB.xml,829
+North West,Wigan,http://ratings.food.gov.uk/OpenDataFiles/FHRS434en-GB.xml,2136
+North West,Wirral,http://ratings.food.gov.uk/OpenDataFiles/FHRS435en-GB.xml,2208
+North West,Wyre,http://ratings.food.gov.uk/OpenDataFiles/FHRS207en-GB.xml,921
+South East,Adur,http://ratings.food.gov.uk/OpenDataFiles/FHRS323en-GB.xml,407
+South East,Arun,http://ratings.food.gov.uk/OpenDataFiles/FHRS324en-GB.xml,1098
+South East,Ashford,http://ratings.food.gov.uk/OpenDataFiles/FHRS179en-GB.xml,1062
+South East,Aylesbury Vale,http://ratings.food.gov.uk/OpenDataFiles/FHRS021en-GB.xml,1336
+South East,Basingstoke and Deane,http://ratings.food.gov.uk/OpenDataFiles/FHRS131en-GB.xml,1030
+South East,Bracknell Forest,http://ratings.food.gov.uk/OpenDataFiles/FHRS882en-GB.xml,720
+South East,Brighton and Hove,http://ratings.food.gov.uk/OpenDataFiles/FHRS875en-GB.xml,3047
+South East,Canterbury City,http://ratings.food.gov.uk/OpenDataFiles/FHRS180en-GB.xml,1490
+South East,Cherwell,http://ratings.food.gov.uk/OpenDataFiles/FHRS268en-GB.xml,991
+South East,Chichester,http://ratings.food.gov.uk/OpenDataFiles/FHRS325en-GB.xml,1300
+South East,Chiltern,http://ratings.food.gov.uk/OpenDataFiles/FHRS022en-GB.xml,653
+South East,Crawley,http://ratings.food.gov.uk/OpenDataFiles/FHRS326en-GB.xml,887
+South East,Dartford,http://ratings.food.gov.uk/OpenDataFiles/FHRS181en-GB.xml,811
+South East,Dover,http://ratings.food.gov.uk/OpenDataFiles/FHRS182en-GB.xml,1117
+South East,East Hampshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS132en-GB.xml,861
+South East,Eastbourne,http://ratings.food.gov.uk/OpenDataFiles/FHRS102en-GB.xml,1040
+South East,Eastleigh,http://ratings.food.gov.uk/OpenDataFiles/FHRS133en-GB.xml,739
+South East,Elmbridge,http://ratings.food.gov.uk/OpenDataFiles/FHRS305en-GB.xml,1001
+South East,Epsom and Ewell,http://ratings.food.gov.uk/OpenDataFiles/FHRS306en-GB.xml,426
+South East,Fareham,http://ratings.food.gov.uk/OpenDataFiles/FHRS134en-GB.xml,630
+South East,Gosport,http://ratings.food.gov.uk/OpenDataFiles/FHRS135en-GB.xml,526
+South East,Gravesham,http://ratings.food.gov.uk/OpenDataFiles/FHRS184en-GB.xml,670
+South East,Guildford,http://ratings.food.gov.uk/OpenDataFiles/FHRS307en-GB.xml,742
+South East,Hart,http://ratings.food.gov.uk/OpenDataFiles/FHRS136en-GB.xml,567
+South East,Hastings,http://ratings.food.gov.uk/OpenDataFiles/FHRS103en-GB.xml,806
+South East,Havant,http://ratings.food.gov.uk/OpenDataFiles/FHRS137en-GB.xml,823
+South East,Horsham,http://ratings.food.gov.uk/OpenDataFiles/FHRS327en-GB.xml,1019
+South East,Isle of Wight,http://ratings.food.gov.uk/OpenDataFiles/FHRS867en-GB.xml,1832
+South East,Lewes,http://ratings.food.gov.uk/OpenDataFiles/FHRS105en-GB.xml,1021
+South East,Maidstone,http://ratings.food.gov.uk/OpenDataFiles/FHRS185en-GB.xml,1095
+South East,Medway,http://ratings.food.gov.uk/OpenDataFiles/FHRS896en-GB.xml,1608
+South East,Mid Sussex,http://ratings.food.gov.uk/OpenDataFiles/FHRS328en-GB.xml,1193
+South East,Milton Keynes,http://ratings.food.gov.uk/OpenDataFiles/FHRS870en-GB.xml,1866
+South East,Mole Valley,http://ratings.food.gov.uk/OpenDataFiles/FHRS308en-GB.xml,727
+South East,New Forest,http://ratings.food.gov.uk/OpenDataFiles/FHRS138en-GB.xml,1294
+South East,Oxford City,http://ratings.food.gov.uk/OpenDataFiles/FHRS269en-GB.xml,1268
+South East,Portsmouth,http://ratings.food.gov.uk/OpenDataFiles/FHRS876en-GB.xml,1776
+South East,Reading,http://ratings.food.gov.uk/OpenDataFiles/FHRS884en-GB.xml,1231
+South East,Reigate and Banstead,http://ratings.food.gov.uk/OpenDataFiles/FHRS309en-GB.xml,862
+South East,Rother,http://ratings.food.gov.uk/OpenDataFiles/FHRS106en-GB.xml,990
+South East,Runnymede,http://ratings.food.gov.uk/OpenDataFiles/FHRS310en-GB.xml,592
+South East,Rushmoor,http://ratings.food.gov.uk/OpenDataFiles/FHRS140en-GB.xml,633
+South East,Sevenoaks,http://ratings.food.gov.uk/OpenDataFiles/FHRS187en-GB.xml,761
+South East,Shepway,http://ratings.food.gov.uk/OpenDataFiles/FHRS188en-GB.xml,1064
+South East,Slough,http://ratings.food.gov.uk/OpenDataFiles/FHRS885en-GB.xml,697
+South East,South Buckinghamshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS024en-GB.xml,519
+South East,South Oxfordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS270en-GB.xml,1160
+South East,Southampton,http://ratings.food.gov.uk/OpenDataFiles/FHRS877en-GB.xml,1391
+South East,Spelthorne,http://ratings.food.gov.uk/OpenDataFiles/FHRS311en-GB.xml,689
+South East,Surrey Heath,http://ratings.food.gov.uk/OpenDataFiles/FHRS312en-GB.xml,547
+South East,Swale,http://ratings.food.gov.uk/OpenDataFiles/FHRS189en-GB.xml,953
+South East,Tandridge,http://ratings.food.gov.uk/OpenDataFiles/FHRS313en-GB.xml,646
+South East,Test Valley,http://ratings.food.gov.uk/OpenDataFiles/FHRS142en-GB.xml,893
+South East,Thanet,http://ratings.food.gov.uk/OpenDataFiles/FHRS190en-GB.xml,1289
+South East,Tonbridge and Malling,http://ratings.food.gov.uk/OpenDataFiles/FHRS191en-GB.xml,959
+South East,Tunbridge Wells,http://ratings.food.gov.uk/OpenDataFiles/FHRS192en-GB.xml,978
+South East,Vale of White Horse,http://ratings.food.gov.uk/OpenDataFiles/FHRS271en-GB.xml,939
+South East,Waverley,http://ratings.food.gov.uk/OpenDataFiles/FHRS314en-GB.xml,1003
+South East,Wealden,http://ratings.food.gov.uk/OpenDataFiles/FHRS107en-GB.xml,1384
+South East,West Berkshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS883en-GB.xml,1121
+South East,West Oxfordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS272en-GB.xml,957
+South East,Winchester City,http://ratings.food.gov.uk/OpenDataFiles/FHRS143en-GB.xml,811
+South East,Windsor and Maidenhead,http://ratings.food.gov.uk/OpenDataFiles/FHRS886en-GB.xml,1283
+South East,Woking,http://ratings.food.gov.uk/OpenDataFiles/FHRS315en-GB.xml,753
+South East,Wokingham,http://ratings.food.gov.uk/OpenDataFiles/FHRS887en-GB.xml,906
+South East,Worthing,http://ratings.food.gov.uk/OpenDataFiles/FHRS329en-GB.xml,873
+South East,Wycombe,http://ratings.food.gov.uk/OpenDataFiles/FHRS025en-GB.xml,1032
+South West,Bath and North East Somerset,http://ratings.food.gov.uk/OpenDataFiles/FHRS857en-GB.xml,1762
+South West,Bournemouth,http://ratings.food.gov.uk/OpenDataFiles/FHRS872en-GB.xml,1939
+South West,Bristol,http://ratings.food.gov.uk/OpenDataFiles/FHRS855en-GB.xml,4665
+South West,Cheltenham,http://ratings.food.gov.uk/OpenDataFiles/FHRS124en-GB.xml,884
+South West,Christchurch,http://ratings.food.gov.uk/OpenDataFiles/FHRS084en-GB.xml,315
+South West,Cornwall,http://ratings.food.gov.uk/OpenDataFiles/FHRS705en-GB.xml,4565
+South West,Cotswold,http://ratings.food.gov.uk/OpenDataFiles/FHRS125en-GB.xml,868
+South West,East Devon,http://ratings.food.gov.uk/OpenDataFiles/FHRS072en-GB.xml,1434
+South West,East Dorset,http://ratings.food.gov.uk/OpenDataFiles/FHRS085en-GB.xml,549
+South West,Exeter City,http://ratings.food.gov.uk/OpenDataFiles/FHRS073en-GB.xml,973
+South West,Forest of Dean,http://ratings.food.gov.uk/OpenDataFiles/FHRS126en-GB.xml,726
+South West,Gloucester City,http://ratings.food.gov.uk/OpenDataFiles/FHRS127en-GB.xml,888
+South West,Isles of Scilly,http://ratings.food.gov.uk/OpenDataFiles/FHRS336en-GB.xml,80
+South West,Mendip,http://ratings.food.gov.uk/OpenDataFiles/FHRS281en-GB.xml,1303
+South West,Mid Devon,http://ratings.food.gov.uk/OpenDataFiles/FHRS074en-GB.xml,527
+South West,North Devon,http://ratings.food.gov.uk/OpenDataFiles/FHRS075en-GB.xml,1432
+South West,North Dorset,http://ratings.food.gov.uk/OpenDataFiles/FHRS086en-GB.xml,726
+South West,North Somerset,http://ratings.food.gov.uk/OpenDataFiles/FHRS858en-GB.xml,1013
+South West,Plymouth City,http://ratings.food.gov.uk/OpenDataFiles/FHRS891en-GB.xml,1565
+South West,Poole,http://ratings.food.gov.uk/OpenDataFiles/FHRS873en-GB.xml,654
+South West,Purbeck,http://ratings.food.gov.uk/OpenDataFiles/FHRS088en-GB.xml,592
+South West,Sedgemoor,http://ratings.food.gov.uk/OpenDataFiles/FHRS282en-GB.xml,1156
+South West,South Gloucestershire,http://ratings.food.gov.uk/OpenDataFiles/FHRS856en-GB.xml,1826
+South West,South Hams,http://ratings.food.gov.uk/OpenDataFiles/FHRS077en-GB.xml,731
+South West,South Somerset,http://ratings.food.gov.uk/OpenDataFiles/FHRS283en-GB.xml,1740
+South West,Stroud,http://ratings.food.gov.uk/OpenDataFiles/FHRS128en-GB.xml,1016
+South West,Swindon,http://ratings.food.gov.uk/OpenDataFiles/FHRS881en-GB.xml,1435
+South West,Taunton Deane,http://ratings.food.gov.uk/OpenDataFiles/FHRS284en-GB.xml,874
+South West,Teignbridge,http://ratings.food.gov.uk/OpenDataFiles/FHRS078en-GB.xml,1263
+South West,Tewkesbury,http://ratings.food.gov.uk/OpenDataFiles/FHRS129en-GB.xml,684
+South West,Torbay,http://ratings.food.gov.uk/OpenDataFiles/FHRS892en-GB.xml,1037
+South West,Torridge,http://ratings.food.gov.uk/OpenDataFiles/FHRS080en-GB.xml,781
+South West,West Devon,http://ratings.food.gov.uk/OpenDataFiles/FHRS081en-GB.xml,416
+South West,West Dorset,http://ratings.food.gov.uk/OpenDataFiles/FHRS089en-GB.xml,1046
+South West,West Somerset,http://ratings.food.gov.uk/OpenDataFiles/FHRS285en-GB.xml,533
+South West,Weymouth and Portland,http://ratings.food.gov.uk/OpenDataFiles/FHRS090en-GB.xml,449
+South West,Wiltshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS709en-GB.xml,4586
+West Midlands,Birmingham,http://ratings.food.gov.uk/OpenDataFiles/FHRS402en-GB.xml,6254
+West Midlands,Bromsgrove,http://ratings.food.gov.uk/OpenDataFiles/FHRS145en-GB.xml,661
+West Midlands,Cannock Chase,http://ratings.food.gov.uk/OpenDataFiles/FHRS287en-GB.xml,782
+West Midlands,Coventry,http://ratings.food.gov.uk/OpenDataFiles/FHRS407en-GB.xml,2345
+West Midlands,Dudley,http://ratings.food.gov.uk/OpenDataFiles/FHRS409en-GB.xml,2288
+West Midlands,East Staffordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS288en-GB.xml,892
+West Midlands,Herefordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS895en-GB.xml,1831
+West Midlands,Lichfield,http://ratings.food.gov.uk/OpenDataFiles/FHRS289en-GB.xml,805
+West Midlands,Malvern Hills,http://ratings.food.gov.uk/OpenDataFiles/FHRS148en-GB.xml,752
+West Midlands,Newcastle-Under-Lyme,http://ratings.food.gov.uk/OpenDataFiles/FHRS290en-GB.xml,940
+West Midlands,North Warwickshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS317en-GB.xml,557
+West Midlands,Nuneaton and Bedworth,http://ratings.food.gov.uk/OpenDataFiles/FHRS318en-GB.xml,774
+West Midlands,Redditch,http://ratings.food.gov.uk/OpenDataFiles/FHRS149en-GB.xml,467
+West Midlands,Rugby,http://ratings.food.gov.uk/OpenDataFiles/FHRS319en-GB.xml,785
+West Midlands,Sandwell,http://ratings.food.gov.uk/OpenDataFiles/FHRS423en-GB.xml,2097
+West Midlands,Shropshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS708en-GB.xml,2298
+West Midlands,Solihull,http://ratings.food.gov.uk/OpenDataFiles/FHRS426en-GB.xml,1397
+West Midlands,South Staffordshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS291en-GB.xml,620
+West Midlands,Stafford,http://ratings.food.gov.uk/OpenDataFiles/FHRS292en-GB.xml,984
+West Midlands,Staffordshire Moorlands,http://ratings.food.gov.uk/OpenDataFiles/FHRS293en-GB.xml,723
+West Midlands,Stoke-On-Trent,http://ratings.food.gov.uk/OpenDataFiles/FHRS880en-GB.xml,1964
+West Midlands,Stratford-on-Avon,http://ratings.food.gov.uk/OpenDataFiles/FHRS320en-GB.xml,1229
+West Midlands,Tamworth,http://ratings.food.gov.uk/OpenDataFiles/FHRS295en-GB.xml,472
+West Midlands,Telford and Wrekin Council,http://ratings.food.gov.uk/OpenDataFiles/FHRS900en-GB.xml,1189
+West Midlands,Walsall,http://ratings.food.gov.uk/OpenDataFiles/FHRS433en-GB.xml,1716
+West Midlands,Warwick,http://ratings.food.gov.uk/OpenDataFiles/FHRS321en-GB.xml,1227
+West Midlands,Wolverhampton,http://ratings.food.gov.uk/OpenDataFiles/FHRS436en-GB.xml,1824
+West Midlands,Worcester City,http://ratings.food.gov.uk/OpenDataFiles/FHRS151en-GB.xml,775
+West Midlands,Wychavon,http://ratings.food.gov.uk/OpenDataFiles/FHRS152en-GB.xml,923
+West Midlands,Wyre Forest,http://ratings.food.gov.uk/OpenDataFiles/FHRS153en-GB.xml,673
+Yorkshire and Humberside,Barnsley,http://ratings.food.gov.uk/OpenDataFiles/FHRS401en-GB.xml,1912
+Yorkshire and Humberside,Bradford,http://ratings.food.gov.uk/OpenDataFiles/FHRS404en-GB.xml,3953
+Yorkshire and Humberside,Calderdale,http://ratings.food.gov.uk/OpenDataFiles/FHRS406en-GB.xml,2078
+Yorkshire and Humberside,Craven,http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml,902
+Yorkshire and Humberside,Doncaster,http://ratings.food.gov.uk/OpenDataFiles/FHRS408en-GB.xml,2724
+Yorkshire and Humberside,East Riding of Yorkshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS863en-GB.xml,2909
+Yorkshire and Humberside,Hambleton,http://ratings.food.gov.uk/OpenDataFiles/FHRS251en-GB.xml,943
+Yorkshire and Humberside,Harrogate,http://ratings.food.gov.uk/OpenDataFiles/FHRS252en-GB.xml,1540
+Yorkshire and Humberside,Hull City,http://ratings.food.gov.uk/OpenDataFiles/FHRS866en-GB.xml,2059
+Yorkshire and Humberside,Kirklees,http://ratings.food.gov.uk/OpenDataFiles/FHRS411en-GB.xml,3633
+Yorkshire and Humberside,Leeds,http://ratings.food.gov.uk/OpenDataFiles/FHRS413en-GB.xml,5071
+Yorkshire and Humberside,North East Lincolnshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS865en-GB.xml,1370
+Yorkshire and Humberside,North Lincolnshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS864en-GB.xml,1338
+Yorkshire and Humberside,Richmondshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS253en-GB.xml,542
+Yorkshire and Humberside,Rotherham,http://ratings.food.gov.uk/OpenDataFiles/FHRS420en-GB.xml,1904
+Yorkshire and Humberside,Ryedale,http://ratings.food.gov.uk/OpenDataFiles/FHRS254en-GB.xml,566
+Yorkshire and Humberside,Scarborough,http://ratings.food.gov.uk/OpenDataFiles/FHRS255en-GB.xml,1560
+Yorkshire and Humberside,Selby,http://ratings.food.gov.uk/OpenDataFiles/FHRS256en-GB.xml,592
+Yorkshire and Humberside,Sheffield,http://ratings.food.gov.uk/OpenDataFiles/FHRS425en-GB.xml,3600
+Yorkshire and Humberside,Wakefield,http://ratings.food.gov.uk/OpenDataFiles/FHRS432en-GB.xml,2429
+Yorkshire and Humberside,York,http://ratings.food.gov.uk/OpenDataFiles/FHRS868en-GB.xml,2058
+Northern Ireland,Antrim and Newtownabbey,http://ratings.food.gov.uk/OpenDataFiles/FHRS801en-GB.xml,1090
+Northern Ireland,Ards and North Down,http://ratings.food.gov.uk/OpenDataFiles/FHRS802en-GB.xml,1402
+Northern Ireland,Armagh City Banbridge and Craigavon,http://ratings.food.gov.uk/OpenDataFiles/FHRS803en-GB.xml,1571
+Northern Ireland,Belfast City,http://ratings.food.gov.uk/OpenDataFiles/FHRS807en-GB.xml,3092
+Northern Ireland,Causeway Coast and Glens,http://ratings.food.gov.uk/OpenDataFiles/FHRS805en-GB.xml,1470
+Northern Ireland,Derry City and Strabane,http://ratings.food.gov.uk/OpenDataFiles/FHRS813en-GB.xml,1310
+Northern Ireland,Fermanagh and Omagh,http://ratings.food.gov.uk/OpenDataFiles/FHRS816en-GB.xml,1363
+Northern Ireland,Lisburn and Castlereagh City,http://ratings.food.gov.uk/OpenDataFiles/FHRS809en-GB.xml,870
+Northern Ireland,Mid and East Antrim,http://ratings.food.gov.uk/OpenDataFiles/FHRS804en-GB.xml,1186
+Northern Ireland,Mid Ulster,http://ratings.food.gov.uk/OpenDataFiles/FHRS811en-GB.xml,1276
+Northern Ireland,Newry Mourne and Down,http://ratings.food.gov.uk/OpenDataFiles/FHRS814en-GB.xml,1505
+Scotland,Aberdeen City,http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml,1761
+Scotland,Aberdeenshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS761en-GB.xml,1777
+Scotland,Angus,http://ratings.food.gov.uk/OpenDataFiles/FHRS762en-GB.xml,877
+Scotland,Argyll and Bute,http://ratings.food.gov.uk/OpenDataFiles/FHRS763en-GB.xml,871
+Scotland,Clackmannanshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS768en-GB.xml,429
+Scotland,Comhairle nan Eilean Siar (Western Isles),http://ratings.food.gov.uk/OpenDataFiles/FHRS791en-GB.xml,452
+Scotland,Dumfries and Galloway,http://ratings.food.gov.uk/OpenDataFiles/FHRS770en-GB.xml,1339
+Scotland,Dundee City,http://ratings.food.gov.uk/OpenDataFiles/FHRS772en-GB.xml,1322
+Scotland,East Ayrshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS764en-GB.xml,1090
+Scotland,East Dunbartonshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS771en-GB.xml,562
+Scotland,East Lothian,http://ratings.food.gov.uk/OpenDataFiles/FHRS781en-GB.xml,929
+Scotland,East Renfrewshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS787en-GB.xml,526
+Scotland,Edinburgh (City of),http://ratings.food.gov.uk/OpenDataFiles/FHRS773en-GB.xml,4159
+Scotland,Falkirk,http://ratings.food.gov.uk/OpenDataFiles/FHRS774en-GB.xml,1203
+Scotland,Fife,http://ratings.food.gov.uk/OpenDataFiles/FHRS775en-GB.xml,3879
+Scotland,Glasgow City,http://ratings.food.gov.uk/OpenDataFiles/FHRS776en-GB.xml,5209
+Scotland,Highland,http://ratings.food.gov.uk/OpenDataFiles/FHRS777en-GB.xml,3669
+Scotland,Inverclyde,http://ratings.food.gov.uk/OpenDataFiles/FHRS778en-GB.xml,602
+Scotland,Midlothian,http://ratings.food.gov.uk/OpenDataFiles/FHRS783en-GB.xml,629
+Scotland,Moray,http://ratings.food.gov.uk/OpenDataFiles/FHRS784en-GB.xml,1061
+Scotland,North Ayrshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS765en-GB.xml,1191
+Scotland,North Lanarkshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS779en-GB.xml,2602
+Scotland,Orkney Islands,http://ratings.food.gov.uk/OpenDataFiles/FHRS785en-GB.xml,299
+Scotland,Perth and Kinross,http://ratings.food.gov.uk/OpenDataFiles/FHRS786en-GB.xml,1065
+Scotland,Renfrewshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS788en-GB.xml,1364
+Scotland,Scottish Borders,http://ratings.food.gov.uk/OpenDataFiles/FHRS767en-GB.xml,1523
+Scotland,Shetland Islands,http://ratings.food.gov.uk/OpenDataFiles/FHRS789en-GB.xml,355
+Scotland,South Ayrshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS766en-GB.xml,1300
+Scotland,South Lanarkshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS780en-GB.xml,2362
+Scotland,Stirling,http://ratings.food.gov.uk/OpenDataFiles/FHRS790en-GB.xml,1267
+Scotland,West Dunbartonshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS769en-GB.xml,743
+Scotland,West Lothian,http://ratings.food.gov.uk/OpenDataFiles/FHRS782en-GB.xml,1056
+Wales,Anglesey,http://ratings.food.gov.uk/OpenDataFiles/FHRS551en-GB.xml,650
+Wales,Blaenau Gwent,http://ratings.food.gov.uk/OpenDataFiles/FHRS552en-GB.xml,570
+Wales,Bridgend,http://ratings.food.gov.uk/OpenDataFiles/FHRS553en-GB.xml,1061
+Wales,Caerphilly,http://ratings.food.gov.uk/OpenDataFiles/FHRS555en-GB.xml,1302
+Wales,Cardiff,http://ratings.food.gov.uk/OpenDataFiles/FHRS556en-GB.xml,2879
+Wales,Carmarthenshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS558en-GB.xml,1660
+Wales,Ceredigion,http://ratings.food.gov.uk/OpenDataFiles/FHRS557en-GB.xml,1109
+Wales,Conwy,http://ratings.food.gov.uk/OpenDataFiles/FHRS550en-GB.xml,1601
+Wales,Denbighshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS559en-GB.xml,904
+Wales,Flintshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS560en-GB.xml,1087
+Wales,Gwynedd,http://ratings.food.gov.uk/OpenDataFiles/FHRS554en-GB.xml,2009
+Wales,Merthyr Tydfil,http://ratings.food.gov.uk/OpenDataFiles/FHRS561en-GB.xml,498
+Wales,Monmouthshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS562en-GB.xml,849
+Wales,Neath Port Talbot,http://ratings.food.gov.uk/OpenDataFiles/FHRS563en-GB.xml,1017
+Wales,Newport,http://ratings.food.gov.uk/OpenDataFiles/FHRS564en-GB.xml,1291
+Wales,Pembrokeshire,http://ratings.food.gov.uk/OpenDataFiles/FHRS565en-GB.xml,2009
+Wales,Powys,http://ratings.food.gov.uk/OpenDataFiles/FHRS566en-GB.xml,2246
+Wales,Rhondda Cynon Taf,http://ratings.food.gov.uk/OpenDataFiles/FHRS567en-GB.xml,1941
+Wales,Swansea,http://ratings.food.gov.uk/OpenDataFiles/FHRS568en-GB.xml,1672
+Wales,Torfaen,http://ratings.food.gov.uk/OpenDataFiles/FHRS569en-GB.xml,710
+Wales,Vale of Glamorgan,http://ratings.food.gov.uk/OpenDataFiles/FHRS570en-GB.xml,1073
+Wales,Wrexham,http://ratings.food.gov.uk/OpenDataFiles/FHRS571en-GB.xml,1062
