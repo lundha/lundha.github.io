@@ -340,7 +340,7 @@ stir
 
     
 
-Comparing Table 6 with Figure 4 reveals that Toronto and Montreal probably are not good choices due to the high STIR percentage, which includes all types of households. Toronto also has the worse unemployment rate of the two. On the other hand, Thunder Bay is likely receiving less attention due to its distance from the Golden Horseshoe area. Moving to Sudbury and Greater Sudbury seem to be a risk - given the third highest unemployment rate - that new Italians seem to be willing to take. All in all, the Ottawa-Gatineau CMA seems to be offering the better conditions.  
+Comparing Table 6 with Figure 4 reveals that Toronto and Montreal probably are not good choices due to the high STIR percentage, which includes all types of households. Toronto also has the worse unemployment rate of the two. On the other hand, Thunder Bay is likely receiving less attention due to its distance from the Golden Horseshoe area. Moving to Sudbury and Greater Sudbury is a risk - given the third highest unemployment rate - that new Italians seem to be willing to take. All in all, the Ottawa-Gatineau CMA seems to be offering the better conditions.  
 
 But which aspect drives the relocation choice of new Italians the most? Do they move more to cities with low STIRs, or to places with low unemployment rates? Let's take a look at two regression graphs: new Italian PRs vs STIR, and new Italian PRs vs Unemployment.
 
