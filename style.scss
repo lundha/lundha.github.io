@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helvetica;
+  font-family: $consolas;
   color: $darkerGray;
   font-weight: bold;
 
@@ -139,7 +139,7 @@ table {
 // Rules for displaying CODE BLOCKS
 pre {	
 font-family: "Courier 10 Pitch", Courier, monospace;
-font-size: 85%;
+font-size: 100%;
 line-height: 1.2em; 
 white-space: normal; 
 white-space: normal; 
