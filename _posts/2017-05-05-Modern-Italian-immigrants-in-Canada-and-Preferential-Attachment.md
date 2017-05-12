@@ -6,7 +6,7 @@
 <img src="/images/Picture3.png" width="180" height="120"> 
 
 
-I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had, buying the ticket, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
+I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had to buy the tickets, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
 
 
 
@@ -164,7 +164,7 @@ As visible, the Italian population in this area is mainly living in the Toronto-
 
 
 
-Now, it is clear that there always been a trend for Italians to go to Ontario (or Quebec, to a lesser extent). Only a few endeavoured to settle on the West Coast (Italians constitute 2.4% of Vancouver's population), and even less reached the Prairies (the Italians in Calgary, Edmonton, and Winnipeg do not exceed 0.5% of the total number of residents in each city, with Regina and Saskatoon not even making the cut).
+Now, it is clear that there has always been a trend for Italians to go to Ontario (or Quebec, to a lesser extent). Only a few endeavoured to settle on the West Coast (Italians constitute 2.4% of Vancouver's population), and even less reached the Prairies (the Italians in Calgary, Edmonton, and Winnipeg do not exceed 0.5% of the total number of residents in each city, with Regina and Saskatoon not even making the cut).
 
 Given this situation, I thought two questions were legitimate: 
 1. **Where do modern Italian immigrants go to live, in Canada?** 
