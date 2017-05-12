@@ -382,3 +382,5 @@ Figure 5 reveals that new Italians don't supposedly look at things like STIR and
 ---
 <script src="http://counter.heroku.com/javascripts/count.js" type="text/javascript"></script>	
 <div>Hit Count: <span id = "count"></span><div>
+
+---
