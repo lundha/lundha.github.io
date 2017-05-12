@@ -185,11 +185,11 @@ border: 0.5px solid #000000;
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: #3297FD;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: #3297FD;
 }
 
 // Nicolas Gallagher's micro clearfix hack
