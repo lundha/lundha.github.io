@@ -7,8 +7,6 @@
 
 I am *Italian*, and I know how traditionalists we are. Wherever we go, we look for Italian food, Italian clothes, Italian cars, and... *someone speaking Italian*. We share this feature with all the other Mediterranean peoples. Our Country is well known for the food, its nice weather, its culture, history, and music. But many ignore the fact that Italy has historically been harsh towards its sons and daughters, repeatedly forcing them to migrate in search for a better life. The [Italian Diaspora](https://en.wikipedia.org/wiki/Italian_diaspora) has had two main runs, first from 1860-1920, and then from 1945-1970. In 1913 alone, a mind-boggling 872,598 people fled. Many of them liked **Canada** and the promise of a better life it offered. I have always been fascinated with stories of people leaving the sad *double f* behind (family and famine), selling whatever they had, buying the ticket, and sailing across the Atlantic Ocean. Parents, relatives, acquintances, or the unknown for the unlucky ones, lied ahead. For many, that was a one-way journey driven by the need for a better future. But first, they had to do a stopover in Halifax, at [Pier 21](https://www.pier21.ca/home/).
 
-	cicici
-	cicici
 
 
 ![Migrants](/images/canadian-museum-of-immigration.jpg)
@@ -29,13 +27,13 @@ My idea is to test whether the modern Italian immigrants - those admitted into C
 To identify the places where Italians have historically settled, let's consider all Canadian cities with a population of Italian descent of at least 2,000 people. The total population data are available through [1], whereas the data regarding Italians come from [2]. Latitude and longitude values can be looked up in [3]. 
 
 
-```R
-library(maps)
-library(mapdata)
-data<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italians_in_Canada.csv")
-newdata<-data[order(-data$Percentage),]
-newdata
-```
+
+	library(maps)
+	library(mapdata)
+	data<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italians_in_Canada.csv")
+	newdata<-data[order(-data$Percentage),]
+	newdata
+
 
 
 <table>
@@ -70,14 +68,14 @@ newdata
 When plotted with circles, it is really evident where Italians traditionally live in Canada.
 
 
-```R
-options(repr.plot.width=7, repr.plot.height=5)
-map("worldHires","Canada", xlim=c(-141,-53), ylim=c(40,85), col="gray90", fill=TRUE)
-points(data$Lon, data$Lat, pch=19, col=rgb(255/255,0/255,0/255,alpha=0.5), cex=data$Percentage/2) 
-par(xpd=TRUE) #Places legend outside the plot
-legend(x=-60,y=85,title="Italians (%)",pt.cex=newdata$Percentage/2,bty="n",pch=19,legend=newdata$Percentage,text.col="black",
-       col=rgb(255/255,0/255,0/255,alpha=0.5),pt.bg=rgb(255/255,0/255,0/255,alpha=0.5))
-```
+
+	options(repr.plot.width=7, repr.plot.height=5)
+	map("worldHires","Canada", xlim=c(-141,-53), ylim=c(40,85), col="gray90", fill=TRUE)
+	points(data$Lon, data$Lat, pch=19, col=rgb(255/255,0/255,0/255,alpha=0.5), cex=data$Percentage/2) 
+	par(xpd=TRUE) #Places legend outside the plot
+	legend(x=-60,y=85,title="Italians (%)",pt.cex=newdata$Percentage/2,bty="n",pch=19,legend=newdata$Percentage,text.col="black",
+	       col=rgb(255/255,0/255,0/255,alpha=0.5),pt.bg=rgb(255/255,0/255,0/255,alpha=0.5))
+
 
 ![Italians-in-Canada](/images/output_11_1.png)
 **Figure 1**
@@ -88,10 +86,9 @@ The Ontario-Quebec macroregion is the most densely populated in Canada, combinin
 ### Ontario and Quebec
 
 
-```R
-ont <- newdata[newdata$Province == "Ontario" | newdata$Province == "Quebec", ] #|=or
-ont
-```
+
+	ont <- newdata[newdata$Province == "Ontario" | newdata$Province == "Quebec", ] #|=or
+	ont
 
 <div class="table-wrapper">
 <table>
@@ -118,29 +115,29 @@ ont
 
     
 
-```R
-options(repr.plot.width=7, repr.plot.height=5)
-map("worldHires","Canada", xlim=c(-91.5,-65), ylim=c(40,57), col="gray90", fill=TRUE)
-points(data$Lon, data$Lat, pch=19, col=rgb(255/255,0/255,0/255,alpha=0.4), cex=data$Percentage/2)
-text(x=-89.14, y=48.22-0.8, labels="Thunder Bay", cex= 0.8,font=2)
-text(x=-73.34+1, y=45.30-0.8, labels="Montreal", cex= 0.8,font=2)
-text(x=-75.41-1, y=45.25+0.5, labels="Ottawa", cex= 0.8,font=2)
-text(x=-83-2, y=42.17, labels="Windsor", cex= 0.8,font=2)
-text(x=-84.21-1, y=46.32-0.8, labels="Sault Ste. Marie", cex= 0.8,font=2)
-text(x=-81.00, y=46.29+0.5, labels="Sudbury", cex= 0.8,font=2)
-text(x=-79.44+0.7, y=43.52+1, labels="Bolton", cex= 0.8,font=2)
-text(x=-81.25-1.8, y=42.98+0.2, labels="London", cex= 0.8,font=2)
-text(x=-80.15-1.8, y=43.33+0.2, labels="Guelph", cex= 0.8,font=2)
-text(x=-79.44+3, y=43.11+0.5, labels="Toronto", cex= 0.8,font=2)
-text(x=-79.44+3, y=43.11+0.1, labels="Hamilton", cex= 0.8,font=2)
-text(x=-79.44+3, y=42.81, labels="St. Catharines", cex= 0.8,font=2)
-text(x=-79.44+3, y=42.41, labels="Oshawa", cex= 0.8,font=2)
-text(x=-81.00, y=46.29+3, labels="ONTARIO", cex= 0.8,font=3)
-text(x=-73.34+1, y=45.30+5, labels="QUEBEC", cex= 0.8,font=3)
-par(xpd=TRUE) #Places legend outside the plot
-legend(x=-65,y=56,title="Italians (%)",pt.cex=c(1,2,2.5,3.5,6),bty="n",pch=19,legend=c("<1","2","5","8",">10"),
-       text.col="black",col=rgb(255/255,0/255,0/255,alpha=0.4),pt.bg=rgb(255/255,0/255,0/255,alpha=0.4))
-```
+
+	options(repr.plot.width=7, repr.plot.height=5)
+	map("worldHires","Canada", xlim=c(-91.5,-65), ylim=c(40,57), col="gray90", fill=TRUE)
+	points(data$Lon, data$Lat, pch=19, col=rgb(255/255,0/255,0/255,alpha=0.4), cex=data$Percentage/2)
+	text(x=-89.14, y=48.22-0.8, labels="Thunder Bay", cex= 0.8,font=2)
+	text(x=-73.34+1, y=45.30-0.8, labels="Montreal", cex= 0.8,font=2)
+	text(x=-75.41-1, y=45.25+0.5, labels="Ottawa", cex= 0.8,font=2)
+	text(x=-83-2, y=42.17, labels="Windsor", cex= 0.8,font=2)
+	text(x=-84.21-1, y=46.32-0.8, labels="Sault Ste. Marie", cex= 0.8,font=2)
+	text(x=-81.00, y=46.29+0.5, labels="Sudbury", cex= 0.8,font=2)
+	text(x=-79.44+0.7, y=43.52+1, labels="Bolton", cex= 0.8,font=2)
+	text(x=-81.25-1.8, y=42.98+0.2, labels="London", cex= 0.8,font=2)
+	text(x=-80.15-1.8, y=43.33+0.2, labels="Guelph", cex= 0.8,font=2)
+	text(x=-79.44+3, y=43.11+0.5, labels="Toronto", cex= 0.8,font=2)
+	text(x=-79.44+3, y=43.11+0.1, labels="Hamilton", cex= 0.8,font=2)
+	text(x=-79.44+3, y=42.81, labels="St. Catharines", cex= 0.8,font=2)
+	text(x=-79.44+3, y=42.41, labels="Oshawa", cex= 0.8,font=2)
+	text(x=-81.00, y=46.29+3, labels="ONTARIO", cex= 0.8,font=3)
+	text(x=-73.34+1, y=45.30+5, labels="QUEBEC", cex= 0.8,font=3)
+	par(xpd=TRUE) #Places legend outside the plot
+	legend(x=-65,y=56,title="Italians (%)",pt.cex=c(1,2,2.5,3.5,6),bty="n",pch=19,legend=c("<1","2","5","8",">10"),
+	       text.col="black",col=rgb(255/255,0/255,0/255,alpha=0.4),pt.bg=rgb(255/255,0/255,0/255,alpha=0.4))
+
 
 ![Ontario-Quebec](/images/output_15_1.png)
 **Figure 2**
@@ -150,16 +147,16 @@ legend(x=-65,y=56,title="Italians (%)",pt.cex=c(1,2,2.5,3.5,6),bty="n",pch=19,le
 As visible, the Italian population in this area is mainly living in the Toronto-Hamilton-St. Catharines-Oshawa-Bolton conurbation, which in 2014 had 3,577,162 residents. Of these, the Italians were a slice as large as 5.25%. Away from this hotbed, notable Italian presence can be observed in Montreal (6.3%), Sault Ste. Marie (4.5%), and Windsor (3.9%). 
 
 
-```R
-#Plotting
-cols <- ifelse(ont$City == "Toronto" | ont$City == "Hamilton" | ont$City == "Oshawa" | 
-               ont$City == "St. Catharines" | ont$City == "Bolton", "darkred","grey")
-mybar<-barplot(ont$Percentage,names.arg=ont$City,main="Percentage of Italian Residents by City",ylab="%",
-        ylim=c(0,12),cex.names=0.70,las=2,col=cols,)
-lines(x = mybar, y = ont$Percentage,col="blue",lwd=3,lty="dashed")
-legend(12, 11, legend=c("Macroregion","Other","Power law"),fill=c("darkred", "grey","blue"),cex=0.88)
-mtext("Ontario and Quebec")
-```
+
+	#Plotting
+	cols <- ifelse(ont$City == "Toronto" | ont$City == "Hamilton" | ont$City == "Oshawa" | 
+		       ont$City == "St. Catharines" | ont$City == "Bolton", "darkred","grey")
+	mybar<-barplot(ont$Percentage,names.arg=ont$City,main="Percentage of Italian Residents by City",ylab="%",
+		ylim=c(0,12),cex.names=0.70,las=2,col=cols,)
+	lines(x = mybar, y = ont$Percentage,col="blue",lwd=3,lty="dashed")
+	legend(12, 11, legend=c("Macroregion","Other","Power law"),fill=c("darkred", "grey","blue"),cex=0.88)
+	mtext("Ontario and Quebec")
+
 
 ![Powerlaw](/images/output_17_1.png)
 **Figure 3**
@@ -187,11 +184,11 @@ Unfortunately, the most remarkable part of the bar plot in Figure 3 - represente
 Table 3 shows the number of PRs issued to Italian immigrants in the period 2006-2015:
 
 
-```R
-itprs<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italian_PR_admissions.csv",header=TRUE,check.names=FALSE)
-itprs<-itprs[order(itprs$City),]
-itprs
-```
+
+	itprs<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Italian_PR_admissions.csv",header=TRUE,check.names=FALSE)
+	itprs<-itprs[order(itprs$City),]
+	itprs
+
 
 
 <table>
@@ -222,11 +219,11 @@ itprs
 The total number of new PRs in the cities in Table 2 over the 2006-2015 period is derived from the same dataset as above:
 
 
-```R
-prs<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Total_PR_admissions.csv",header=TRUE,check.names=FALSE)
-prs<-prs[order(prs$City),]
-prs
-```
+
+	prs<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Total_PR_admissions.csv",header=TRUE,check.names=FALSE)
+	prs<-prs[order(prs$City),]
+	prs
+
 
 
 <table>
@@ -257,13 +254,13 @@ prs
 The percentage of Italian PRs with respect to the totals in Table 4 is easy to compute:
 
 
-```R
-itprs$PRs_Percentage<-round(itprs$Total/prs$Total,digits=3)*100
-df<-data.frame("City"=ont$City,"Historical_Percentage"=ont$Percentage,
-               "Current_Percentage"=itprs$PRs_Percentage,check.names=FALSE)
-df<-df[order(-df$Historical_Percentage),]
-df
-```
+
+	itprs$PRs_Percentage<-round(itprs$Total/prs$Total,digits=3)*100
+	df<-data.frame("City"=ont$City,"Historical_Percentage"=ont$Percentage,
+		       "Current_Percentage"=itprs$PRs_Percentage,check.names=FALSE)
+	df<-df[order(-df$Historical_Percentage),]
+	df
+
 
 
 <table>
@@ -293,13 +290,13 @@ df
 Now, back to question 2: do modern Italians settle in places in Canada where the Italian presence is historically notable?
 
 
-```R
-names <- c("Bolton", "St. Catharines", "Montreal", "Toronto", "Sault Ste. Marie",
-           "Windsor","Hamilton","Thunder Bay","Oshawa","Guelph","Sudbury","Ottawa","London")
-barplot(cbind(df$Historical_Percentage,df$Current_Percentage), main="Historical vs Current Percentage of Italian Immigrants", 
-        ylab="%", beside=TRUE, col=rep(c('darkblue', 'red'), each=13),ylim=c(0,12),names.arg=c(names,names),las=2,cex.names=0.7)
-legend(13, 11.5, c("Historical","Current"), cex=0.88, fill=c("darkblue","red"))
-```
+
+	names <- c("Bolton", "St. Catharines", "Montreal", "Toronto", "Sault Ste. Marie",
+		   "Windsor","Hamilton","Thunder Bay","Oshawa","Guelph","Sudbury","Ottawa","London")
+	barplot(cbind(df$Historical_Percentage,df$Current_Percentage), main="Historical vs Current Percentage of Italian Immigrants", 
+		ylab="%", beside=TRUE, col=rep(c('darkblue', 'red'), each=13),ylim=c(0,12),names.arg=c(names,names),las=2,cex.names=0.7)
+	legend(13, 11.5, c("Historical","Current"), cex=0.88, fill=c("darkblue","red"))
+
 
 
 ![Historical-Current](/images/output_26_1.png)
@@ -317,11 +314,11 @@ The (tiny) numbers of new Italian immigrants no longer choose Bolton or St. Cath
 To check whether the new Italians use *more affordable housing* as a relocation criterion, it is probably worth checking the average Shelter-To-Income-Ratio ([STIR](http://www12.statcan.gc.ca/nhs-enm/2011/ref/dict/households-menage028-eng.cfm)), which is the percentage of total before-tax household income spent on shelter. So, a higher STIR means a more expensive houshold. The following data ara available through the [beyond 2020](http://cmhc.beyond2020.com) website, via the "Lauch Table Viewer" option. The unemployment rate values come from [statcan](http://www.statcan.gc.ca/tables-tableaux/sum-som/l01/cst01/lfss03h-eng.htm).
 
 
-```R
-stir<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Average_STIR_Canada.csv",header=TRUE,check.names=FALSE)
-stir<-stir[order(stir$City),]
-stir
-```
+
+	stir<-read.csv("C:\\Users\\Francesco\\Desktop\\Data_Science_portfolio\\Average_STIR_Canada.csv",header=TRUE,check.names=FALSE)
+	stir<-stir[order(stir$City),]
+	stir
+
 
 
 <table>
@@ -353,17 +350,17 @@ Comparing Table 6 with Figure 4 reveals that Toronto and Montreal probably are n
 But which aspect drives the relocation choice of new Italians the most? Do they move more to cities with low STIRs, or to places with low unemployment rates? Let's take a look at two regression graphs: new Italian PRs vs STIR, and new Italian PRs vs Unemployment.
 
 
-```R
-x1=stir$Average_STIR_2011_CMA
-x2=stir$Unemployment_March2017
-y=itprs$Total
-par(mfrow=c(1,2))
-plot(x1, y, xlab="Average STIR (%)",ylab="new Italian PRs",main="Average STIR vs Italian PRs",col="red",pch=16,cex.main=0.9) 
-grid()
-plot(x2, y, xlab="Unemployment Rate (%)",ylab="new Italian PRs",main="Unemployment Rate vs Italian PRs",
-     col="blue",pch=17,cex.main=0.9)   
-grid()
-```
+
+	x1=stir$Average_STIR_2011_CMA
+	x2=stir$Unemployment_March2017
+	y=itprs$Total
+	par(mfrow=c(1,2))
+	plot(x1, y, xlab="Average STIR (%)",ylab="new Italian PRs",main="Average STIR vs Italian PRs",col="red",pch=16,cex.main=0.9) 
+	grid()
+	plot(x2, y, xlab="Unemployment Rate (%)",ylab="new Italian PRs",main="Unemployment Rate vs Italian PRs",
+	     col="blue",pch=17,cex.main=0.9)   
+	grid()
+
     
 
 ![Scatter](/images/output_32_1.png)
