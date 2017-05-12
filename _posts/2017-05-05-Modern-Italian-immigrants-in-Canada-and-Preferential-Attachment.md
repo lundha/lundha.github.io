@@ -1,7 +1,7 @@
 
 #### **Where do modern Italian immigrants go to live in Canada? Is their choice affected by preferential attachment?**
 ##### *A Data Science project carried out with Jupyter and R*
-###### *05 May 2017*
+###### *May 5, 2017*
 ---
 
 <img src="/images/Picture3.png" width="180" height="120"> 
