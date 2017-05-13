@@ -10,7 +10,8 @@ In the United Kingdom, as well as in most Countries, this matter is taken seriou
 
 These standards, as well as the agency enforcing them, vary. In Scotland, food hygiene standards are overseen by [Food Standards Scotland](https://en.wikipedia.org/wiki/Food_Standards_Scotland), while in the rest of the United Kingdom they are enforced by the [Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency). 
 
-<img src="/images/Hygiene_Agencies.png" width="300" height="180">
+<img src="/images/Hygiene_Agencies.png" width="300" height="150">
+*Images found [here](By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=31960609) and [here](By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=46950875).
 
 As of May 2017, there are 47,477 businesses to be screened in Scotland, and  
 
