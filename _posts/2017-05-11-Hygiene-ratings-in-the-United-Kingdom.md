@@ -2,4 +2,4 @@
 ##### A Data Science project carried out with Jupyter and Python | May 11, 2017
 ---
 
-<img src="/images/Ratings.png" width="180" height="120"> 
+<img src="/images/Ratings.png" width="220" height="150"> 
