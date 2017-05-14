@@ -22,59 +22,68 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 
 <table class="tg">
   <tr>
-    <th class="tg-yw4l" colspan="2">Scotland (FHIS)</th>
+    <th class="tg-baqh" colspan="2">*Scotland (FHIS)*</th>
   </tr>
   <tr>
-    <td class="tg-yw4l">1</td>
-    <td class="tg-yw4l">Pass and East Safe</td>
+    <td class="tg-baqh">1</td>
+    <td class="tg-baqh">Pass and East Safe</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">2</td>
-    <td class="tg-yw4l">Pass</td>
+    <td class="tg-baqh">2</td>
+    <td class="tg-baqh">Pass</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">3</td>
-    <td class="tg-yw4l">Improvement Required</td>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">Improvement Required</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">4</td>
-    <td class="tg-yw4l">Awaiting Publication</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">Awaiting Publication</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">5</td>
-    <td class="tg-yw4l">Awaiting Inspection</td>
+    <td class="tg-baqh">5</td>
+    <td class="tg-baqh">Awaiting Inspection</td>
   </tr>
-</table>
-
-<table>
-<thead><tr><th scope="col"<td colspan=2> Scotland (FHIS)</th></tr></thead>
-<tbody>
-<tr><th scope="row">1</th><th>Pass and Eat Safe</th>  
-<tr><th scope="row">2</th><th>Pass</th> 
-<tr><th scope="row">3</th><th>Improvement Required</th>
-<tr><th scope="row">4</th><th>Awaiting Publication</th>
-<tr><th scope="row">5</th><th>Awaiting Inspection</th> 
-</tbody>
 </table>
 
 
 
 **Table 1 - Ratings for Scotland**
 
-<table>
-<thead>
-<tr><th scope="col" <td colspan=3>Rest of the UK (FHRS)</th></tr>
-<tr><th scope="col" <td colspan=2>Hygiene score</th><th scope="col" <td colspan=1>Hygiene rating</th></tr>
-</thead>
-<tbody>
-<tr><th scope="row">1</th><th>0-15</th><th>5</th></tr>  
-<tr><th scope="row">2</th><th>20</th><th>4</th></tr> 
-<tr><th scope="row">3</th><th>25-30</th><th>3</th></tr>
-<tr><th scope="row">4</th><th>35-40</th><th>2</th></tr>
-<tr><th scope="row">5</th><th>45-50</th><th>1</th></tr> 
-<tr><th scope="row">6</th><th>>50</th><th>0</th></tr>
-</tbody>
+<table class="tg">
+  <tr>
+    <th class="tg-baqh" colspan="2">*Rest of the UK (FHRS)*</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Hygiene score</td>
+    <td class="tg-baqh">Hygiene rating</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">0-15</td>
+    <td class="tg-baqh">5</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">20</td>
+    <td class="tg-baqh">4</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">25-30</td>
+    <td class="tg-baqh">3</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">35-40</td>
+    <td class="tg-baqh">2</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">45-50</td>
+    <td class="tg-baqh">1</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">&gt;50</td>
+    <td class="tg-baqh">0</td>
+  </tr>
 </table>
+
 
 **Table 2 - Ratings for the rest of the UK**
 
