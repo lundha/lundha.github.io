@@ -152,6 +152,6 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
                 xmlfilename = url.rsplit('/', 1)[-1]
                 code.writestr(xmlfilename, data)
                 
-Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. 
+Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. Each file in the Scotland folder [has the hygiene descriptor under the *EstablishmentDetail/RatingValue* branch](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *EstablishmentDetail/Scores/Hygiene* branch](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get hold of these values. 
 
 
