@@ -8,7 +8,7 @@ While sitting at the table of a restaurant, I have seen a fair number of people 
 
 In the United Kingdom, as well as in most Countries, this matter is taken seriously by the Government. In 2001, following the proposal of a [detailed report](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/265718/fsa.pdf), the [Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency) was formed, the purpose being to screen all businesses that serve food. The idea was to make sure they complied with a set of hygiene standards, so that food always remained safe to eat.
 
-These standards, as well as the agency enforcing them, vary. In Scotland, food hygiene standards are overseen by [Food Standards Scotland](https://en.wikipedia.org/wiki/Food_Standards_Scotland), while in the rest of the United Kingdom they are enforced by the [Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency). 
+In Scotland, food hygiene standards are overseen by [Food Standards Scotland](https://en.wikipedia.org/wiki/Food_Standards_Scotland), while in the rest of the United Kingdom they are enforced by the [Food Standards Agency](https://en.wikipedia.org/wiki/Food_Standards_Agency). 
 
 <img src="/images/Hygiene_Agencies.png" width="300" height="80">
 
@@ -16,7 +16,18 @@ These standards, as well as the agency enforcing them, vary. In Scotland, food h
 
 
 
-As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,897 in the rest of the United Kingdom, included Northern Ireland. This is a huge cohort of businesses to control, and the task is accomplished using *two different* schemes: the **Food Hygiene Information Scheme (FHIS)** in Scotland and the **Food Hygiene Rating Scheme (FHRS)** in the rest of the United Kingdom. The first uses a *categorical* set of descriptors that are directly assigned to each business, while the second adopts a *points scheme* that assigns high scores to poor hygiene conditions. The two schemes are reported in Table 1.
+As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,897 in the rest of the United Kingdom, included Northern Ireland. This is a huge cohort, and the task is accomplished using *two different* schemes: the **Food Hygiene Information Scheme (FHIS)** in Scotland and the **Food Hygiene Rating Scheme (FHRS)** in the rest of the United Kingdom. The first uses *categorical* descriptors that are directly assigned to each business (Table 1), while the second adopts a *points scheme* that assigns high scores to poor hygiene conditions (Table 2).
+
+<table>
+<thead><tr><th scope="col">Scotland (FHIS)</th></tr></thead>
+<tbody>
+<tr><th scope="row">Pass and Eat Safe</th>  
+<tr><th scope="row">Pass</th> 
+<tr><th scope="row">Improvement Required</th>
+<tr><th scope="row">Awaiting Publication</th>
+<tr><th scope="row">Awaiting Inspection</th> 
+
+**Table 1**
 
 
 
