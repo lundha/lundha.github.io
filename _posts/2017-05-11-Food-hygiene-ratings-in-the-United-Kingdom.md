@@ -168,7 +168,7 @@ Once we have the zip folders, we need to extract all the files in a folder with 
     plt.tight_layout()
     
     
-<img src="/images/Barplot.png" width="200" height="120">
+<img src="/images/Barplot.png" width="400" height="250">
 
 **Figure 1** 
 
