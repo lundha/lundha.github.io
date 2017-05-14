@@ -94,5 +94,25 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 
 To figure out which areas of the UK host the dirtiest businesses food-wise, it is necessary to parse the [Food Standards Agency website](http://ratings.food.gov.uk/open-data/), where data are publicly available to download. These come in the form of [xml](https://en.wikipedia.org/wiki/XML) files that are grouped by region and local authority. Given the different rating system in place for Scotland, a separate analysis is required, and the results will not be adjusted to those of the rest of the UK.
 
+Python makes it easy to scrap websites with the [BeautifulSoup](http://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python) package. All we need to do is define an url, and we can use [urllib2](https://docs.python.org/2/howto/urllib2.html) for this.
+
+    from __future__ import division
+    import urllib2
+    from bs4 import BeautifulSoup
+    import os 
+    import zipfile
+    import pandas
+    import matplotlib.pyplot as plt
+    import xml.etree.ElementTree as ET
+
+    #Set project folder
+    myfolder = r'C:\Users\MyName\MyFolder' #Change as appropriate
+    os.chdir(myfolder)
+
+    #Set the url of a website
+    url = 'http://ratings.food.gov.uk/open-data/'
+    f = urllib2.urlopen(url)
+    mainpage = f.read()
+
 
 
