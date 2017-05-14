@@ -26,7 +26,7 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
   </tr>
   <tr>
     <td class="tg-baqh">1</td>
-    <td class="tg-baqh">Pass and East Safe</td>
+    <td class="tg-baqh">Pass and Eat Safe</td>
   </tr>
   <tr>
     <td class="tg-baqh">2</td>
