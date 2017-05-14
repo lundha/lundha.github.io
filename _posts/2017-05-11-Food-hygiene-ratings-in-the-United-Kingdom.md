@@ -154,4 +154,72 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
                 
 Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. Each file in the Scotland folder [has the hygiene descriptor under the *RatingValue* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *Hygiene* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get hold of these values. 
 
+    #Dictionary with ratings
+    ratings = {} #UK except Scotland
+    scotland = {} #Different rating system
+
+    tot_businesses = 0 #Count the number of businesses in the UK except Scotland
+
+    #Parsing the xml files in their individual directories
+    path = r'C:\Users\MyName\MyFolder\Files' #Change as appropriate
+    for root, dirs, files in os.walk(path,topdown=True):
+        gb_vals = [] #Stores the ratings for each region (=root)
+
+        #Check Scotland, as it has a different rating scheme
+        if root=='C:\\Users\\MyName\\MyFolder\\Files\\Scotland': #Change as appropriate
+            #Scottish ratings are categorical
+            passed = 0
+            passed_safe = 0
+            improve = 0
+            for file in files: #For each City/Area in Scotland
+                if not file.endswith('.xml'): continue
+                fullname = os.path.join(root, file)
+                print fullname[65:]
+                tree = ET.parse(fullname)
+                treeroot = tree.getroot()    
+                for each in treeroot.findall('.//EstablishmentDetail'): 
+                    councilarea = each.find('.//LocalAuthorityName')
+                    council = councilarea.text
+                for each in treeroot.findall('.//EstablishmentDetail'):
+                    rating = each.find('.//RatingValue')
+                    #Skip the rare situations of exempt businesses or similar
+                    if rating.text=='Exempt' or rating.text=='Awaiting publication' or rating.text=='Awaiting inspection' or rating is None:
+                        continue
+                    else:
+                        if rating.text=='Pass and Eat Safe':
+                            passed_safe+=1
+                        if rating.text=='Pass':
+                            passed+=1
+                        if rating.text=='Improvement Required':
+                            improve+=1
+                perc1 = round(100*improve/(passed_safe+passed),3) #Percentage of negative businesses
+                scotland[council] = perc1 #Saving values in the dictionary             
+
+        else: #All the other Regions
+            for file in files: #For each City/Area in the Region
+                count = 0 #Count number of non excellent businesses
+                if not file.endswith('.xml'): continue
+                fullname = os.path.join(root, file)
+                print fullname[65:]
+                tree = ET.parse(fullname)
+                treeroot = tree.getroot()
+                for each in treeroot.findall('.//Header'):
+                    businesses = each.find('.//ItemCount')
+                    tot_businesses = tot_businesses + int(businesses.text)
+                for each in treeroot.findall('.//Scores'):
+                    rating = each.find('.//Hygiene') 
+                    if rating is None:
+                        continue
+                    if int(rating.text)>=20: #Percentage of negative ranks
+                        count+=1
+                perc2 = round(count/int(businesses.text),3)        
+                gb_vals.append(perc2) #Get the rating value
+
+            region_name = str(root[65:]) #Getting the name of the Region as a text string
+            ratings[region_name] = gb_vals #Saving values in the dictionary           
+
+    #Average ratings per region, UK except Scotland
+    avg_gb = {k:round(100*sum(i)/len(i),3) for k,i in ratings.items() if len(i)>0}
+
+
 
