@@ -22,7 +22,7 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 
 <table class="tg">
   <tr>
-    <th class="tg-baqh" colspan="2">*Scotland (FHIS)*</th>
+    <th class="tg-baqh" colspan="2">Scotland (FHIS)</th>
   </tr>
   <tr>
     <td class="tg-baqh">1</td>
@@ -52,7 +52,7 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 
 <table class="tg">
   <tr>
-    <th class="tg-baqh" colspan="2">*Rest of the UK (FHRS)*</th>
+    <th class="tg-baqh" colspan="2">Rest of the UK (FHRS)</th>
   </tr>
   <tr>
     <td class="tg-baqh">Hygiene score</td>
