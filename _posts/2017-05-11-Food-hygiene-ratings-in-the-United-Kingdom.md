@@ -92,27 +92,67 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 
 ### Parsing xml files from the Food Standards Agency website
 
-To figure out which areas of the UK host the dirtiest businesses food-wise, it is necessary to parse the [Food Standards Agency website](http://ratings.food.gov.uk/open-data/), where data are publicly available to download. These come in the form of [xml](https://en.wikipedia.org/wiki/XML) files that are grouped by region and local authority. Given the different rating system in place for Scotland, a separate analysis is required, and the results will not be adjusted to those of the rest of the UK.
+To figure out which areas of the UK host the dirtiest businesses food-wise, it is necessary to parse the [Food Standards Agency website](http://ratings.food.gov.uk/open-data/), where data are publicly available to download. These come in the form of [xml](https://en.wikipedia.org/wiki/XML) files that are grouped by region and local authority (Scotland is included). Given the different rating system in place for Scotland, a separate analysis is required, and the results will not be adjusted to those of the rest of the UK.
 
-Python makes it easy to scrap websites with the [BeautifulSoup](http://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python) package. All we need to do is define an url, and we can use [urllib2](https://docs.python.org/2/howto/urllib2.html) for this.
+This part of the project relies on:
+1. Scraping the Food Standards Agency html page to extract the file names to be downloaded;
+2. For each region on the html page, downloading a zip folder containing only the relevant xml files.
+
+Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](http://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python) package. All we need to do is define an url, and we can use [urllib2](https://docs.python.org/2/howto/urllib2.html) for this. Then, the download can be performed using a list of file names produced parsing the html page, as BeautifulSoup needs to know which files we need. In the end, a zip folder will be created for each region on the html page, with each folder containing only the relevant xml files.
 
     from __future__ import division
     import urllib2
     from bs4 import BeautifulSoup
     import os 
     import zipfile
-    import pandas
-    import matplotlib.pyplot as plt
     import xml.etree.ElementTree as ET
 
     #Set project folder
     myfolder = r'C:\Users\MyName\MyFolder' #Change as appropriate
-    os.chdir(myfolder)
+    os.chdir(myfolder) #Get inside the project folder
 
     #Set the url of a website
     url = 'http://ratings.food.gov.uk/open-data/'
     f = urllib2.urlopen(url)
     mainpage = f.read()
-
+    
+    #Get the list of file names to download
+    soup = BeautifulSoup(mainpage, 'html.parser')
+    tablewrapper = soup.find(id='openDataStatic')
+    regions = []
+    filenames = {} #Dictionary with {Region:[list of file names]}
+    with open('Regions_and_files.csv', 'w') as f:
+        f.write("Region,City,File,Businesses"+'\n')
+        for h2 in soup.find_all('h2')[6:]:
+            temp = [] #Stores the links for each region
+            region = h2.text.strip() #Get the text of each h2 without the white spaces
+            regions.append(str(region))
+            table = h2.next_sibling.next_sibling
+            for tr in table.find_all('tr')[1:]: # Skip headers
+                tds = tr.find_all('td')
+                if len(tds)==0:
+                    continue
+                else:
+                    a = tr.find_all('a')
+                    link = str(a)[10:67]
+                    span = tr.find_all('span')
+                    businesses = int(str(span[3].text).replace(',', '')) #Number of businesses for each local authority
+                    if "cy" not in link:   #Avoiding files in Welsh
+                        temp.append(link)
+                        f.write("%s,%s,%s,%s" % \
+                                      (region,str(tds[0].text)[1:-1], link, businesses)+'\n')
+            filenames[region] = temp
+            
+    #Parsing the html page and saving the xml files to the appropriate folder based on the region
+    for key, value in filenames.iteritems():
+        zipname = str(key)+".zip"
+        with zipfile.ZipFile(zipname, "w") as code:
+            for url in filenames[key]:
+                f = urllib2.urlopen(url)
+                data = f.read()
+                xmlfilename = url.rsplit('/', 1)[-1]
+                code.writestr(xmlfilename, data)
+                
+Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. 
 
 
