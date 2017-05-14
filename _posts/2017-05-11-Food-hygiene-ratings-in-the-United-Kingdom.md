@@ -19,7 +19,7 @@ In Scotland, food hygiene standards are overseen by [Food Standards Scotland](ht
 As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,897 in the rest of the United Kingdom, included Northern Ireland. This is a huge cohort, and the task is accomplished using *two different* schemes: the **Food Hygiene Information Scheme (FHIS)** in Scotland and the **Food Hygiene Rating Scheme (FHRS)** in the rest of the United Kingdom. The first uses *categorical* descriptors that are directly assigned to each business (Table 1), while the second adopts a *points scheme* that assigns high scores to poor hygiene conditions (Table 2).
 
 <table>
-<thead><tr><th scope="col" <td colspan=2>*Scotland (FHIS)*</th></tr></thead>
+<thead><tr><th scope="col" <td colspan=2>Scotland (FHIS)</th></tr></thead>
 <tbody>
 <tr><th scope="row">1</th><th>Pass and Eat Safe</th>  
 <tr><th scope="row">2</th><th>Pass</th> 
@@ -33,7 +33,7 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 
 <table>
 <thead>
-<tr><th scope="col" <td colspan=3>*Rest of the UK (FHRS)*</th></tr>
+<tr><th scope="col" <td colspan=3>Rest of the UK (FHRS)</th></tr>
 <tr><th scope="col" <td colspan=2>Hygiene score</th><th scope="col" <td colspan=1>Hygiene rating</th></tr>
 </thead>
 <tbody>
