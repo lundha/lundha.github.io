@@ -105,8 +105,7 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
     from bs4 import BeautifulSoup
     import os 
     import zipfile
-    import xml.etree.ElementTree as ET
-
+    
     #Set project folder
     myfolder = r'C:\Users\MyName\MyFolder' #Change as appropriate
     os.chdir(myfolder) #Get inside the project folder
@@ -145,7 +144,7 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
             
     #Parsing the html page and saving the xml files to the appropriate folder based on the region
     for key, value in filenames.iteritems():
-        zipname = str(key)+".zip"
+        zipname = str(key)+".zip" #str(key) contains the name of the region
         with zipfile.ZipFile(zipname, "w") as code:
             for url in filenames[key]:
                 f = urllib2.urlopen(url)
