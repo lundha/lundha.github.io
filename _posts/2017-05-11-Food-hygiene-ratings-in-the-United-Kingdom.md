@@ -2,7 +2,7 @@
 ##### A Data Science project carried out with Jupyter and Python | May 11, 2017
 ---
 
-<img src="/images/Ratings.png" width="330" height="190"> 
+<img src="/images/Ratings.png" width="350" height="210"> 
 
 ### Intro
 
@@ -172,6 +172,7 @@ Once we have the zip folders, we need to extract all the files in a folder with 
 
 **Figure 1** 
 
+Surprisingly, [Greater London](https://en.wikipedia.org/wiki/Greater_London) is not the one with the highest number of businesses. These are instead located in the [South East](https://en.wikipedia.org/wiki/South_East_England#Demographics) (67,401 different places scattered across cities such as Southampton, Oxford, Portsmouth, Canterbury, and many others). London comes next at 64,897. The least represented region is Northern Ireland, with 16,135 businesses.
 
 Each file in the Scotland folder [has the hygiene descriptor under the *RatingValue* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *Hygiene* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get hold of these values. 
 
