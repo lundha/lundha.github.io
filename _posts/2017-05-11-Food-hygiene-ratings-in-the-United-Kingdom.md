@@ -94,7 +94,7 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 
 To figure out which areas of the UK host the dirtiest businesses food-wise, it is necessary to parse the [Food Standards Agency website](http://ratings.food.gov.uk/open-data/), where data are publicly available to download. These come in the form of [xml](https://en.wikipedia.org/wiki/XML) files that are grouped by region and local authority (Scotland is included). Given the different rating system in place for Scotland, a separate analysis is required, and the results will not be adjusted to those of the rest of the UK.
 
-This part of the project relies on:
+This is about:
 1. Scraping the Food Standards Agency html page to extract the file names to be downloaded;
 2. For each region on the html page, downloading a zip folder containing only the relevant xml files.
 
@@ -152,6 +152,6 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
                 xmlfilename = url.rsplit('/', 1)[-1]
                 code.writestr(xmlfilename, data)
                 
-Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. Each file in the Scotland folder [has the hygiene descriptor under the *EstablishmentDetail/RatingValue* branch](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *EstablishmentDetail/Scores/Hygiene* branch](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get hold of these values. 
+Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. Each file in the Scotland folder [has the hygiene descriptor under the *RatingValue* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *Hygiene* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get hold of these values. 
 
 
