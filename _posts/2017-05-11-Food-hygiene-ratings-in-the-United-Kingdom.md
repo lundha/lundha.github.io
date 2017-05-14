@@ -170,7 +170,7 @@ Once we have the zip folders, we need to extract all the files in a folder with 
     
 <img src="/images/Barplot.png" width="200" height="120">
 
-**Figure 1**
+**Figure 1** 
 
 
 Each file in the Scotland folder [has the hygiene descriptor under the *RatingValue* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *Hygiene* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get hold of these values. 
