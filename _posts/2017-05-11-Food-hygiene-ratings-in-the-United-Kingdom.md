@@ -152,7 +152,7 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
                 xmlfilename = url.rsplit('/', 1)[-1]
                 code.writestr(xmlfilename, data)
                 
-Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. A quick loop through the *Regions_and_files.csv* file will reveal how many businesses are subjected to the standards in each part of the UK:
+Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. A quick manipulation of the *Regions_and_files.csv* file will reveal how many businesses are subjected to the standards in each part of the UK:
 
 
     #Create dataframe with recap data and bar plot
