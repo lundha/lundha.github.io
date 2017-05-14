@@ -21,11 +21,13 @@ As of May 2017, there are 47,477 businesses to be screened in Scotland, and 469,
 <table>
 <thead><tr><th scope="col">Scotland (FHIS)</th></tr></thead>
 <tbody>
-<tr><th scope="row">Pass and Eat Safe</th>  
-<tr><th scope="row">Pass</th> 
-<tr><th scope="row">Improvement Required</th>
-<tr><th scope="row">Awaiting Publication</th>
-<tr><th scope="row">Awaiting Inspection</th> 
+<tr><th scope="row">1</th><th>Pass and Eat Safe</th>  
+<tr><th scope="row">2</th><th>Pass</th> 
+<tr><th scope="row">3</th><th>Improvement Required</th>
+<tr><th scope="row">4</th><th>Awaiting Publication</th>
+<tr><th scope="row">5</th><th>Awaiting Inspection</th> 
+</tbody>
+</table>
 
 **Table 1**
 
