@@ -250,4 +250,4 @@ Each file in the Scotland folder [has the hygiene descriptor under the *RatingVa
 
 ### Plotting data
 
-Now it's time to plot the data acquired from the xml files. The geographer's soul that's in me calls for them to be put on a nice map. Instead of using the inaccurate Python package [Basemap](https://matplotlib.org/basemap/users/examples.html), I want to load and display some [shapefiles](https://en.wikipedia.org/wiki/Shapefile), because they allow me to select the appropriate administrative boundaries to show.
+Now it's time to plot the data acquired from the xml files. The geographer's soul that's in me calls for them to be put on a nice map. Instead of using the inaccurate Python package [Basemap](https://matplotlib.org/basemap/users/examples.html), I want to load and display some [shapefiles](https://en.wikipedia.org/wiki/Shapefile), because they allow me to select the appropriate administrative boundaries to show. Since this is a separate analysis, there are two dedicated shapefiles: <a href="/Files/Scotland.zip" target="_blank">one for Scotland</a> and <a href="/Files/UK_except_Scotland.zip" target="_blank">one for the rest of the UK</a>.
