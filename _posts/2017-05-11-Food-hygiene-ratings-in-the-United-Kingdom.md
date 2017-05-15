@@ -101,6 +101,7 @@ This section is about:
 
 Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](http://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python) package. All we need to do is define an url, and we can use [urllib2](https://docs.python.org/2/howto/urllib2.html) for this. Then, the download can be performed using a list of file names produced parsing the html page, as BeautifulSoup needs to know which files we need. In the end, a zip folder will be created for each region on the html page, with each folder containing only the relevant xml files.
 
+{% highlight python %}
     from __future__ import division
     import urllib2
     from bs4 import BeautifulSoup
@@ -152,6 +153,7 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
                 data = f.read()
                 xmlfilename = url.rsplit('/', 1)[-1]
                 code.writestr(xmlfilename, data)
+{% endhighlight %}               
                 
 Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. A quick manipulation of the *Regions_and_files.csv* file will reveal how many businesses are subjected to the standards in each part of the UK:
 
@@ -255,4 +257,4 @@ Now it's time to plot the data acquired from the xml files. The geographer's sou
 
 Drawing inspiration [from this blog post](http://brandonrose.org/pythonmap#Loading-in-the-shapefile), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" for the purpose of this analysis is in both cases the percentage of non-complaint businesses with respect to the total:
 
-1. For Scotland, <iframe> http://mathurl.com/krpe5jh </iframe>
+1. For Scotland, <iframe width="420" height="315" src="http://mathurl.com/krpe5jh" </iframe>
