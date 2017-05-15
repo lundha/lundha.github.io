@@ -101,7 +101,7 @@ This section is about:
 
 Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](http://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python) package. All we need to do is define an url, and we can use [urllib2](https://docs.python.org/2/howto/urllib2.html) for this. Then, the download can be performed using a list of file names produced parsing the html page, as BeautifulSoup needs to know which files we need. In the end, a zip folder will be created for each region on the html page, with each folder containing only the relevant xml files.
 
-{% highlight python %}
+    {% highlight python %}
     from __future__ import division
     import urllib2
     from bs4 import BeautifulSoup
@@ -153,7 +153,7 @@ Python makes it easy to do both. We can scrap websites with the [BeautifulSoup](
                 data = f.read()
                 xmlfilename = url.rsplit('/', 1)[-1]
                 code.writestr(xmlfilename, data)
-{% endhighlight %}               
+    {% endhighlight %}               
                 
 Once we have the zip folders, we need to extract all the files in a folder with the same name as the zip folder. A quick manipulation of the *Regions_and_files.csv* file will reveal how many businesses are subjected to the standards in each part of the UK:
 
