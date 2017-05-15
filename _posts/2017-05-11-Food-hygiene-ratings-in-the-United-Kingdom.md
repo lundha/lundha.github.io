@@ -218,7 +218,7 @@ Each file in the Scotland folder [has the hygiene descriptor under the *RatingVa
                             passed+=1
                         if rating.text=='Improvement Required':
                             improve+=1
-                perc1 = round(100*improve/(passed_safe+passed),3) #Percentage of negative businesses
+                perc1 = round(100*improve/(improve+passed_safe+passed),3) #Percentage of negative businesses
                 scotland[council] = perc1 #Saving values in the dictionary             
 
         else: #All the other Regions
@@ -255,4 +255,4 @@ Now it's time to plot the data acquired from the xml files. The geographer's sou
 
 Drawing inspiration [from this blog post](http://brandonrose.org/pythonmap#Loading-in-the-shapefile), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" for the purpose of this analysis is:
 
-1. $$ \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $$
+1. For Scotland, <iframe http://mathurl.com/krpe5jh>
