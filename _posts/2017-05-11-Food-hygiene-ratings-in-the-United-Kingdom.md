@@ -267,9 +267,7 @@ $$
 
 2. For the rest of the UK, we can assume that non-compliant businesses are given a score of 20 and over:
 
-```tex
-\sum_{x=0}^n f(x)
-```
+
 
 
 
