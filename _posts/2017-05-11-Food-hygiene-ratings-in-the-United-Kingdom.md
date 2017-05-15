@@ -257,13 +257,14 @@ Now it's time to plot the data acquired from the xml files. The geographer's sou
 
 Drawing inspiration [from this blog post](http://brandonrose.org/pythonmap#Loading-in-the-shapefile), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" is in both cases the percentage of non-complaint businesses with respect to the total:
 
-1. For Scotland there is a single categorical value we can use: 
+1. For Scotland there is a dedicated categorical value we can use, "Improvement Required": 
 $$
 \begin{align*}
   & \ Hygiene_{Scotland}  = 100* \frac{\sum_{} Improvement Required}{\sum_{} Businesses}
 \end{align*}
 $$
 
-2. For the rest of the UK, we can assume that non-compliant businesses are given a score $$ \begin{align*} & \ ≥ 20 \end{align*} $$:
+2. For the rest of the UK, we can assume that non-compliant businesses are given a score $ \begin{align*} & \ ≥ 20 \end{align*} $:
+
 
 
