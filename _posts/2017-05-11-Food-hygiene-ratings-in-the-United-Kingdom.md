@@ -265,9 +265,13 @@ $$
 \end{align*}
 $$
 
-2. For the rest of the UK, we can assume that non-compliant businesses are given a score of 20 and over:
+2. For the rest of the UK, we can assume that non-compliant businesses are given a score of 20 and over, and this value can be averaged over the number of businesses in the same region:
 
-
+$$
+\begin{align*}
+  & \ Hygiene_{UK}  = 100* \frac{\sum_{} scores ≥20}{\sum_{} Businesses}
+\end{align*}
+$$
 
 
 
