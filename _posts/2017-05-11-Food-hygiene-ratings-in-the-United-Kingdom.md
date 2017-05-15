@@ -259,19 +259,23 @@ Drawing inspiration [from this blog post](http://brandonrose.org/pythonmap#Loadi
 
 1. For Scotland, we can use the dedicated "Improvement Required" rating tag and count their frequency for each council area: 
 
+<div>
 $$
 \begin{align*}
   & \ Hygiene_{Scotland}  = 100* \frac{\sum_{} Improvement Required}{\sum_{} Businesses}
 \end{align*}
 $$
+</div>
 
 2. For the rest of the UK, we can assume that non-compliant businesses are given a score of at least 20. We count such occurrences for each region and average the regional value:
 
+<div>
 $$
 \begin{align*}
   & \ Hygiene_{UK}  = 100* \frac{\sum_{} scores ≥20}{\sum_{} Businesses}
 \end{align*}
 $$
+</div>
 
 
 
