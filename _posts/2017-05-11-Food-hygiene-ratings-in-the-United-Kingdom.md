@@ -255,22 +255,15 @@ Each file in the Scotland folder [has the hygiene descriptor under the *RatingVa
 
 Now it's time to plot the data acquired from the xml files. The geographer's soul that's in me calls for them to be put on a nice map. Instead of using the inaccurate Python package [Basemap](https://matplotlib.org/basemap/users/examples.html), I want to load and display some [shapefiles](https://en.wikipedia.org/wiki/Shapefile), because they allow me to select the appropriate administrative boundaries to show. Since this is a separate analysis, there are two dedicated shapefiles: <a href="/Files/Scotland.zip" target="_blank">one for Scotland</a> and <a href="/Files/UK_except_Scotland.zip" target="_blank">one for the rest of the UK</a>.
 
-Drawing inspiration [from this blog post](http://brandonrose.org/pythonmap#Loading-in-the-shapefile), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" for the purpose of this analysis is in both cases the percentage of non-complaint businesses with respect to the total:
+Drawing inspiration [from this blog post](http://brandonrose.org/pythonmap#Loading-in-the-shapefile), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" is in both cases the percentage of non-complaint businesses with respect to the total:
 
-1. For Scotland, 
+1. For Scotland there is a single categorical value we can use: 
 $$
 \begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
+  & \ Hygiene_{Scotland}  = 100* \frac{\sum_{} Improvement Required}{\sum_{} Businesses}
 \end{align*}
 $$
+
+2. For the rest of the UK, we can assume that non-compliant businesses are given a score $$ \begin{align*} & \ ≥ 20 \end{align*} $$:
+
+
