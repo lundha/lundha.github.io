@@ -264,7 +264,7 @@ $$
 \end{align*}
 $$
 
-2. For the rest of the UK, we can assume that non-compliant businesses are given a score $ \begin{align*} & \ ≥ 20 \end{align*} $:
+2. For the rest of the UK, we can assume that non-compliant businesses are given a score of 20 and over:
 
 
 
