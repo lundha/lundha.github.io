@@ -310,3 +310,31 @@ $$
 <img src="/images/Non-compliant_Scotland.png" width="600" height="450">
 
 **Figure 2**
+
+    #Rest of the UK
+    #Set projection and colormap
+    fig, ax = plt.subplots(subplot_kw={'projection': ccrs.OSGB()})
+    norm = mpl.colors.Normalize(vmin=min(avg_gb.values()), vmax=max(avg_gb.values()))
+    cmap = plt.cm.RdYlBu_r
+
+    #Loop over the shapes
+    for n, country in enumerate(shpreader.Reader(r'C:\Users\Francesco\Desktop\Data_Science_portfolio\20170511\UK_except_Scotland\UK_except_Scotland.shp').records()):
+
+        ax.add_geometries(country.geometry, ccrs.OSGB(),
+                          facecolor=cmap(norm(country.attributes['Hygiene'])),
+                          label=country.attributes['NAME'],edgecolor='black',linewidth=0.3)
+
+    #Image polishing
+    ax.set_title('Non-compliant businesses in the UK, %')
+    ax.set_extent([-69.1254, 655988.9963, 5333.6025, 657599.5034], ccrs.OSGB())
+    plt.xlabel("Easting [m]")
+    plt.ylabel("Northing [m]")
+
+    #Colorbar
+    cax = fig.add_axes([0.85, 0.15, 0.03, 0.7]) #Position
+    cb = mpl.colorbar.ColorbarBase(cax, cmap=cmap, norm=norm, spacing='proportional')
+    cb.set_label('%')
+
+<img src="/images/Non-compliant_restUK.png" width="600" height="450">
+
+**Figure 3**
