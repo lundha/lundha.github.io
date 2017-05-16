@@ -343,4 +343,25 @@ In Scotland, it looks like hat the worst place to go out for lunch or dinner is 
 
 In the rest of the United Kingdom and in Northern Ireland, the numbers are different because of the different rating scheme. However, it looks like that the overall non-compliance comes with very low numbers. Northern Ireland itself seems to be the safest place to be served food, where an average of 0.009% of businesses has an hygiene rating of at least 20. The second-best performing region is the North East, where the average non-compliant businesses are 0.108%. However, unlike in Scotland, no spatial pattern can be recognizable, and it is worth mentioning Greater London as the worst region. There, an average of 0.418% of all businesses are non-compliant with food hygiene regulations.
 
-Of course this analysis is informative, but coarse. What if we zoom in on the most important cities? Again, due to the different rating systems, we need to run two separate analyses. For Scotland, let's consider the largest cities: Glasgow, Edinburgh, Aberdeen, Dundee, and Paisley, in the outskirts of Glasgow. For the rest of the UK the list is longer: London, Birmingham, Leeds, Sheffield, Bradford, Liverpool, Manchester, Cardiff, Belfast, and Newcastle upon Tyne.
+Of course this analysis is informative, but coarse. What if we zoom in on large cities? Again, due to the different rating systems, we need to run two separate analyses. Let's consider the largest cities in Scotland (Glasgow, Edinburgh, Aberdeen, Dundee, and Paisley), and those in the rest of the UK (Birmingham, Leeds, Sheffield, Bradford, Liverpool, Manchester, Cardiff, Belfast, and Newcastle upon Tyne). For Greater London, we already know that an average 0.418% of all businesses are non-complaint, so we can consider this value admissible. For the other cities, a quick look at the [source page](view-source:http://ratings.food.gov.uk/open-data/) of the Food Standards Agency website will allow us to identify the associated xml file:
+
+    #Scotland
+    gla='FHRS776en-GB.xml'
+    edi='FHRS773en-GB.xml'
+    abe='FHRS760en-GB.xml'
+    dun='FHRS772en-GB.xml'
+    pai='FHRS788en-GB.xml'
+    sco=[gla,edi,abe,dud,pai]
+
+    #Rest of the UK
+    bir='FHRS402en-GB.xml'
+    lee='FHRS413en-GB.xml'
+    she='FHRS425en-GB.xml'
+    bra='FHRS404en-GB.xml'
+    liv='FHRS414en-GB.xml'
+    man='FHRS415en-GB.xml'
+    car='FHRS556en-GB.xml'
+    bel='FHRS807en-GB.xml'
+    ncl='FHRS416en-GB.xml'
+
+
