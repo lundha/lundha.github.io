@@ -346,23 +346,90 @@ In the rest of the United Kingdom and in Northern Ireland, the numbers are diffe
 Of course this analysis is informative, but coarse. What if we zoom in on large cities? Again, due to the different rating systems, we need to run two separate analyses. Let's consider the largest cities in Scotland (Glasgow, Edinburgh, Aberdeen, Dundee, and Paisley), and those in the rest of the UK (Birmingham, Leeds, Sheffield, Bradford, Liverpool, Manchester, Cardiff, Belfast, and Newcastle upon Tyne). For Greater London, we already know that an average 0.418% of all businesses are non-complaint, so we can consider this value admissible. For the other cities, a quick look at the [source page](view-source:http://ratings.food.gov.uk/open-data/) of the Food Standards Agency website will allow us to identify the associated xml file:
 
     #Scotland
-    gla='FHRS776en-GB.xml'
-    edi='FHRS773en-GB.xml'
-    abe='FHRS760en-GB.xml'
-    dun='FHRS772en-GB.xml'
-    pai='FHRS788en-GB.xml'
-    sco=[gla,edi,abe,dun,pai]
+    sco={'Glasgow':'FHRS776en-GB.xml','Edinburgh':'FHRS773en-GB.xml','Aberdeen':'FHRS760en-GB.xml',
+         'Dundee':'FHRS772en-GB.xml','Paisley':'FHRS788en-GB.xml'}
 
     #Rest of the UK
-    bir='FHRS402en-GB.xml'
-    lee='FHRS413en-GB.xml'
-    she='FHRS425en-GB.xml'
-    bra='FHRS404en-GB.xml'
-    liv='FHRS414en-GB.xml'
-    man='FHRS415en-GB.xml'
-    car='FHRS556en-GB.xml'
-    bel='FHRS807en-GB.xml'
-    ncl='FHRS416en-GB.xml'
-    uk=[bir,lee,she,bra,liv,man,car,bel,ncl] 
+    rest_of_uk={'Birmingham':'FHRS402en-GB.xml','Leeds':'FHRS413en-GB.xml','Sheffield':'FHRS425en-GB.xml',
+                'Bradford':'FHRS404en-GB.xml','Liverpool':'FHRS414en-GB.xml','Manchester':'FHRS415en-GB.xml',
+                'Cardiff':'FHRS556en-GB.xml','Belfast':'FHRS807en-GB.xml','Newcastle':'FHRS416en-GB.xml'}
 
 Now we can search the folder with all the xml files and compute the percentage of non-compliant businesses for each city:
+
+    #Scotland
+    cities_sco={}
+    path = r'C:\Users\MyName\MyFolder\Files\Scotland' #Change as appropriate
+    for root, dirs, files in os.walk(path,topdown=True):
+        for city, xmlfile in sco.iteritems():
+            for file in files:
+                passed = 0
+                passed_safe = 0
+                improve = 0
+                if file==city:
+                    fullname = os.path.join(root, file)
+                    tree=ET.parse(fullname)
+                    treeroot = tree.getroot()
+                    for each in treeroot.findall('.//EstablishmentDetail'):
+                        rating = each.find('.//RatingValue')
+                        #Skip the rare situations of exempt businesses or similar
+                        if rating.text=='Exempt' or rating.text=='Awaiting publication' or rating.text=='Awaiting inspection' or rating is None:
+                            continue
+                        else:
+                            if rating.text=='Pass and Eat Safe':
+                                passed_safe+=1
+                            if rating.text=='Pass':
+                                passed+=1
+                            if rating.text=='Improvement Required':
+                                improve+=1
+                    perc1 = round(100*improve/(improve+passed_safe+passed),3)
+                    cities_sco[city]=perc1
+                    
+And we do the same for the rest of the UK:
+
+    #Rest of the UK
+    cities_sco={}
+    path = r'C:\Users\Francesco\Desktop\Data_Science_portfolio\20170511\Files' #Change as appropriate
+    for root, dirs, files in os.walk(path,topdown=True):
+        for city, xmlfile in rest_of_uk.iteritems():
+            for file in files:
+                count=0
+                if file==xmlfile:
+                    fullname = os.path.join(root, file)
+                    tree=ET.parse(fullname)
+                    treeroot = tree.getroot()
+                    for each in treeroot.findall('.//Header'):
+                        businesses = each.find('.//ItemCount')
+                        tot_businesses = tot_businesses + int(businesses.text)
+                    for each in treeroot.findall('.//Scores'):
+                        rating = each.find('.//Hygiene')
+                        #Skip the rare situations of exempt businesses or similar
+                        if rating is None:
+                            continue
+                        if int(rating.text)>=20:
+                                count+=1
+                    perc2 = round(100*count/int(businesses.text),3)
+                    cities_gb[city]=perc2
+                for file in files:
+                    count=0
+                    if file==uk[i]:
+                        fullname = os.path.join(root, file)
+                        tree=ET.parse(fullname)
+                        treeroot = tree.getroot()
+                        for each in treeroot.findall('.//Header'):
+                            businesses = each.find('.//ItemCount')
+                            tot_businesses = tot_businesses + int(businesses.text)
+                        for each in treeroot.findall('.//Scores'):
+                            rating = each.find('.//Hygiene')
+                            #Skip the rare situations of exempt businesses or similar
+                            if rating is None:
+                                continue
+                            if int(rating.text)>=20:
+                                    count+=1
+                        perc2 = round(100*count/int(businesses.text),3)
+                        cities_gb[city]=perc2
+
+Now we turn the two dictionaries *cities_sco* and *cities_gb* into dataframes and plot them:
+
+import pandas as pd
+
+
