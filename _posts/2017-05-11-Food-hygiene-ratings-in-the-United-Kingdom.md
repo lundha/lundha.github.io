@@ -257,25 +257,56 @@ Now it's time to plot the data acquired from the xml files. The geographer's sou
 
 Drawing inspiration [from this blog post](https://chrishavlin.wordpress.com/tag/descartes/), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" is in both cases the percentage of non-complaint businesses with respect to the total:
 
-1. For Scotland, we can use the dedicated "Improvement Required" rating tag and count their frequency for each council area: 
+1. For Scotland, we can use the dedicated "Improvement Required" rating tag and count their frequency for each council area. This will give us the percentage of non-compliant businesses in each council area: 
 
 <div>
 $$
 \begin{align*}
-  & \ Hygiene_{Scotland}  = 100* \frac{\sum_{} Improvement Required}{\sum_{} Businesses}
+  & \ Non-compliant_{Scotland}  = 100* \frac{\sum_{} Improvement Required}{\sum_{} Businesses}
 \end{align*}
 $$
 </div>
 
-2. For the rest of the UK, we can assume that non-compliant businesses are given a score of at least 20. We count such occurrences for and average their number for each region:
+2. For the rest of the UK, we can assume that non-compliant businesses are given a score of at least 20. We count such occurrences for and average their number to get the percentage of non-compliant businesses for each region:
 
 <div>
 $$
 \begin{align*}
-  & \ Hygiene_{UK}  = 100* \frac{\sum_{} scores ≥20}{\sum_{} Businesses}
+  & \ Non-compliant_{UK}  = 100* \frac{\sum_{} scores ≥20}{\sum_{} Businesses}
 \end{align*}
 $$
 </div>
 
+    #Plotting
+    import cartopy.crs as ccrs
+    import matplotlib.pyplot as plt
+    import matplotlib as mpl
+    import cartopy.io.shapereader as shpreader
 
+    #Scotland
+    #Set projection and colormap
+    fig, ax = plt.subplots(subplot_kw={'projection': ccrs.OSGB()})
+    norm = mpl.colors.Normalize(vmin=min(scotland.values()), vmax=max(scotland.values()))
+    cmap = plt.cm.RdYlBu_r
 
+    #Loop over the shapes
+    for n, country in enumerate(shpreader.Reader(r'C:\Users\MyName\MyFolder\Scotland\Scotland_with_council_areas.shp').records()):
+
+        ax.add_geometries(country.geometry, ccrs.OSGB(),
+                          facecolor=cmap(norm(country.attributes['Hygiene'])),
+                          label=country.attributes['geo_label'],edgecolor='black',linewidth=0.3)
+
+    #Image polishing
+    ax.set_title('Non-compliant businesses in Scotland, %')
+    ax.set_extent([5513.0004, 470323.0000, 530252.8000, 1220301.5006], ccrs.OSGB())
+    plt.xlabel("Easting [m]")
+    plt.ylabel("Northing [m]")
+
+    #Colorbar
+    cax = fig.add_axes([0.8, 0.15, 0.03, 0.7]) #Position
+    cb = mpl.colorbar.ColorbarBase(cax, cmap=cmap, norm=norm, spacing='proportional')
+    cb.set_label('%')
+
+<img src="/images/Non-compliant_Scotland.png" width="600" height="450">
+
+**Figure 2**
