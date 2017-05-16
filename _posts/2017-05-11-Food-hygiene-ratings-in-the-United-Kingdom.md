@@ -311,7 +311,7 @@ $$
 
 **Figure 2**
 
-In Scotland, it looks like hat the worst place to go out for lunch or dinner is Aberdeen, where 16.52% of the 1,764 targeted businesses are non-complaint as of May 2017. In Eastern Scotland there seems to be a cluster of bad practice: in fact, Aberdeenshire comes right behind with 13.81% non-compliant businesses, followed by the Angus counciul area with 12.25%. Based on this analysis, this is an area where Food Standards Scotland should probably reinforce its standards better. The parts of Scotland closer to England offer a much better landscape in terms of food standards, with Dumfries and Galloway showing a 7.72% of non-compliant businesses, a 53% reduction compared to the city of Aberdeen.
+In Scotland, it looks like hat the worst place to go out for lunch or dinner is Aberdeen, where 16.52% of the 1,764 targeted businesses are non-complaint as of May 2017. In Eastern Scotland there seems to be a cluster of bad practice: in fact, Aberdeenshire comes right behind with 13.81% non-compliant businesses, followed by the Angus council area (12.25%). Based on this analysis, this is an area where Food Standards Scotland should probably reinforce its standards better. The parts of Scotland closer to England offer a much better landscape in terms of food standards, with Dumfries and Galloway showing a 7.72% of non-compliant businesses - a 53% reduction compared to the city of Aberdeen.
 
     #Rest of the UK
     #Set projection and colormap
