@@ -341,4 +341,6 @@ In Scotland, it looks like hat the worst place to go out for lunch or dinner is 
 
 **Figure 3**
 
-In the rest of the United Kingdom and in Northern Ireland, the numbers are different because of the different rating scheme. However, it looks like that the overall non-compliance comes with very low numbers. Northern Ireland itself seems to be the safest place to be served food, with 
+In the rest of the United Kingdom and in Northern Ireland, the numbers are different because of the different rating scheme. However, it looks like that the overall non-compliance comes with very low numbers. Northern Ireland itself seems to be the safest place to be served food, where an average of 0.009% of businesses has an hygiene rating of at least 20. The second-best performing region is the North East, where the average non-compliant businesses are 0.108%. However, unlike in Scotland, no spatial pattern can be recognizable, and it is worth mentioning Greater London as the worst region. There, an average of 0.418% of all businesses are non-compliant with food hygiene regulations.
+
+Of course this analysis is informative, but coarse. What if we zoom in on the most important cities? Again, due to the different rating systems, we need to run two separate analyses. For Scotland, let's consider the largest cities: Glasgow, Edinburgh, Aberdeen, Dundee, and Paisley, in the outskirts of Glasgow. For the rest of the UK the list is longer: London, Birmingham, Leeds, Sheffield, Bradford, Liverpool, Manchester, Cardiff, Belfast, and Newcastle upon Tyne.
