@@ -365,3 +365,4 @@ Of course this analysis is informative, but coarse. What if we zoom in on large 
     ncl='FHRS416en-GB.xml'
     uk=[bir,lee,she,bra,liv,man,car,bel,ncl] 
 
+Now we can search the folder with all the xml files and compute the percentage of non-compliant businesses for each city:
