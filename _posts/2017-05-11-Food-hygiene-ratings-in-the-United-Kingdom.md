@@ -351,7 +351,7 @@ Of course this analysis is informative, but coarse. What if we zoom in on large 
     abe='FHRS760en-GB.xml'
     dun='FHRS772en-GB.xml'
     pai='FHRS788en-GB.xml'
-    sco=[gla,edi,abe,dud,pai]
+    sco=[gla,edi,abe,dun,pai]
 
     #Rest of the UK
     bir='FHRS402en-GB.xml'
