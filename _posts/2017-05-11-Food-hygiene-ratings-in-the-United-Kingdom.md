@@ -267,7 +267,7 @@ $$
 $$
 </div>
 
-2. For the rest of the UK, we can assume that non-compliant businesses are given a score of at least 20. We count such occurrences for each region and average the regional value:
+2. For the rest of the UK, we can assume that non-compliant businesses are given a score of at least 20. We count such occurrences for and average their number for each region:
 
 <div>
 $$
