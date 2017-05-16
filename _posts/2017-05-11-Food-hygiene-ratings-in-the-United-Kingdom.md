@@ -387,8 +387,8 @@ Now we can search the folder with all the xml files and compute the percentage o
 And we do the same for the rest of the UK:
 
     #Rest of the UK
-    cities_sco={}
-    path = r'C:\Users\Francesco\Desktop\Data_Science_portfolio\20170511\Files' #Change as appropriate
+    cities_gb={}
+    path = r'C:\Users\MyName\MyFolder\Files' #Change as appropriate
     for root, dirs, files in os.walk(path,topdown=True):
         for city, xmlfile in rest_of_uk.iteritems():
             for file in files:
@@ -409,27 +409,10 @@ And we do the same for the rest of the UK:
                                 count+=1
                     perc2 = round(100*count/int(businesses.text),3)
                     cities_gb[city]=perc2
-                for file in files:
-                    count=0
-                    if file==uk[i]:
-                        fullname = os.path.join(root, file)
-                        tree=ET.parse(fullname)
-                        treeroot = tree.getroot()
-                        for each in treeroot.findall('.//Header'):
-                            businesses = each.find('.//ItemCount')
-                            tot_businesses = tot_businesses + int(businesses.text)
-                        for each in treeroot.findall('.//Scores'):
-                            rating = each.find('.//Hygiene')
-                            #Skip the rare situations of exempt businesses or similar
-                            if rating is None:
-                                continue
-                            if int(rating.text)>=20:
-                                    count+=1
-                        perc2 = round(100*count/int(businesses.text),3)
-                        cities_gb[city]=perc2
-
+         
 Now we turn the two dictionaries *cities_sco* and *cities_gb* into dataframes and plot them:
 
-import pandas as pd
-
+    import pandas as pd
+    cities_sco_df=pd.DataFrame(cities_sco.items(), columns=['City', 'Non-compliant businesses (%)'])
+    cities_gb_df=pd.DataFrame(cities_gb.items(), columns=['City', 'Non-compliant businesses (%)'])
 
