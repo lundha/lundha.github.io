@@ -253,9 +253,9 @@ Each file in the Scotland folder [has the hygiene descriptor under the *RatingVa
 
 ### Plotting data
 
-Now it's time to plot the data acquired from the xml files. The geographer's soul that's in me calls for them to be put on a nice map. Instead of using the inaccurate Python package [Basemap](https://matplotlib.org/basemap/users/examples.html), I want to load and display some [shapefiles](https://en.wikipedia.org/wiki/Shapefile), because they allow me to select the appropriate administrative boundaries to show. Since this is a separate analysis, there are two dedicated shapefiles: <a href="/Files/Scotland.zip" target="_blank">one for Scotland</a> and <a href="/Files/UK_except_Scotland.zip" target="_blank">one for the rest of the UK</a>.
+Now it's time to plot the data acquired from the xml files. The geographer's soul that's in me calls for them to be put on a nice map. Instead of using the Python package [Basemap](https://matplotlib.org/basemap/users/examples.html), I want to load and display some [shapefiles](https://en.wikipedia.org/wiki/Shapefile), because they allow me to select the appropriate administrative boundaries to show. Since this is a separate analysis, there are two dedicated shapefiles: <a href="/Files/Scotland.zip" target="_blank">one for Scotland</a> and <a href="/Files/UK_except_Scotland.zip" target="_blank">one for the rest of the UK</a>.
 
-Drawing inspiration [from this blog post](http://brandonrose.org/pythonmap#Loading-in-the-shapefile), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" is in both cases the percentage of non-complaint businesses with respect to the total:
+Drawing inspiration [from this blog post](https://chrishavlin.wordpress.com/tag/descartes/), we can now plot a [cloropleth map](https://en.wikipedia.org/wiki/Choropleth_map) showing the areas of the UK and Scotland where food hygiene ratings are poorest. The definition of "poor" is in both cases the percentage of non-complaint businesses with respect to the total:
 
 1. For Scotland, we can use the dedicated "Improvement Required" rating tag and count their frequency for each council area: 
 
