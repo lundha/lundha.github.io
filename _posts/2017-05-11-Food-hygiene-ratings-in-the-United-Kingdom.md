@@ -433,10 +433,10 @@ Now we turn the two dictionaries *cities_sco* and *cities_gb* into dataframes an
     plt.xticks(fontsize=8)  
     plt.show()
     
-<img src="/images/Non-compliant_cities_sco.png" width="800" height="450">
+<img src="/images/Non-compliant_cities_sco.png" width="600" height="450">
 
 **Figure 4**    
 
-<img src="/images/Non-compliant_cities_uk.png" width="800" height="450">
+<img src="/images/Non-compliant_cities_uk.png" width="600" height="450">
 
 **Figure 5**
