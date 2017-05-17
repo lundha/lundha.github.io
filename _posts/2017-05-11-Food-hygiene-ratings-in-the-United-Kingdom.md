@@ -454,3 +454,34 @@ In Scotland (Figure 4), Edinburgh leads the way. Despite the city being visited 
 In the rest of the UK (Figure 5), a different system yields different values. Birmingham is on top of the list: nearly 1% of the subjected businesses have unsatisfactory hygiene ratings. Greater London comes next at 0.418%, and then Liverpool, at 0.404%. The best-performing city seems to be Belfast, where the compliance is 100%.
 
 London, or technically [Greater London](https://en.wikipedia.org/wiki/Greater_London), is a box waiting to be opened. It is made of 33 boroughs, for which the average value of 0.418% is too diluted to be significant. A more detailed look at the different boroughs may reveal spatial patterns that are not necessarily known.
+    
+   
+    #Parsing the xml files in their storage folder
+    london_ratings={}
+    path = r'C:\Users\MyName\MyFolder\Files' #Change as appropriate
+    for root, dirs, files in os.walk(path,topdown=True):
+
+        #This time we seacrh the London folder only
+        if root=='C:\\Users\\MyName\\MyFolder\\Files\\London':
+            for file in files: #For each borough
+                count = 0 #Count number of non excellent businesses
+                if not file.endswith('.xml'): continue
+                fullname = os.path.join(root, file)
+                tree = ET.parse(fullname)
+                treeroot = tree.getroot()
+                for each in treeroot.findall('.//Header'):
+                    businesses = each.find('.//ItemCount')
+                for each in treeroot.findall('.//EstablishmentDetail'):
+                    authority = each.find('.//LocalAuthorityName')
+                    borough = authority.text
+                    print borough
+                for each in treeroot.findall('.//Scores'):
+                    rating = each.find('.//Hygiene') 
+                    if rating is None:
+                        continue
+                    if int(rating.text)>=20: #Percentage of negative ranks
+                        count+=1
+                perc2 = round(100*count/int(businesses.text),3)        
+                london_ratings[borough] = perc2 #Saving values in the dictionary      
+         
+And now, let's dive into the last plot of this post:
