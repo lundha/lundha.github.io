@@ -177,7 +177,7 @@ Once we have the zip folders, we need to extract all the files in a folder with 
 
 Surprisingly, [Greater London](https://en.wikipedia.org/wiki/Greater_London) is not the one with the highest number of businesses. These are instead located in the [South East](https://en.wikipedia.org/wiki/South_East_England#Demographics) (67,401 different places scattered across cities such as Southampton, Oxford, Portsmouth, Canterbury, and many others). London comes next at 64,897. The least represented region is Northern Ireland, with 16,135 businesses.
 
-Each file in the Scotland folder [has the hygiene descriptor under the *RatingValue* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *Hygiene* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get hold of these values. 
+Each file in the Scotland folder [has the hygiene descriptor under the *RatingValue* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS760en-GB.xml), whereas the files for the rest of the UK [have the hygiene score under the *Hygiene* tag](http://ratings.food.gov.uk/OpenDataFiles/FHRS250en-GB.xml). So, we need to loop through each file and get a hold of these values. 
 
 
     import xml.etree.ElementTree as ET
@@ -448,3 +448,9 @@ Now we turn the two dictionaries *cities_sco* and *cities_gb* into dataframes an
 <img src="/images/Non-compliant_cities_uk.png" width="700" height="450">
 
 **Figure 5**
+
+In Scotland (Figure 4), Edinburgh leads the way. Despite the city being visited by millions of tourists each year ([in 2016 alone, 12,348,425 passengers transited through the airport](http://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/)), a staggering 22.15% of all businesses are currently non-compliant, according the criteria used in this analysis. In Glasgow, numbers are better: 12.38% of the 5,209 businesses are a no go.
+
+In the rest of the UK (Figure 5), a different system yields different values. Birmingham is on top of the list: nearly 1% of the subjected businesses have unsatisfactory hygiene ratings. Greater London comes next at 0.418%, and then Liverpool, at 0.404%. The best-performing city seems to be Belfast, where the compliance is 100%.
+
+London, or technically [Greater London](https://en.wikipedia.org/wiki/Greater_London), is a box waiting to be opened. It is made of 33 boroughs, for which the average value of 0.418% is too diluted to be significant. A more detailed look at the different boroughs may reveal spatial patterns that are not necessarily known.
