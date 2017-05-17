@@ -417,26 +417,34 @@ Now we turn the two dictionaries *cities_sco* and *cities_gb* into dataframes an
     cities_sco_df=pd.DataFrame(cities_sco.items(), columns=['City', 'Non-compliant businesses (%)'])
     cities_gb_df=pd.DataFrame(cities_gb.items(), columns=['City', 'Non-compliant businesses (%)'])
     
-    ax = cities_sco_df.plot(kind='bar', title ="Non-compliant businesses in Scotland, %", figsize=(15, 10), legend=True, fontsize=12,xticks=cities_sco_df.index,rot=0,zorder=3)
+    ax = cities_sco_df.plot(kind='bar', title ="Non-compliant businesses in Scotland, %", figsize=(9, 6), legend=True, fontsize=12,xticks=cities_sco_df.index,rot=0,zorder=3)
     ax.set_xticklabels(cities_sco_df.City)
     ax.set_xlabel("City", fontsize=12)
     ax.set_ylabel("%", fontsize=12)
     ax.grid(zorder=0,linestyle='--',linewidth=0.5) 
-    plt.xticks(fontsize=8)  
+    plt.xticks(fontsize=10)  
+    plt.tight_layout()
     plt.show()
     
-    ax = cities_gb_df.plot(kind='bar', title ="Non-compliant businesses in the rest of the UK, %", figsize=(15, 10), legend=True, fontsize=12,xticks=cities_gb_df.index,rot=0,zorder=3)
+    #Add Greater London to cities_gb_df
+    df = pd.DataFrame({ 'City' : 'London','Non-compliant businesses (%)' : 0.418},index=[0])
+    cities_gb_df=cities_gb_df.append(df) #Add the new row
+    cities_gb_df = cities_gb_df.reset_index(drop=True) #Reset the dataframe index
+    
+    #And then plot
+    ax = cities_gb_df.plot(kind='bar', title ="Non-compliant businesses in the rest of the UK, %", figsize=(9, 6), legend=True, fontsize=12,xticks=cities_gb_df.index,rot=45,zorder=3)
     ax.set_xticklabels(cities_gb_df.City)
     ax.set_xlabel("City", fontsize=12)
     ax.set_ylabel("%", fontsize=12)
     ax.grid(zorder=0,linestyle='--',linewidth=0.5) 
-    plt.xticks(fontsize=8)  
+    plt.xticks(fontsize=10)  
+    plt.tight_layout()
     plt.show()
     
-<img src="/images/Non-compliant_cities_sco.png" width="600" height="450">
+<img src="/images/Non-compliant_cities_sco.png" width="700" height="450">
 
 **Figure 4**    
 
-<img src="/images/Non-compliant_cities_uk.png" width="600" height="450">
+<img src="/images/Non-compliant_cities_uk.png" width="700" height="450">
 
 **Figure 5**
