@@ -449,7 +449,7 @@ Now we turn the two dictionaries *cities_sco* and *cities_gb* into dataframes an
 
 **Figure 5**
 
-In Scotland (Figure 4), Edinburgh leads the way. Despite the city being visited by millions of tourists each year ([in 2016 alone, 12,348,425 passengers transited through the airport](http://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/)), a staggering 22.15% of all businesses are currently non-compliant, according the criteria used in this analysis. In Glasgow, numbers are better: 12.38% of the 5,209 businesses are a no go.
+In Scotland (Figure 4), Edinburgh leads the way. Despite the city being visited by millions of tourists each year ([in 2016 alone, 12,348,425 passengers transited through the airport](http://www.caa.co.uk/Data-and-analysis/UK-aviation-market/Airports/Datasets/)), a staggering 22.15% of all businesses are currently non-compliant, as per the criteria used in this analysis. In Glasgow, numbers are better: 12.38% of the 5,209 businesses are a no go.
 
 In the rest of the UK (Figure 5), a different system yields different values. Birmingham is on top of the list: nearly 1% of the subjected businesses have unsatisfactory hygiene ratings. Greater London comes next at 0.418%, and then Liverpool, at 0.404%. The best-performing city seems to be Belfast, where the compliance is 100%.
 
