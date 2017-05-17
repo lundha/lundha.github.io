@@ -311,7 +311,7 @@ $$
 
 **Figure 2**
 
-In Scotland, it looks like hat the worst place to go out for lunch or dinner is Aberdeen, where 16.52% of the 1,764 targeted businesses are non-complaint as of May 2017. In Eastern Scotland there seems to be a cluster of bad practice: in fact, Aberdeenshire comes right behind with 13.81% non-compliant businesses, followed by the Angus council area (12.25%). Based on this analysis, this is an area where Food Standards Scotland should probably reinforce its standards better. The parts of Scotland closer to England offer a much better landscape in terms of food standards, with Dumfries and Galloway showing a 7.72% of non-compliant businesses - a 53% reduction compared to the city of Aberdeen.
+In Scotland, it looks like hat the worst place to go out for lunch or dinner is Aberdeen, where 16.52% of the 1,764 targeted businesses are non-complaint as of May 2017. In Eastern Scotland there seems to be a cluster of bad practice: in fact, Aberdeenshire comes right behind with 13.81% non-compliant businesses, followed by the Angus council area (12.25%). Based on this analysis, this is an area where Food Standards Scotland should probably urge the owners to better comply with its standards. The parts of Scotland closer to England offer a much better landscape in terms of food standards, with Dumfries and Galloway showing a 7.72% of non-compliant businesses - a 53% reduction compared to the city of Aberdeen.
 
     #Rest of the UK
     #Set projection and colormap
@@ -484,7 +484,7 @@ London, or technically [Greater London](https://en.wikipedia.org/wiki/Greater_Lo
                 perc2 = round(100*count/int(businesses.text),3)        
                 london_ratings[borough] = perc2 #Saving values in the dictionary      
          
-And now, let's dive into the last plot of this post:
+And now, let's dive into the last plot of this post using the [London Borough shapefile](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london):
 
     #London Boroughs
     #Set projection and colormap
@@ -516,11 +516,11 @@ And now, let's dive into the last plot of this post:
 
 **Figure 6**    
 
-The spatial pattern we can identify from Figure 6 is that, generally, London is a very safe place to eat. There are certainly exceptions, but the overall landscape is very reassuring. The poorest food hygiene ratings in Greater London are concentrated north of the Thames, and east and west of the City. On the west end, the [London Borough of Ealing](https://en.wikipedia.org/wiki/London_Borough_of_Ealing) showed the lowest ratings, with 1.447% of its subjected business scoring 20 or more points (check Table 2 for clarity). On the east end, the [London Borough of Newham](https://en.wikipedia.org/wiki/London_Borough_of_Newham) showed a similar value, 1.442%. The safest areas where to eat are both on the far east end: the [London Borough of Hillingdon](https://en.wikipedia.org/wiki/London_Borough_of_Hillingdon), where London Heathrow Airport is located, has 0.212% of unsatisfactory ratings, while the [Royal Borough of Kingston upon Thames](https://en.wikipedia.org/wiki/Royal_Borough_of_Kingston_upon_Thames) has a value of 0.252%. 
+The spatial pattern we can identify from Figure 6 is that, generally, London is a very safe place to eat. There are certainly exceptions, but the overall landscape is very reassuring. The poorest food hygiene ratings in Greater London are concentrated north of the Thames, and east and west of the City. In the west end, the [London Borough of Ealing](https://en.wikipedia.org/wiki/London_Borough_of_Ealing) showed the lowest ratings, with 1.447% of its subjected business scoring 20 or more points (check Table 2 for clarity). In the east end, the [London Borough of Newham](https://en.wikipedia.org/wiki/London_Borough_of_Newham) showed a similar value, 1.442%. The safest areas where to eat are both in the far east end: the [London Borough of Hillingdon](https://en.wikipedia.org/wiki/London_Borough_of_Hillingdon), where London Heathrow Airport is located, has 0.212% of unsatisfactory ratings, while the [Royal Borough of Kingston upon Thames](https://en.wikipedia.org/wiki/Royal_Borough_of_Kingston_upon_Thames) has a value of 0.252%. 
 
 ### Conclusion
 This analysis has taken advantage of the latest data made available by the Food Standards Agency, which change over time. In the future, therefore, the outcome of this analysis may be different.
 
-In Scotland, some concerns may be raised for the city of Edinburgh, and then for Aberdeen and the surrounding Aberdeenshire, where Food Standards Scotland should probably reinforce its policy a trifle better. The council areas closer to England, as well as the Orkney and Shetland Islands, are the best performing ones.
+In Scotland, some concerns may be raised for the city of Edinburgh, and then for Aberdeen and the surrounding Aberdeenshire, where owners should seriously follow the guidelines of Food Standards Scotland. The council areas closer to England, as well as the Orkney and Shetland Islands, are the best performing ones.
 
 In the rest of the UK, the food standards are quite high pretty much everywhere. Belfast emerged as the palce where the safest food is served, while Birmingham has the highest percentage of unsatisfactory food ratings. In London, although it is generally safe to eat almost everywhere, unpleasant situations may unfold in the boroughs of Ealing and Newham. In the City, the percentage of non-compliant businesses is 0.381%, the 20th highest value among all 33 boroughs. 
