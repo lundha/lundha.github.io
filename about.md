@@ -15,7 +15,7 @@ I am a graduate of the University of Calabria, in Italy, who has enjoyed working
 
 *Non-trivial info:*
 
-I am a former academy basketball player, which I still play in my spare time. I appreciate coffee, and my passion as a kid was Geography. I wear hockey jerseys on Saturdays, and watch NHL games when Time Zones are friendly. I am a Winnipeg Jets fan, have fallen in love with Applewood Cheddar, and acknowledge British Columbia as the birthplace of Wolverine. I am totally in for a scone, especially if it comes with butter and strawberry jam. I love *Grumpy Old Men* (the 1993 movie with Walter Matthau and Jack Lemmon), and think the World would be a better place if all communities had the same atmosphere as Wabasha, Minnesota. I like craft beer, and especially double IPAs. I buy Bill Bryson's books, but never make it to the end.
+I am a former academy basketball player, and I still play in my spare time. I appreciate coffee, and my passion as a kid was Geography. I wear hockey jerseys on Saturdays, and watch NHL games when Time Zones are friendly. I am a Winnipeg Jets fan, have fallen in love with Applewood Cheddar, and acknowledge British Columbia as the birthplace of Wolverine. I am totally in for a scone, especially if it comes with butter and strawberry jam. I love *Grumpy Old Men* (the 1993 movie with Walter Matthau and Jack Lemmon), and think the World would be a better place if all communities had the same atmosphere as Wabasha, Minnesota. I like craft beer, and especially double IPAs. I buy Bill Bryson's books, but never make it to the end.
 
 
 *For prospective employers:*
