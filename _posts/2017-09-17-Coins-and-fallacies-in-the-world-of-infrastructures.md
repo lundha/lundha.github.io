@@ -1,5 +1,5 @@
-#### **Coins and fallacies in the world of Infrastructures**
-##### Or: how throwing a coin can produce a Black Swan and bring our Infrastructures to collapse | September 17, 2017
+#### **How can throwing a coin bring our Infrastructures to collapse?**
+##### Or: the Black Swan and the wise decision-maker | September 17, 2017
 ---
 
 <img src="/images/minnesota-bridge-collapse.jpg" width="370" height="210"> 
