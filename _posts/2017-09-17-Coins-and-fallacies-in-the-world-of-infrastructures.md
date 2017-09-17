@@ -20,5 +20,7 @@ Dr. Taleb states that Black Swans are a daily feature of Extremistan, an idealiz
 - [The King's Cross fire in London (1987)](https://en.wikipedia.org/wiki/King%27s_Cross_fire);
 - [The St. Francis Dam failure in Los Angeles County (1927)](https://en.wikipedia.org/wiki/St._Francis_Dam).
 
+Now, either there is something disturbing about years ending in 7, or our Infrastructures are an easy prey, as the list goes on and on (the latest entry being the unfortunate Grenfell Tower fire).
+
 
 
