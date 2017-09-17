@@ -20,7 +20,11 @@ Dr. Taleb states that Black Swans are a daily feature of Extremistan, an idealiz
 - [The King's Cross fire in London (1987)](https://en.wikipedia.org/wiki/King%27s_Cross_fire);
 - [The St. Francis Dam failure in Los Angeles County (1927)](https://en.wikipedia.org/wiki/St._Francis_Dam).
 
-Now, either there is something disturbing about years ending in 7, or our Infrastructures are an easy prey, as the list goes on and on (the latest entry being the unfortunate Grenfell Tower fire). In each one of these examples, an apparently meaningless event escalated into dramatic consequences: the neglected corrosion discovered on the pillars of the Mississippi River Bridge, the match thrown onto the wooden escalators at King's Cross as a result of an ignored ban, and the cracks on the surface of the St. Francis Dam that William Mulholland himself dismissed. These were three sandwiches that landed spectacularly butter-side down.
+Now, either there is something disturbing about years ending in 7, or our Infrastructures are an easy prey, as the list goes on and on (the latest entry being the unfortunate Grenfell Tower fire). In each one of these examples, an apparently meaningless event escalated into dramatic consequences: the neglected corrosion discovered on the pillars of the Mississippi River Bridge, the match thrown onto the wooden escalators at King's Cross as a result of an ignored ban, and the cracks on the surface of the St. Francis Dam that William Mulholland himself dismissed. Drop, butter-side down, slip.
+
+### The quest for a wise decision-maker, or Tony vs Dr. John
+
+
 
 
 
