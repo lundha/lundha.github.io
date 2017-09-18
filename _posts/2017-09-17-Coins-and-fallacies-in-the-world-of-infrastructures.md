@@ -24,9 +24,9 @@ Now, either there is something disturbing about years ending in 7, or our Infras
 
 ### The quest for a wise decision-maker, or Tony vs Dr. John and the flipping of a coin
 
-The good Dr. Taleb has two friends, Tony and Dr. John. Tony is a self-made man and an accountant who rose to success by "reading the situation" and contextualizing. He has no formal education, but claims to be able to interpret the human species. Dr. John is an Electrical Engineer with a PhD, and it is his scientific and methodical mind that guides him through the day. 
+As per the book, the good Dr. Taleb has two friends: Tony and Dr. John. Tony is a self-made man and an accountant who rose to success by "reading the situation" and contextualizing. He has no formal education, but claims to be able to interpret the human species. Dr. John is an Electrical Engineer with a PhD, and it is his scientific and methodical mind that guides him through the day. 
 
 <img src="/images/coin-flip.jpg" width="210" height="340"> 
 
-
+Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a coin 100 times. The penultimate toss gives heads, making it 99 times straight. At this point, Dr. Taleb asks his two friends to predict what the next outcome will be. Tony says that there is something "loaded", e.g. the system is rigged and it does not play out fairly; as such, he gives **tails** no more than a 1% probability. Dr. John, realizing that the flips are independent events, says and that it is going to be either **heads** or **tails**, and both have 50% chances.
 
