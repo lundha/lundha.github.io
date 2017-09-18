@@ -28,10 +28,14 @@ As per the book, the good Dr. Taleb has two friends: Tony and Dr. John. Tony is 
 
 <img src="/images/coin-flip.jpg" width="210" height="340"> 
 
-Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a coin 100 times. The penultimate toss gives heads, making it 99 times straight. At this point, Dr. Taleb asks his two friends to predict what the next outcome will be. Tony says that there is something "loaded", e.g. the system is rigged and it does not play out fairly; as such, he gives **tails** no more than a 1% probability. Dr. John, realizing that the flips are independent events, says and that it is going to be either **heads** or **tails**  as both have a 50% probability. 
+Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a coin 100 times. The penultimate toss gives heads, making it 99 heads in a row. At this point, Dr. Taleb asks his two friends to predict the next outcome. Tony says that there is something "loaded", e.g. the system is rigged and it does not play out fairly; as such, he gives **tails** no more than a 1% probability. Dr. John, realizing that the flips are independent events, says that it is going to be either **heads** or **tails**  as both have a 50% probability. 
 
 ### The quest for a wise decision-maker
 
-Dr. Taleb infers that Tony is thinking outside the box, because he infers his prediction by reading the situation, bereft of preconceptions. Dr. John, instead, relies too much on pre-fabricated models and does not venture outside his comfort zone. The conclusion is that Dr. Taleb would totally follow Tony's indications if he had to make an investment. 
-Now, let'
+Dr. Taleb infers that Tony is *thinking outside the box*, because he infers his prediction by reading the situation, bereft of preconceptions. Dr. John, instead, relies too much on pre-fabricated models and does not venture outside his comfort zone. The conclusion is that Dr. Taleb would totally follow Tony's indications if he had to make an investment. 
+Now, let's assume that the coin is in fact the status of an infrastructure: 
+**heads = active** 
+**tails = failed**
+
+
 
