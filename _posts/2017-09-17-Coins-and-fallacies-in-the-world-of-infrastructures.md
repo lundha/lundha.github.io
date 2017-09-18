@@ -1,4 +1,4 @@
-#### **How flipping a coin brings our Infrastructures to collapse. Or: the Black Swan and the wise decision-maker**
+#### **How flipping a coin can bring our Infrastructures to collapse. Or: the Black Swan and the wise decision-maker**
 ##### September 17, 2017
 ---
 
@@ -30,12 +30,14 @@ As per the book, the good Dr. Taleb has two friends: Tony and Dr. John. Tony is 
 
 Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a coin 100 times. The penultimate toss gives heads, making it 99 heads in a row. At this point, Dr. Taleb asks his two friends to predict the next outcome. Tony says that there is something "loaded", e.g. the system is rigged and it does not play out fairly; as such, he gives **tails** no more than a 1% probability. Dr. John, realizing that the flips are independent events, says that it is going to be either **heads** or **tails**  as both have a 50% probability. 
 
-### The quest for a wise decision-maker
+### Why I disagree. Or: the quest for a wise decision-maker
 
 Dr. Taleb infers that Tony is *thinking outside the box*, because he infers his prediction by reading the situation, bereft of preconceptions. Dr. John, instead, relies too much on pre-fabricated models and does not venture outside his comfort zone. The conclusion is that Dr. Taleb would totally follow Tony's indications if he had to make an investment. 
 Now, let's assume that the outcome of the toss is in fact the status of an infrastructure:<br>
 
 <img src="/images/active_failed.png" width="390" height="150"> 
 
+I can see a huge **fallacy** in Dr. Taleb's argument if I try to apply the same reasoning to the world of Infrastructures. If we reinterpret the coin toss experiment, our infrastructure has performed and delivered without any service failings 99 times in a row. Notwithstanding my sympathy towards Tony - he had the guts to move from Brooklyn to New Jersey and commutes every day in his Cadillac -, I can see why he would be a **terrible** decision-maker. Saying that he gives tails no more than a 1% probability of occurring sounds to my ears as if he is **underestimating** the occurrence of a failure. The fact that never, in the previous 99 tosses, has he seen tails gives him enough confidence to basically rule out the failure, the [Black Swan](https://en.wikipedia.org/wiki/Black_swan_theory) if you will, and if he were to adopt strategies to cope with such *rare* event, he would probably argue that it is a waste of money. 
 
+<img src="/images/optimised-decision-making.png" width="390" height="150"> 
 
