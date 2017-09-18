@@ -1,4 +1,4 @@
-#### **How can throwing a coin bring our Infrastructures to collapse? Or: the Black Swan and the wise decision-maker**
+#### **How flipping a coin brings our Infrastructures to collapse. Or: the Black Swan and the wise decision-maker**
 ##### September 17, 2017
 ---
 
