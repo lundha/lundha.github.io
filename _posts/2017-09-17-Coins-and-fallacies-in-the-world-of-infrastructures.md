@@ -41,5 +41,8 @@ I can see a huge **fallacy** in Dr. Taleb's argument if I try to apply the same 
 
 <img src="/images/optimised-decision-making.png" width="290" height="250">  
 
-On the other hand, Dr. John's approach would probably make him a better decision-maker, as he **keeps the door open to Black Swans**. Using Dr. Taleb's definitions, Dr John is not influenced by the *confirmation bias*, which makes us rule out events that we have never witnessed. He does not even listen to the voice of the *narrative fallacy*, which would make us infer that an event will not happen *because* it has never happened.
+On the other hand, Dr. John's approach would probably make him a better decision-maker, as he **keeps the door open to Black Swans**. Using Dr. Taleb's definitions, Dr. John is not influenced by the *confirmation bias*, which makes us rule out events that we have never witnessed. He does not even listen to the voice of the *narrative fallacy*, which would make us infer that an event will not happen *because* it has never happened.
 
+### Let's not have decision-makers cossing toins
+
+In retrospective, I can see many little Tonys behind the spectacular failures of our Infrastructures. Sometimes it was just one Tony, as was the case with William Mulholland underestimating the role of those cracks on the surface of the St. Francis Dam, sometimes it was many.
