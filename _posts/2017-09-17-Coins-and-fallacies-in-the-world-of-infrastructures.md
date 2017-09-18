@@ -22,11 +22,16 @@ Dr. Taleb states that Black Swans are a daily feature of Extremistan, an idealiz
 
 Now, either there is something disturbing about years ending in 7, or our Infrastructures are an easy prey, as the list goes on and on (the latest entry being the unfortunate Grenfell Tower fire). In each one of these examples, an apparently meaningless event escalated into dramatic consequences: the neglected corrosion discovered on the pillars of the Mississippi River Bridge, the match thrown onto the wooden escalators at King's Cross as a result of an ignored ban, and the cracks on the surface of the St. Francis Dam that William Mulholland himself dismissed. Drop, butter-side down, slip. Repeat.
 
-### The quest for a wise decision-maker, or Tony vs Dr. John and the flipping of a coin
+### Tony vs Dr. John and the flipping of a coin
 
 As per the book, the good Dr. Taleb has two friends: Tony and Dr. John. Tony is a self-made man and an accountant who rose to success by "reading the situation" and contextualizing. He has no formal education, but claims to be able to interpret the human species. Dr. John is an Electrical Engineer with a PhD, and it is his scientific and methodical mind that guides him through the day. 
 
 <img src="/images/coin-flip.jpg" width="210" height="340"> 
 
-Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a coin 100 times. The penultimate toss gives heads, making it 99 times straight. At this point, Dr. Taleb asks his two friends to predict what the next outcome will be. Tony says that there is something "loaded", e.g. the system is rigged and it does not play out fairly; as such, he gives **tails** no more than a 1% probability. Dr. John, realizing that the flips are independent events, says and that it is going to be either **heads** or **tails**, and both have 50% chances.
+Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a coin 100 times. The penultimate toss gives heads, making it 99 times straight. At this point, Dr. Taleb asks his two friends to predict what the next outcome will be. Tony says that there is something "loaded", e.g. the system is rigged and it does not play out fairly; as such, he gives **tails** no more than a 1% probability. Dr. John, realizing that the flips are independent events, says and that it is going to be either **heads** or **tails**  as both have a 50% probability. 
+
+### The quest for a wise decision-maker
+
+Dr. Taleb infers that Tony is thinking outside the box, because he infers his prediction by reading the situation, bereft of preconceptions. Dr. John, instead, relies too much on pre-fabricated models and does not venture outside his comfort zone. The conclusion is that Dr. Taleb would totally follow Tony's indications if he had to make an investment. 
+Now, let'
 
