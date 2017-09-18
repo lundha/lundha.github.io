@@ -2,7 +2,7 @@
 ##### September 17, 2017
 ---
 
-<img src="/images/minnesota-bridge-collapse.jpg" width="400" height="240"> 
+<img src="/images/minnesota-bridge-collapse.jpg" width="450" height="290"> 
 
 
 ### Reading is always good
