@@ -39,5 +39,5 @@ Now, let's assume that the outcome of the toss is in fact the status of an infra
 
 I can see a huge **fallacy** in Dr. Taleb's argument if I try to apply the same reasoning to the world of Infrastructures. If we reinterpret the coin toss experiment, our infrastructure has performed and delivered without any service failings 99 times in a row. Notwithstanding my sympathy towards Tony - he had the guts to move from Brooklyn to New Jersey and commutes every day in his Cadillac -, I can see why he would be a **terrible** decision-maker. Saying that he gives tails no more than a 1% probability of occurring sounds to my ears as if he is **underestimating** the occurrence of a failure. The fact that never, in the previous 99 tosses, has he seen tails gives him enough confidence to basically rule out the failure, the [Black Swan](https://en.wikipedia.org/wiki/Black_swan_theory) if you will, and if he were to adopt strategies to cope with such *rare* event, he would probably argue that it is a waste of money. 
 
-<img src="/images/optimised-decision-making.png" width="390" height="150"> 
+<img src="/images/optimised-decision-making.png" width="390" height="150">  
 
