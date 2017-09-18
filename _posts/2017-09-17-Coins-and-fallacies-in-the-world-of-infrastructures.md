@@ -35,7 +35,7 @@ Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a c
 Dr. Taleb infers that Tony is *thinking outside the box*, because he infers his prediction by reading the situation, bereft of preconceptions. Dr. John, instead, relies too much on pre-fabricated models and does not venture outside his comfort zone. The conclusion is that Dr. Taleb would totally follow Tony's indications if he had to make an investment. 
 Now, let's assume that the outcome of the toss is in fact the status of an infrastructure:<br>
 
-<img src="/images/active_failed.png" width="390" height="180"> 
+<img src="/images/active_failed.png" width="390" height="150"> 
 
 
 
