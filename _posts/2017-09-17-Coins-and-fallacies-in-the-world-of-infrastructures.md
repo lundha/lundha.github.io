@@ -33,10 +33,9 @@ Tony and Dr. John meet one day. In front of them, Dr. Taleb is going to toss a c
 ### The quest for a wise decision-maker
 
 Dr. Taleb infers that Tony is *thinking outside the box*, because he infers his prediction by reading the situation, bereft of preconceptions. Dr. John, instead, relies too much on pre-fabricated models and does not venture outside his comfort zone. The conclusion is that Dr. Taleb would totally follow Tony's indications if he had to make an investment. 
-Now, let's assume that the coin is in fact the status of an infrastructure:<br>
+Now, let's assume that the outcome of the toss is in fact the status of an infrastructure:<br>
 
-**heads =** <span style="color:green">**active**text</span><br>
-**tails =** <span style="color:red">**failed**text</span><br>
+<img src="/images/active_failed.png" width="210" height="340"> 
 
 
 
