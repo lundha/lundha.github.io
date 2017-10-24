@@ -14,4 +14,4 @@ a significant contribution is given by the streets (in red). This phenomenon, kn
 
 <img src="/images/asphalt.jpg" width="300" height="240"> 
 
-Rooftops and roads are particularly active in terms of heat absorption, due to the presence of [asphaltene](https://en.wikipedia.org/wiki/Asphaltene), which gives them their dark color. 
+Rooftops and roads are particularly good heat absorpters, due to the presence of [asphaltene](https://en.wikipedia.org/wiki/Asphaltene), which gives them their dark color. 
