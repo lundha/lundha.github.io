@@ -2,7 +2,7 @@
 ##### A Data Science for Smart Cities project carried out with Python | October 24, 2017
 ---
 
-<img src="/images/Atlanta_thermal.jpg" width="180" height="120"> 
+<img src="/images/Atlanta_thermal.jpg" width="240" height="180"> 
 
 
 The image above was collected by NASA ([source](https://commons.wikimedia.org/w/index.php?curid=6026139)) 
