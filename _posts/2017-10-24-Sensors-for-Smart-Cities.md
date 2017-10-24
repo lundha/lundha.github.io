@@ -2,8 +2,8 @@
 ##### A Data Science for Smart Cities project carried out with Python | October 24, 2017
 ---
 
-<img src="/images/Atlanta_thermal.jpg" width="240" height="180"> 
+<img src="/images/Atlanta_thermal.jpg" width="300" height="240"> 
 
 
-The image above was collected by NASA ([source](https://commons.wikimedia.org/w/index.php?curid=6026139)) 
-to show
+The image above was collected in May 1997 by NASA ([source](https://commons.wikimedia.org/w/index.php?curid=6026139)) 
+to show the distribution of temperatures in downtown Atlanta.
