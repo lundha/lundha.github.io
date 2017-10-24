@@ -1,5 +1,5 @@
 #### **Smart Cities: the use of sensors to decrease the Urban Heat Island effect**
-##### A Data Science for Smart Cities project carried out with Python | October 24, 2017
+##### A Data-Science-for-Smart-Cities project carried out with Python | October 24, 2017
 ---
 
 
