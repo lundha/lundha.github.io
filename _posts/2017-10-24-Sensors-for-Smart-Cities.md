@@ -2,6 +2,9 @@
 ##### A Data Science for Smart Cities project carried out with Python | October 24, 2017
 ---
 
+
+#### The Urban Island Effect
+
 <img src="/images/Atlanta_thermal.jpg" width="380" height="280"> 
 
 
