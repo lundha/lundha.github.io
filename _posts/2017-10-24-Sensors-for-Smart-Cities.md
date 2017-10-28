@@ -15,7 +15,7 @@ Rooftops and roads are particularly good heat absorpters, due to the presence of
 
 <img src="/images/asphalt.jpg" width="300" height="240"> 
 
-A look into the typical values of [thermal conductivity](https://en.wikipedia.org/wiki/Thermal_conductivity) reveals why concrete and asphalt are serious contributors, this being amplified by the dense spatial presence of roads and rooftops.
+A look into the typical values of [thermal conductivity](https://en.wikipedia.org/wiki/Thermal_conductivity) quantifies the extent to which concrete and asphalt are serious contributors, their contribution being amplified by the dense spatial presence of roads and rooftops.
 
 <table class="tg">
   <tr>
