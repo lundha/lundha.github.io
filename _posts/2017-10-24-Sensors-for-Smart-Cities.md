@@ -72,4 +72,4 @@ This project was carried out using the open data made available by the [City of 
 
 ##### Taking advantage of Python
 
-This project takes advantage of Python and its packages dedicated to Big Data Analytics. The City of Seattle measurements of road surface temperatures come in a *.csv* file of 2.26GB, so a clever technique is needed to avoid memory issues. The script associated with this project loads the file and queries it as if it was an SQL database.
+This project takes advantage of Python and its packages dedicated to Big Data Analytics. The City of Seattle measurements of road surface temperatures come in a *.csv* file of 2.26GB, so a clever technique is needed to avoid memory issues. The script associated with this project loads the file as an [high-performance, very large data frame](http://dask.pydata.org/en/latest/dataframe.html) and queries it.
