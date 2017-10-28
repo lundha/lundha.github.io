@@ -68,4 +68,4 @@ However, the financial side of things is not equally promising, as the cost of t
 Manufacturers and suppliers of sensors have already started supplying devices ([picture above](https://www.campbellsci.eu/road-surface-sensors)) that can measure **road surface temperatures** at very short intervals of time. These datasets are an ideal component of open datasets that cities could make available.
 This project was carried out using the open data made available by the [City of Seattle Open Data Portal](https://data.seattle.gov/Transportation/Road-Weather-Information-Stations/egc4-d24i), which supplies data for 10 bridges and road intersections (picture below) at intervals of 15 minutes. The cost of installing dense networks and the lack of awareness by institutions are the main reasons why extended datasets are very difficult to find.
 
-<img src="/images/Sensor_locations.png" width="430" height="280"> 
+<img src="/images/Sensor_locations.png" width="450" height="280"> 
