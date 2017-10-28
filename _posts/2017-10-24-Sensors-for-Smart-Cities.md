@@ -63,4 +63,4 @@ However, the financial side of things is not equally promising, as the cost of t
 
 #### Data for Smart Infrastructures and Smart Decisions
 
-<img src="/images/sensors.jpg" width="320" height="280"> 
+<img src="/images/sensors.jpg" width="300" height="280"> 
