@@ -52,10 +52,10 @@ A look into the typical values of [thermal conductivity](https://en.wikipedia.or
 </table>
 
 
-As pointed out by the [NASA Earth Observatory](https://earthobservatory.nasa.gov/Features/UrbanRain/urbanrain2.php), the UHI effect triggers a climatic negative effect. Urban landscapes may experience temperatures between 6 and 8 degrees Fahrenheit higher than the surrounding landscapes, resulting in warmer and unstable layers of air that can hold more moisture. [Research has demonstrated that this increases the frequency of more extreme rainfall events in the summer](https://www.atmos-chem-phys.net/17/5439/2017/acp-17-5439-2017.pdf) in the Northern Hemisphere. As a result, the risk of floods may increase.
+As pointed out by the [NASA Earth Observatory](https://earthobservatory.nasa.gov/Features/UrbanRain/urbanrain2.php), the UHI effect triggers a climatic negative effect. Urban landscapes may experience temperatures between 3.5°C and 4.5°C higher than the surrounding landscapes, resulting in warmer and unstable layers of air that can hold more moisture. [Research has demonstrated that this increases the frequency of more extreme rainfall events in the summer](https://www.atmos-chem-phys.net/17/5439/2017/acp-17-5439-2017.pdf) in the Northern Hemisphere. As a result, the risk of floods may increase.
 
 #### The Los Angeles solution
 
 <img src="/images/LA.jpg" width="380" height="280"> 
 
-The Mayor of Los Angeles committed to painting some of the city streets white (picture above, [Bureau of Street Services](https://bss.lacity.org)) in an attempt to cut the UHI effect.
+The Mayor of Los Angeles has recently committed to painting some of the city streets in a light shade of grey (picture above, [Bureau of Street Services](https://bss.lacity.org)) in an attempt to cut the UHI effect. As reported by the [press](http://www.digitaljournal.com/news/environment/los-angeles-paining-streets-white-to-combat-urban-warming/article/502092), the ambition is to decrease urban temperatures by as much as 1.67°C over the next two decades. 
