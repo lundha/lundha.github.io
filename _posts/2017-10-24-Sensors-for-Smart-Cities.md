@@ -22,8 +22,8 @@ A brief look into the typical values of [thermal conductivity](https://en.wikipe
     <th class="tg-baqh" colspan="2">Thermal Conductivity [W/(m K)]</th>
   </tr>
   <tr>
-    <td class="tg-baqh">Material</td>
-    <td class="tg-baqh">Value</td>
+    <th class="tg-baqh">Material</th>
+    <th class="tg-baqh">Value</th>
   </tr>
   <tr>
     <td class="tg-baqh">Asphalt</td>
