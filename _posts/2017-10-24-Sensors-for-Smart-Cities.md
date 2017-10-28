@@ -15,7 +15,7 @@ Rooftops and roads are particularly good heat absorpters, due to the presence of
 
 <img src="/images/asphalt.jpg" width="300" height="240"> 
 
-A brief look into the typical values of [thermal conductivity](https://en.wikipedia.org/wiki/Thermal_conductivity) reveals why concrete and asphalt are serious contributors, this being amplified by the dense spatial presence of roads and rooftops.
+A look into the typical values of [thermal conductivity](https://en.wikipedia.org/wiki/Thermal_conductivity) reveals why concrete and asphalt are serious contributors, this being amplified by the dense spatial presence of roads and rooftops.
 
 <table class="tg">
   <tr>
@@ -52,5 +52,5 @@ A brief look into the typical values of [thermal conductivity](https://en.wikipe
 </table>
 
 
-
+As pointed out by the [NASA Earth Observatory](https://earthobservatory.nasa.gov/Features/UrbanRain/urbanrain2.php), the UHI triggers a climatic negative effect. Urban landscapes may experience temperatures between 6 and 8 degrees Fahrenheit higher than the surrounding landscapes, resulting in warmer and unstable layers of air that can hold more moisture. [Research has demonstrated that this increases the frequency of more extreme rainfall events in the summer](https://www.atmos-chem-phys.net/17/5439/2017/acp-17-5439-2017.pdf) in the Northern Hemisphere.
 
