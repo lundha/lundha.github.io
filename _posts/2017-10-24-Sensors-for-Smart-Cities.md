@@ -58,4 +58,4 @@ As pointed out by the [NASA Earth Observatory](https://earthobservatory.nasa.gov
 
 <img src="/images/LA.jpg" width="380" height="280"> 
 
-The Mayor of Los Angeles committed to painting some of the city streets white (picture above, [Bureau of Street Services](bss.lacity.org)) in an attempt to cut the UHI effect.
+The Mayor of Los Angeles committed to painting some of the city streets white (picture above, [Bureau of Street Services](https://bss.lacity.org)) in an attempt to cut the UHI effect.
