@@ -127,6 +127,56 @@ This project takes advantage of the Python programming language and its packages
   </tr>
 </table>
 
-Except for the 35th Avenue SW - SW Myrtle Street location, which is not a bridge but an intersection, all average peak times are between 2:05PM and 4:10PM, with a group of values gathered around 3:55PM. This concentration does not occur in a specific area of the city, and the different peak times may be a result of shadowing buildings. As a representative case, the 3:50PM-4:10PM interval is considered as the *de facto* average peak time given its recurrence. Depending on the case, specific times may be chosen, especially if the study targets a specific sensor or group of sensors.
+Except for the 35th Avenue SW - SW Myrtle Street location, which is not a bridge but an intersection, all average peak times are between 2:05PM and 4:10PM, with a group of values gathered around 3:55PM. This concentration does not occur in a specific area of the city, and the different peak times may be a result of shadowing buildings. As a representative case, the 3:50PM-4:10PM interval is considered as the *de facto* average peak time given its recurrence. Depending on the case, specific times may be chosen, especially if the study targets a specific sensor or group of sensors. The maximum average road surface temperature for the month of August 2016 in the 3:50PM-4:10PM time frame is shown below.
 
+<table class="tg">
+  <tr>
+    <th class="tg-baqh" colspan="2">Maximum Average Road Surface Temperature [°C]</th>
+  </tr>
+  <tr>
+    <th class="tg-baqh">Bridge</th>
+    <th class="tg-baqh">Value</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">35th Avenue SW - SW Myrtle Street</td>
+    <td class="tg-baqh">25.34</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Alaskan Way Viaduct - King Street</td>
+    <td class="tg-baqh">33.94</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Albro Place Airport Way</td>
+    <td class="tg-baqh">38.35</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Aurora Bridge</td>
+    <td class="tg-baqh">29.17</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Harbor Avenue Upper North Bridge</td>
+    <td class="tg-baqh">35.32</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Jose Riza Bridge North</td>
+    <td class="tg-baqh">36.77</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Magnolia Bridge</td>
+    <td class="tg-baqh">35.77</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">NE 45th Street Viaduct</td>
+    <td class="tg-baqh">35.19</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Roosevelt Way - NE 80th Street</td>
+    <td class="tg-baqh">31.71</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Spokane Swing Bridge</td>
+    <td class="tg-baqh">36.15</td>
+  </tr>
+</table>
 
+These tmeperatures are much lower than those recorded for Los Angeles, but the average number of sunny days in Seattle is 46.47% of the number recorded for Los Angeles, and the different latitude must be accounted for as well. 
