@@ -184,4 +184,4 @@ These temperatures are much lower than those recorded for Los Angeles, but the a
 #### Interactive plotting
 The interactive package [Folium](http://folium.readthedocs.io/en/latest/index.html) is an elegant way to create an interactive plot of the maximum average road surface temperatures using the City of Seattle base map. This map would come with much finer resolution if a denser network of sensors was available. Also, a densely populated map could help visualize how these temperatures are distributed across the city, to improve the effectiveness of the decision-making tool. However, given the coarse resolution of the available datasets, this project aims at showing what could be produced if larger data were available. The image below shows the spatial distribution of road surface temperatures in the 10 locations available. Its interactive nature is best appreciated by looking at the [source Jupyter file](), where it is possible to zoom in and read the details of each bridge.
 
-<img src="/images/Heatmap.png" width="720" height="880"> 
+<img src="/images/Heatmap.png" width="420" height="420"> 
