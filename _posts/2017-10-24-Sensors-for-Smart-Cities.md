@@ -180,3 +180,6 @@ Except for the 35th Avenue SW - SW Myrtle Street location, which is not a bridge
 </table>
 
 These tmeperatures are much lower than those recorded for Los Angeles, but the average number of sunny days in Seattle is 46.47% of the number recorded for Los Angeles, and the different latitude must be accounted for as well. 
+
+#### Interactive plotting
+The maximum average road surface temperatures can be plotted on a base map that represents the City of Seattle. This map would offer a much finer resolution if a denser network of sensors was available, but the available datasets are coarse, and as such this project aims at showing what could be produced if a more extended population of data was available.
