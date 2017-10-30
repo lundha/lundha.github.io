@@ -127,4 +127,4 @@ This project takes advantage of the Python programming language and its packages
   </tr>
 </table>
 
-Except for the 35th Avenue SW - SW Myrtle Street location, which is not a bridge but an intersection, all average peak times are between 2:05PM and 4:10PM, with a group of values gathered around 3:55PM. This concentration does not occur in a specific area of the city, and the different peak times may be a result of shadowing buildings. As a representative case, the 3:55PM mark is considered as the *de facto* average peak time given the number of occurrences. In other contexts, other choices may be made depending on the case.
+Except for the 35th Avenue SW - SW Myrtle Street location, which is not a bridge but an intersection, all average peak times are between 2:05PM and 4:10PM, with a group of values gathered around 3:55PM. This concentration does not occur in a specific area of the city, and the different peak times may be a result of shadowing buildings. As a representative case, the 3:55PM mark is considered as the *de facto* average peak time given its recurrence. In other contexts, other choices may be made depending on the case.
