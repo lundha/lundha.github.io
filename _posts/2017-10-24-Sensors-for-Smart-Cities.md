@@ -74,4 +74,55 @@ This project was carried out using the open data made available by the [City of 
 
 This project takes advantage of the Python programming language and its packages dedicated to Big Data Analytics. The City of Seattle road surface temperatures come in a *.csv* file of 2.26GB and span the 03/03/2014 to 24/10/2017 period, with over 700,000 measurements. To avoid memory issues, the script associated with this project loads the file as an [high-performance, very large data frame](http://dask.pydata.org/en/latest/dataframe.html) and queries it. On average, the hottest month in Seattle is August, and as such, all data outside this window are dropped to save memory. A quick look at the average temperature values for 1-minute intervals reveals the trends for August 2016:
 
-<img src="/images/timeseries.png" width="710" height="850"> 
+<img src="/images/timeseries.png" width="720" height="880"> 
+
+
+<table class="tg">
+  <tr>
+    <th class="tg-baqh" colspan="2">Peak Surface Temperature [°C]</th>
+  </tr>
+  <tr>
+    <th class="tg-baqh">Bridge</th>
+    <th class="tg-baqh">Value</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">35th Avenue SW - SW Myrtle Street</td>
+    <td class="tg-baqh">17:35</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Alaskan Way Viaduct - King Street</td>
+    <td class="tg-baqh">15:55</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Albro Place Airport Way</td>
+    <td class="tg-baqh">15:55</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Aurora Bridge</td>
+    <td class="tg-baqh">15:21</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Harbor Avenue Upper North Bridge</td>
+    <td class="tg-baqh">16:08</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Jose Riza Bridge North</td>
+    <td class="tg-baqh">16:10</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Magnolia Bridge</td>
+    <td class="tg-baqh">15:51</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">NE 45th Street Viaduct</td>
+    <td class="tg-baqh">15:54</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Roosevelt Way - NE 80th Street</td>
+    <td class="tg-baqh">14:05</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">Spokane Swing Bridge</td>
+    <td class="tg-baqh">16:10</td>
+  </tr>
+</table>
