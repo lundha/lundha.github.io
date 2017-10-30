@@ -74,4 +74,4 @@ This project was carried out using the open data made available by the [City of 
 
 This project takes advantage of the Python programming language and its packages dedicated to Big Data Analytics. The City of Seattle road surface temperatures come in a *.csv* file of 2.26GB and span the 03/03/2014 to 24/10/2017 period, with over 700,000 measurements. To avoid memory issues, the script associated with this project loads the file as an [high-performance, very large data frame](http://dask.pydata.org/en/latest/dataframe.html) and queries it. On average, the hottest month in Seattle is August, and as such, all data outside this window are dropped to save memory. A quick look at the average temperature values for 1-minute intervals reveals the trends for August 2016:
 
-<img src="/images/timeseries.png" width="600" height="800"> 
+<img src="/images/timeseries.png" width="700" height="800"> 
