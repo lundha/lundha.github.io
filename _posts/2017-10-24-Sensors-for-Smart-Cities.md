@@ -79,7 +79,7 @@ This project takes advantage of the Python programming language and its packages
 
 <table class="tg">
   <tr>
-    <th class="tg-baqh" colspan="2">Peak Surface Temperature [°C]</th>
+    <th class="tg-baqh" colspan="2">Average Peak Time of Road Surface Temperature</th>
   </tr>
   <tr>
     <th class="tg-baqh">Bridge</th>
