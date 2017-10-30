@@ -83,7 +83,7 @@ This project takes advantage of the Python programming language and its packages
   </tr>
   <tr>
     <th class="tg-baqh">Bridge</th>
-    <th class="tg-baqh">Value</th>
+    <th class="tg-baqh">Time</th>
   </tr>
   <tr>
     <td class="tg-baqh">35th Avenue SW - SW Myrtle Street</td>
