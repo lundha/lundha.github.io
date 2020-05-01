@@ -3,5 +3,8 @@ layout: post
 title: Second post
 ---
 
+## This is the second post
 
-Second post
+### Sub heading
+
+
