@@ -15,12 +15,14 @@ images:
 
 Reading the csv data and creating a pandas data frame to store it in
 
-```python
+{% highlight python3 %}
+
 
 pl_stats19_20 = pd.read_csv (r'/Users/Lund/pl-analysis/data/pl1920.txt')
 df = pd.DataFrame(pl_stats19_20)
 
-```
+{% endhighlight %}
+
 Starting by selecting the columns which we are going to use for our data analysis.
 This will be to start with:
 
@@ -59,9 +61,10 @@ This will be to start with:
 
 Thus, this is the columns 3:10 and 14:34
 
-```python
+
+{% highlight python3 %}
+
 df.drop(df.columns[0:3], axis = 1, inplace = True)
 
-
-```
+{% endhighlight %}
 
