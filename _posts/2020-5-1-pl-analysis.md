@@ -31,7 +31,6 @@ This will be to start with:
 | Variable  | Description |
 
 | ------------- |:-------------:| 
-
 | HomeTeam      | Home Team | 
 | AwayTeam      | Away Team      | 
 |  FTHG and HG  | Full Time Home Team Goals      | 
