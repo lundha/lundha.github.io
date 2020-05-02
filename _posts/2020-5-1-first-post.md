@@ -5,7 +5,7 @@ title: First post!
 
 First post
 
-{% highlight css %}
+{% highlight python %}
 
 def foo():
   for i, in in enumerate(list):
