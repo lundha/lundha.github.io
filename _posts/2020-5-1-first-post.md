@@ -8,7 +8,7 @@ First post
 {% highlight python3 %}
 
 def foo():
-  for i, in in enumerate(list):
+  for i, j in in enumerate(list):
     print(i,j)
 
 {% endhighlight %}
