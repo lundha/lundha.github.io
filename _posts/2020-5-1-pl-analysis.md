@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Second post
+title: PL O/U 2.5 goals analysis
 images:
-  - url: /images/mining.jpg
+  - url: /images/aguero-goal.jpg
 ---
 
 
-<img src="/images/mining.jpg"/>
+<img src="/images/aguero-goal.jpg"/>
 
 
 ## Exploratory data analysis of Premier League season 19/20
@@ -50,8 +50,6 @@ This will be to start with:
 | AF            | Away Team Fouls Committed     | 
 | HFKC          | Home Team Free Kicks Conceded |   
 | AFKC          | Away Team Free Kicks Conceded |   
-| HO            | Home Team Offsides            | 
-| AO            | Away Team Offsides            | 
 | HY            | Home Team Yellow Cards        | 
 | AY            | Away Team Yellow Cards        | 
 | HR            |  Home Team Red Cards          |   
@@ -67,15 +65,14 @@ This will be to start with:
 
 </div>
 
-Using numpy to select the desired columns to work with, where the 
+Using numpy to select the desired columns to work with, where np.r_ is concatenating
+the columns we would like to work with.
 
 {% highlight python3 %}
 df = df.iloc[:, np.r_[3:11, 12:24, 48:56]]
 {% endhighlight %}
 
 #### Over/under and odds statistics 
-
-Questions is
 
 - How many % of matches ended up over 2.5 goals
 - How many did the odds correspond to the statistics(i.e odds of 2.00 give 0.5 probability)
@@ -92,10 +89,13 @@ print(df['TG>2.5'].value_counts(normalize=True))
 Gave the percentages 
 
 
-- Over 2.5 = 52.43%
-- Under 2.5 = 47.57%
+| Variable  | Percentage      |
+| ------------- | ------------| 
+| Over 2.5      | 52.43 %     | 
+| Under 2.5     | 47.57 %     | 
 
-Further, the odds of over 2.5 goals was over 2 
+Further, finding the amount of times the odds of over 2.5 goals was over 2.
+(Indicating a probability below 0.5)
 
 {% highlight python3 %}
 print(df['Odds>=2'].value_counts(normalize=True))
@@ -103,13 +103,16 @@ print(df['Odds>=2'].value_counts(normalize=True))
 
 Gave the percentages
 
+| Variable  | Percentage |
+| ------------- | ------------- | 
+| Greater than or equal 2      | 22.92 %     | 
+| Under 2      | 77.08 %                     | 
 
-- Over or equal 2 = 22.92%
-- Under 2 = 77.08%
 
 
 ### Goal expectancy and attack strength vs defense strength
 
 
-
+Adding up a team's expected goals can give an indication of how many goals a player or team should have 
+scored on average, given the shots they have taken.
 
