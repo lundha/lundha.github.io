@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: Kaggle Titanic Challenge
+---
 
 ### Kaggle Titanic Challenge
 
