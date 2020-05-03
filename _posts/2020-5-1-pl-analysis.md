@@ -73,13 +73,12 @@ Using numpy to select the desired columns to work with, where the
 df = df.iloc[:, np.r_[3:11, 12:24, 48:56]]
 {% endhighlight %}
 
-#### What to look for
+#### Over/under and odds statistics 
 
 Questions is
 
 - How many % of matches ended up over 2.5 goals
 - How many did the odds correspond to the statistics(i.e odds of 2.00 give 0.5 probability)
-
 
 {% highlight python3 %}
 df['TG'] = df['FTHG'] + df['FTAG']
@@ -107,4 +106,10 @@ Gave the percentages
 
 - Over or equal 2 = 22.92%
 - Under 2 = 77.08%
+
+
+### Goal expectancy and attack strength vs defense strength
+
+
+
 
