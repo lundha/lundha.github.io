@@ -26,19 +26,8 @@ df = pd.DataFrame(pl_stats19_20)
 Starting by selecting the columns which we are going to use for our data analysis.
 This will be to start with:
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
-        }
-</style>
 
-| Variable | Description |
-| - | - | 
-| HomeTeam | Home Team | 
-| AwayTeam | Away Team | 
-| FTHG | Full Time Home Goals | 
-| FTAG | Full Time Away Goals |
-{: .tablelines}
+
 
 | Variable  | Description |
 | ------------- | ------------- | 
@@ -76,7 +65,7 @@ This will be to start with:
 | Max<2.5       | Market maximum under 2.5 goals|
 | Avg>2.5       | Market average over 2.5 goals |
 | Avg<2.5       | Market average under 2.5 goals|
-{: .tablelines}
+
 
 Using numpy to select the desired columns to work with, where the 
 
