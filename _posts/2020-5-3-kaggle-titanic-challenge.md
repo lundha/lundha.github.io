@@ -2,7 +2,7 @@
 layout: post
 title: Kaggle Titanic Challenge
 images:
-  - url: /images/titanic-challenge.jpg
+  - url: /images/titanic2.jpg
 ---
 
 ### Kaggle Titanic Challenge
@@ -10,6 +10,9 @@ images:
 <img src="/images/titanic-challenge.jpg"/>
 
 ### Data dictionary
+
+
+<div class="table-wrapper" markdown="block">
 
 | Variable  |       Definition  |    Key        |
 | ------------- | ------------- | -------------- 
@@ -24,6 +27,7 @@ images:
 | cabin            | Cabin number  |            | 
 | embarked            | Port of Embarkation  |    C = Cherbourg, Q = Queenstown, S = Southampton         | 
 
+</div>
 
 Read train and test data. Train data consists of 890 rows of passenger info, whereas test data consists of 417.
    
@@ -32,7 +36,8 @@ Read train and test data. Train data consists of 890 rows of passenger info, whe
 | Train          | 890     |      68.1      |
 | Test         | 417     |      31.9      |
 
-```python3
+{% highlight python3 %}
 t_train = pd.read_csv (r'/Users/Lund/Documents/kaggle-titanic-challenge/data/train.csv')
 t_test = pd.read_csv (r'/Users/Lund/Documents/kaggle-titanic-challenge/data/test.csv')
-```
+{% endhighlight %}
+
