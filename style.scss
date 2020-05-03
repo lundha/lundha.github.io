@@ -136,6 +136,11 @@ table {
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
 
+.table-wrapper {
+  overflow-x: scroll;
+}
+
+
 // Rules for displaying CODE BLOCKS
 pre {	
 font-family: "Courier 10 Pitch", Courier, monospace;
