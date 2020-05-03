@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 14px/1.4 $consolas;
+  font: 14px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $consolas;
+  font-family: $helvetica;
   color: $darkerGray;
   font-weight: bold;
 
@@ -156,7 +156,7 @@ margin: auto 40px auto 40px;
 }       
     
 code {
-font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+font-family: Monaco, Helvetica, "Andale Mono", "DejaVu Sans Mono", monospace;
 font-size: 100%;
 line-height: 140%;
 white-space: normal;
