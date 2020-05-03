@@ -5,9 +5,11 @@ images:
   - url: /images/titanic2.jpg
 ---
 
+<img src="/images/titanic-challenge.jpg"/>
+
+
 ### Kaggle Titanic Challenge
 
-<img src="/images/titanic-challenge.jpg"/>
 
 ### Data dictionary
 
