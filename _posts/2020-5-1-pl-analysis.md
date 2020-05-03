@@ -26,8 +26,7 @@ df = pd.DataFrame(pl_stats19_20)
 Starting by selecting the columns which we are going to use for our data analysis.
 This will be to start with:
 
-
-
+<div class="table-wrapper" markdown="block">
 
 | Variable  | Description |
 | ------------- | ------------- | 
@@ -66,6 +65,7 @@ This will be to start with:
 | Avg>2.5       | Market average over 2.5 goals |
 | Avg<2.5       | Market average under 2.5 goals|
 
+</div>
 
 Using numpy to select the desired columns to work with, where the 
 
