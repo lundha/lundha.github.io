@@ -97,16 +97,6 @@ def foo():
 | honeycrisp | granny smith | fuji |
 
 
-
-
-
-
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
-        }
-</style>
-
 | P | Q | P * Q |
 | - | - | - |
 | T | T | T |
@@ -120,21 +110,33 @@ def foo():
 | 1|2|3|
 {: .tablelines}
 
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-{: .tablelines}
 
-| A simple | table |
-| with multiple | lines|
-{: .tablelines}
+
+<table class="tg">
+  <tr>
+    <th class="tg-baqh" colspan="2">Scotland (FHIS)</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-baqh">Pass and Eat Safe</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-baqh">Pass</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">Improvement Required</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">Awaiting Publication</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">5</td>
+    <td class="tg-baqh">Awaiting Inspection</td>
+  </tr>
+</table>
+
+
 
