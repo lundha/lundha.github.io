@@ -29,7 +29,6 @@ This will be to start with:
 
 
 | Variable  | Description |
-
 | ------------- |:-------------:| 
 | HomeTeam      | Home Team                     | 
 | AwayTeam      | Away Team                     | 
