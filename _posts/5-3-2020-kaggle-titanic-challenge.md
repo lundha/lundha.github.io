@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Kaggle Titanic Challenge
+images:
+  - url: /images/titanic-challenge.jpg
+
 ---
 
 ### Kaggle Titanic Challenge

@@ -17,7 +17,6 @@ Reading the csv data and creating a pandas data frame to store it in
 
 {% highlight python3 %}
 
-
 pl_stats19_20 = pd.read_csv (r'/Users/Lund/pl-analysis/data/pl1920.txt')
 df = pd.DataFrame(pl_stats19_20)
 
@@ -79,7 +78,7 @@ df = df.iloc[:, np.r_[3:11, 12:24, 48:56]]
 
 {% highlight python3 %}
 df['TG'] = df['FTHG'] + df['FTAG']
-df['TG>2.5'] = np.where(df['TG']>2.5, 1, 0
+df['TG>2.5'] = np.where(df['TG']>2.5, 1, 0)
 {% endhighlight %}
 
 {% highlight python3 %}

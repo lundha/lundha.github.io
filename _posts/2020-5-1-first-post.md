@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post
+title: Adding vertical overflow to Jekyll Markdown tables
 ---
 
 First post
