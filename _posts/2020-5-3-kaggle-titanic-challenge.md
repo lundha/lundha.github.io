@@ -45,8 +45,7 @@ t_test = pd.read_csv (r'/Users/Lund/Documents/kaggle-titanic-challenge/data/test
 {% endhighlight %}
 
 
-### Descriptive analysis of the data finds the mean age, number of passengers in each class and the gender distribution 
-on board
+### Descriptive analysis of the data finds the mean age, number of passengers in each class and the gender distribution on board
 
 {% highlight python3 %}
 mean_age = df_total["Age"].mean()
@@ -66,13 +65,64 @@ The ticket class distribution can be used as a proxy for the socio-economic dist
 | Pclass          | 24.7%   |    21.1%                     |     54.2%          |  
 
 
-### Linaer regression 
+### Linear regression 
 
 
 Linear regression is a statistical model that examines the linear relationship between
 two(Simple) or more(Multiple) variables.
 
  {% highlight python3 %}
-from sklearn import linear_model
+import statsmodels.api as sm
 {% endhighlight %}
 
+Isolating the target variable 
+
+{% highlight python3 %}
+df_survived = pd.DataFrame(df_train, columns=["Survived"])
+{% endhighlight %}
+
+
+Perform an easy clean of the data set by only including columns with integers or replacing strings with factors
+where it is possible.
+
+{% highlight python3 %}
+df_test = df_test.drop('Name', 1)
+
+df_test['Sex'].replace('male', 1,inplace=True)
+df_test['Sex'].replace('female', 0,inplace=True)
+
+{% endhighlight %}
+
+
+{% highlight python3 %}
+
+model = sm.GLM(df_survived, df_train_wo_survived, family=sm.families.Binomial()).fit()
+
+df_prediction = pd.DataFrame(model.predict(df_test).fillna(0))
+df_prediction.columns = ["prediction"]
+
+df_prediction["prediction"] = np.where(df_prediction["prediction"]>0.5, 1, 0)
+
+
+print(df_prediction["prediction"].value_counts(normalize=True))
+
+
+{% endhighlight %}
+
+
+The distribution of survivors from the training set was
+
+| Survived          |    %    | 
+| ------------- | ------- | 
+| Yes          | 61.6%     |  
+| No         | 38.4%     |  
+
+From the prediction
+
+| Predicted survived  |    %    | 
+| ------------- | ------- | 
+| Yes          | 65.3%     |  
+| No         | 34.7%     | 
+
+
+Comparing with the the actual number of survivors from the test set gave an accuracy of 
