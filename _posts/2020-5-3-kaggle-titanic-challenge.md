@@ -126,3 +126,8 @@ From the prediction
 
 
 Comparing with the the actual number of survivors from the test set gave an accuracy of 
+0.7676. With the predicted survivors, the following plot give the probability of surviving given the ticket class.
+
+<img src="/images/surVpclass.png"/>
+
+
