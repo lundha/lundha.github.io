@@ -7,3 +7,5 @@ images:
 
 <img src="/images/internship-image2.jpg"/>
 
+### Remote 
+
