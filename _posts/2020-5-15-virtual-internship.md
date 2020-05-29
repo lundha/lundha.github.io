@@ -5,7 +5,7 @@ images:
   - url: /images/internship-image2.jpg
 ---
 
-<img src="/images/internship-image2.jpg" width=500 height=500/>
+<img src="/images/titanic-challenge.jpg" width="500" height="500"/>
 
 ### Remote 
 
