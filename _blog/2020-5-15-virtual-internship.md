@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Virtual/remote internship
+title: Virtual internship
 images:
   - url: /images/internship-image2.jpg
 ---
