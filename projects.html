@@ -3,17 +3,17 @@ layout: default
 permalink: /projects/
 ---
 
-<div class="blog">
+<div class="blogposts">
   {% for blogpost in site.blog %}
-    <article class="post">
+    <article class="blog">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ blogpost.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ blog.url }}">{{ blogpost.title }}</a></h1>
 
       <div class="entry">
         {{ blogpost.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ blog.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
