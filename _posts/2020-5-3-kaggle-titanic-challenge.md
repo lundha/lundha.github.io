@@ -5,7 +5,7 @@ images:
   - url: /images/titanic2.jpg
 ---
 
-<img src="/images/titanic-challenge.jpg" width="700" height="500"/>
+<img src="/images/titanic-challenge.jpg" width="800" height="500"/>
 
 
 ### Kaggle Titanic Challenge

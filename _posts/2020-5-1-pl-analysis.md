@@ -6,7 +6,7 @@ images:
 ---
 
 
-<img src="/images/aguero-goal.jpg" width="700" height="500"/>
+<img src="/images/aguero-goal.jpg" width="800" height="500"/>
 
 
 ## Exploratory data analysis of Premier League season 19/20

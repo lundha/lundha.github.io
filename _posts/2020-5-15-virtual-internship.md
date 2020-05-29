@@ -5,7 +5,7 @@ images:
   - url: /images/internship-image2.jpg
 ---
 
-<img src="/images/internship-image2.jpg" width="700" height="500"/>
+<img src="/images/internship-image2.jpg" width="800" height="500"/>
 
 ### Remote 
 
