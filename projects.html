@@ -9,13 +9,13 @@ Hei
   {% for blogpost in site.blog %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ blogpost.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ blogpost.url }}">{{ blogpost.title }}</a></h1>
 
       <div class="entry">
         {{ blogpost.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ blogpost.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
