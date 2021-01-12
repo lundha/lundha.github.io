@@ -46,16 +46,17 @@ exports.handler = (event, context, callback) => {
 
 Navigate to gateway API and create a REST API. 
 
-<img src="/images/gateway_api.png" width="400" height="300"/>
+<img src="/images/gateway_api.png" width="587" height="180"/>
 
 To enable the use of the gateway API on the static web site it is important to enable CORS. CORS is an acronym for Cross-Origin Resource Sharing. This enables the use of JavaScript to make authenticated GET and PUT requests.
 
 Create a new GET resource which will be connected to the lambda function created earlier, that is it will trigger the lambda function when a call to the API has been made. 
 
-<img src="/images/connect-api-lambda.png" width="400" height="300"/>
+<img src="/images/connect-api-lambda.png" width="400" height="250"/>
 
 Further one need to map the values from the API call. 
-<img src="/images/mapping_template.png" width="400" height="300"/>
+
+<img src="/images/mapping_template.png" width="300" height="280"/>
 
 
 ### DynamoDB
@@ -138,7 +139,6 @@ The following policy will allow anyone to access the specified resource.
 
 ### Example
 
-
-<img src="/images/example-result.png" width="400" height="250"/>
+<img src="/images/example-result.png" width="480" height="345"/>
 
 The image above shows the front end of the serverless function. 
