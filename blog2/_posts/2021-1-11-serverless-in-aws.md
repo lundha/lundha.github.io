@@ -5,7 +5,7 @@ images:
   - url: /images/serverless-webapp.png
 ---
 
-<img src="/images/serverless-webapp.png" width="600" height="400"/>
+<img src="/images/serverless-webapp.png" width="800" height="400"/>
 
 
 Working with software development can become a hassle when having to account for servers capacity, network traffic and different development environments. Moreover, capital expenses of acquiring and maintaing a server park is significant. A solution to these problems have been to use these servers as a service provided by a third part. 
@@ -14,12 +14,12 @@ Different levels of service are offered, depending on how much configurability, 
 
 AWS offers FaaS (function as a service) on different services, among these are Lambda, DynamoDB, Gateway API and S3. This post will utilize these four services to set up a data base and a static web site which can be used as a front end to collect data from the the data base. 
 
-The architecture can be seen above.
+The architecture forthis serverless application can be found above. The client will communicate with the API through a static web site hosted in AWS S3. 
 
 ### Lambda function
 
 
-The lambda function is to be triggered from a call to the gateway API. Handler will receive a key value for the database search and use it to make a query in the no sql database.
+The Lambda function is to be triggered from a call to the Gateway API. The handler will receive a key value and use it to make a query in the noSQL data base. This is done by using The DynamoDB DocumentClient which is a part of the AWS sdk. 
 
 ```
 const AWS = require('aws-sdk');
@@ -44,25 +44,26 @@ exports.handler = (event, context, callback) => {
 ```
 ### Gateway API
 
-Navigate to gateway API and create a REST API. 
+Navigate to Gateway API and build a REST API. 
 
 <img src="/images/gateway_api.png" width="587" height="180"/>
 
-To enable the use of the gateway API on the static web site it is important to enable CORS. CORS is an acronym for Cross-Origin Resource Sharing. This enables the use of JavaScript to make authenticated GET and PUT requests.
-
-Create a new GET resource which will be connected to the lambda function created earlier, that is it will trigger the lambda function when a call to the API has been made. 
+Create a new GET resource which will be connected to the Lambda function created earlier. The API will trigger the Lambda function when a call to the API has been made. 
 
 <img src="/images/connect-api-lambda.png" width="400" height="250"/>
 
-Further one need to map the values from the API call. 
+Further one need to map the values from the API call to a specified variable name. 
 
 <img src="/images/mapping_template.png" width="300" height="280"/>
 
+To enable the use of the gateway API on the static web site it is important to enable CORS. CORS is an acronym for Cross-Origin Resource Sharing. This enables the use of JavaScript to make authenticated GET and PUT requests.
+
+Lastly, deploy the API.
 
 ### DynamoDB
 
-The no sql data base can be created with CloudFormation in AWS. CloudFormation is a Infrastructure as Code (IaC) service in AWS which enables infrastructure setup in text format, most common is YAML and JSON format. 
-
+The noSQL data base can be created with CloudFormation in AWS. CloudFormation is an Infrastructure as Code (IaC) service in AWS which enables infrastructure setup in text format, most common is YAML and JSON format. 
+The following YAML file configures a DynamoDB table with the name DatabaseTablr and with EmailID as key value. 
 ```
 Resources:
     ServerlessWebappDBTable:
@@ -81,12 +82,9 @@ Resources:
 
 ```
 
-
 ### Static web hosting
-
-
 The static web site is written in HTML with the following function handling the API call. 
-Upload the index.html file to a bucket in S3 and enable static website hosting with permissions described in bucket policy. 
+Upload the index.html file to a bucket in S3 and enable static website hosting with permissions described in bucket policy to host the web site in AWS. 
 ```
         $(document).ready(function() {
 
@@ -118,7 +116,6 @@ Upload the index.html file to a bucket in S3 and enable static website hosting w
 ```
 
 ### Bucket policy 
-
 The following policy will allow anyone to access the specified resource. 
 
 ```
